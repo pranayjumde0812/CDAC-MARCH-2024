@@ -11,7 +11,7 @@
 //1.2. compute net salary ---ret 0
 //(eg : public double computeNetSalary(){return 0;})
 //
-//1.2 Mgr state  ---id,name,basic,deptId , perfBonus
+//1.2 Mgr state  --- id,name,basic,deptId , perfBonus
 //Add suitable constructor
 //Methods ----
 //1. compute net salary (formula: basic+perfBonus) -- override computeNetSalary
@@ -36,12 +36,81 @@
 
 #include<iostream>
 //#include<bits/stringfwd.h>
+#include<vector>
 #include<string>
 #include "Employee.h"
 
 int main(){
 	
-//	Manager m;
-	Manager manager(1,"pranay", 909,35000,9000);
+	int id;
+	string name;
+	double basicSal;
+	int deptId;
+	double perfBounus;
+	int hoursWorked;
+	double hourlyRate;
+	
+	
+	vector<Employee*> organization;
+	int choice;
+	
+	do{
+		cout<<"1. Hire Manager || 2. Hire Worker || 3. Display All employees information || 4. Exit "<<endl;
+		cout<<"Enter choice : ";
+		cin>>choice;
+		
+		switch(choice){
+			case 1 : 
+			cout<<"Hire Manager"<<endl;
+			cout<<"Enter Id : ";
+			cin>>id;
+			cout<<"Enter Name : ";
+			cin>>name;
+			cout<<"Enter Basic Salary : ";
+			cin>>basicSal;
+			cout<<"Enter Department Id : ";
+			cin>>deptId;
+			cout<<"Enter Performance Bonus : ";
+			cin>>perfBounus;
+	
+			organization.push_back(new Manager (id,name,deptId,basicSal,perfBounus));
+			break;
+			
+			case 2 : 
+			cout<<"Hire Worker "<<endl;
+			cout<<"Enter Id : ";
+			cin>>id;
+			cout<<"Enter Name : ";
+			cin>>name;
+			cout<<"Enter Basic Salary : ";
+			
+			cin>>basicSal;
+			cout<<"Enter Department Id : ";
+			cin>>deptId;
+			cout<<"Enter Hours Worked : ";
+			cin>>hoursWorked;
+			cout<<"Enter Hourly Rate : ";
+			cin>>hoursWorked;
+			organization.push_back(new Worker (id,name,deptId,basicSal,hoursWorked,hourlyRate));
+			break;
+			 
+			case 3: 
+                cout << "Employee Net Salaries:\n";
+                for (int i = 0; i < organization.size(); ++i) {
+        		cout << "ID: " << organization[i]->id << ", Name: " << organization[i]->name << ", Net Salary: " << organization[i]->computeNetSalary() << endl;
+    			}
+			break;
+//			case 1 : 
+//			break;
+//			
+//			default :
+//				cout<<"Invalid choice!!!"<<endl;
+		}
+	}while(choice != 4);
+	
+	
+	
+	
+	
 	
 }

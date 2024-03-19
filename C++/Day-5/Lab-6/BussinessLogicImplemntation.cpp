@@ -2,12 +2,12 @@
 #include<string>
 #include "Employee.h"
 
-#ifndef EMPLOYEE_H
-#define EMPLOYEE_H
+//#ifndef EMPLOYEE_H
+//#define EMPLOYEE_H
 
 // Content of Employee.h goes here
 
-#endif // EMPLOYEE_H
+//#endif // EMPLOYEE_H
 
 using namespace std;
 
@@ -54,7 +54,7 @@ Worker :: Worker(){
 		cout<<"....Default Constructor of Manager.....\n";
 }
 
-Worker :: Worker(int id, string name, int deptId, double basicSalary, int hoursWorked, double hourlyRate) : Employee(id,name,deptId,basicSalary){
+Worker :: Worker(int id, string name, int deptId, double basicSalary, double hoursWorked, double hourlyRate) : Employee(id,name,deptId,basicSalary){
 		cout<<"....Parameterized Constructor of Manager.....\n";
 		this->hoursWorked = hoursWorked;
 		this->hourlyRate = hourlyRate;
@@ -62,8 +62,9 @@ Worker :: Worker(int id, string name, int deptId, double basicSalary, int hoursW
 
 double Worker :: computeNetSalary(){
 		
-		netSalary = basicSalary + (hoursWorked * hourlyRate) ;
-		
+		double hourslySal = hoursWorked * hourlyRate;   /// Salary is not getting add on hourly based 	
+		netSalary = basicSalary + hourslySal ;
+		return netSalary;
 		
 }
 

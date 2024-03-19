@@ -5,7 +5,7 @@ using namespace std;
 
 class Employee{
 	
-	protected : 
+	public : 
 				int id;
     		    string name;
 				int deptId;
@@ -36,7 +36,7 @@ class Manager : public Employee {
 class Worker : public Employee {
 	
 	protected:
-    		   int hoursWorked;
+    		   double hoursWorked;
    			   double hourlyRate;
    			   double netSalary;
 
@@ -44,7 +44,7 @@ class Worker : public Employee {
 	public :
 			 Worker();
 	
-			 Worker(int id, string name, int deptId, double basicSalary, int hoursWorked, double hourlyRate);
+			 Worker(int id, string name, int deptId, double basicSalary, double hoursWorked, double hourlyRate);
 	
 	         double computeNetSalary();
 	
