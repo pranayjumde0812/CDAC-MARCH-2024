@@ -24,7 +24,7 @@ Employee :: Employee(int id, string name, int deptId, double basicSalary){
 		this->basicSalary = basicSalary; 
 }
 
-double Employee :: computeNetSalary(){
+ double Employee ::  computeNetSalary(){
 	return 0;
 }
 
@@ -54,23 +54,24 @@ Worker :: Worker(){
 		cout<<"....Default Constructor of Manager.....\n";
 }
 
-Worker :: Worker(int id, string name, int deptId, double basicSalary, double hoursWorked, double hourlyRate) : Employee(id,name,deptId,basicSalary){
-		cout<<"....Parameterized Constructor of Manager.....\n";
+Worker :: Worker(int id, string name, int deptId, double basicSalary, double hoursWorked, double hourslyRate) : Employee(id,name,deptId,basicSalary){
 		this->hoursWorked = hoursWorked;
-		this->hourlyRate = hourlyRate;
+		this->hourslyRate = hourslyRate;
 }
 
 double Worker :: computeNetSalary(){
 		
-		double hourslySal = hoursWorked * hourlyRate;   /// Salary is not getting add on hourly based 	
-		netSalary = basicSalary + hourslySal ;
+//		cout<<hoursWorked<<endl;
+//		cout<<hourslyRate<<endl;
+			
+		netSalary = basicSalary + (hoursWorked * hourslyRate) ;
 		return netSalary;
 		
 }
 
 double Worker :: getHourlyRate(){
 	
-	   return hourlyRate;
+	   return this->hourslyRate;
 }
 
 

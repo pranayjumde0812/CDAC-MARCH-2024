@@ -38,6 +38,7 @@
 //#include<bits/stringfwd.h>
 #include<vector>
 #include<string>
+#include<typeinfo>
 #include "Employee.h"
 
 int main(){
@@ -47,7 +48,7 @@ int main(){
 	double basicSal;
 	int deptId;
 	double perfBounus;
-	int hoursWorked;
+	double hoursWorked;
 	double hourlyRate;
 	
 	
@@ -90,7 +91,7 @@ int main(){
 			cout<<"Enter Hours Worked : ";
 			cin>>hoursWorked;
 			cout<<"Enter Hourly Rate : ";
-			cin>>hoursWorked;
+			cin>>hourlyRate;
 			organization.push_back(new Worker (id,name,deptId,basicSal,hoursWorked,hourlyRate));
 			break;
 			 
@@ -98,6 +99,11 @@ int main(){
                 cout << "Employee Net Salaries:\n";
                 for (int i = 0; i < organization.size(); ++i) {
         		cout << "ID: " << organization[i]->id << ", Name: " << organization[i]->name << ", Net Salary: " << organization[i]->computeNetSalary() << endl;
+        		
+        		if(typeid(*organization[i]) == typeid(Worker)){
+        			Worker* work = dynamic_cast<Worker*>(organization[i]);
+        			cout<<"Hourly rate of worker "<<work->name<<" is "<<work->getHourlyRate()<<endl;
+				}
     			}
 			break;
 //			case 1 : 
@@ -107,10 +113,6 @@ int main(){
 //				cout<<"Invalid choice!!!"<<endl;
 		}
 	}while(choice != 4);
-	
-	
-	
-	
 	
 	
 }

@@ -37,14 +37,14 @@ class Worker : public Employee {
 	
 	protected:
     		   double hoursWorked;
-   			   double hourlyRate;
+   			   double hourslyRate;
    			   double netSalary;
 
 	
 	public :
 			 Worker();
 	
-			 Worker(int id, string name, int deptId, double basicSalary, double hoursWorked, double hourlyRate);
+			 Worker(int id, string name, int deptId, double basicSalary, double hoursWorked, double hourslyRate);
 	
 	         double computeNetSalary();
 	
