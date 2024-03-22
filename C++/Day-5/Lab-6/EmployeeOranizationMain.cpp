@@ -84,7 +84,6 @@ int main(){
 			cout<<"Enter Name : ";
 			cin>>name;
 			cout<<"Enter Basic Salary : ";
-			
 			cin>>basicSal;
 			cout<<"Enter Department Id : ";
 			cin>>deptId;

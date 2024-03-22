@@ -26,7 +26,8 @@ int main() {
             fout << data << endl;
             cout << "Do you want to continue : (Y)" << endl;
             cin>>ch;
-		}while(ch == 'Y');
+            cin.ignore();  // Clear input buffer
+		}while(ch == 'Y' || ch == 'y');
         
         fout.close(); // Close the file after writing
     }

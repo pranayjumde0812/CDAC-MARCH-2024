@@ -1,0 +1,1116 @@
+Enter password: ****
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 8
+Server version: 8.0.32 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2023, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> show databases;
++----------------------+
+| Database             |
++----------------------+
+| bankapplication_jsp  |
+| bankmanagementsystem |
+| hibernate_project    |
+| information_schema   |
+| jspbankproject       |
+| mapping_relationship |
+| mysql                |
+| notetaker_hibernate  |
+| office_desk          |
+| performance_schema   |
+| practice_crud        |
+| revenue              |
+| sakila               |
+| smartcontactmanager  |
+| stored_proceduredb   |
+| student_git          |
+| sys                  |
+| thymeleaf_crud       |
+| thymeleaf_crud_new   |
+| world                |
++----------------------+
+20 rows in set (0.03 sec)
+
+mysql> use sakila;
+Database changed
+mysql> show tabls;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'tabls' at line 1
+mysql> show tables;
++----------------------------+
+| Tables_in_sakila           |
++----------------------------+
+| actor                      |
+| actor_info                 |
+| address                    |
+| category                   |
+| city                       |
+| country                    |
+| customer                   |
+| customer_list              |
+| film                       |
+| film_actor                 |
+| film_category              |
+| film_list                  |
+| film_text                  |
+| inventory                  |
+| language                   |
+| nicer_but_slower_film_list |
+| payment                    |
+| rental                     |
+| sales_by_film_category     |
+| sales_by_store             |
+| staff                      |
+| staff_list                 |
+| store                      |
++----------------------------+
+23 rows in set (0.04 sec)
+
+mysql> select * from actor;
++----------+-------------+--------------+---------------------+
+| actor_id | first_name  | last_name    | last_update         |
++----------+-------------+--------------+---------------------+
+|        1 | PENELOPE    | GUINESS      | 2006-02-15 04:34:33 |
+|        2 | NICK        | WAHLBERG     | 2006-02-15 04:34:33 |
+|        3 | ED          | CHASE        | 2006-02-15 04:34:33 |
+|        4 | JENNIFER    | DAVIS        | 2006-02-15 04:34:33 |
+|        5 | JOHNNY      | LOLLOBRIGIDA | 2006-02-15 04:34:33 |
+|        6 | BETTE       | NICHOLSON    | 2006-02-15 04:34:33 |
+|        7 | GRACE       | MOSTEL       | 2006-02-15 04:34:33 |
+|        8 | MATTHEW     | JOHANSSON    | 2006-02-15 04:34:33 |
+|        9 | JOE         | SWANK        | 2006-02-15 04:34:33 |
+|       10 | CHRISTIAN   | GABLE        | 2006-02-15 04:34:33 |
+|       11 | ZERO        | CAGE         | 2006-02-15 04:34:33 |
+|       12 | KARL        | BERRY        | 2006-02-15 04:34:33 |
+|       13 | UMA         | WOOD         | 2006-02-15 04:34:33 |
+|       14 | VIVIEN      | BERGEN       | 2006-02-15 04:34:33 |
+|       15 | CUBA        | OLIVIER      | 2006-02-15 04:34:33 |
+|       16 | FRED        | COSTNER      | 2006-02-15 04:34:33 |
+|       17 | HELEN       | VOIGHT       | 2006-02-15 04:34:33 |
+|       18 | DAN         | TORN         | 2006-02-15 04:34:33 |
+|       19 | BOB         | FAWCETT      | 2006-02-15 04:34:33 |
+|       20 | LUCILLE     | TRACY        | 2006-02-15 04:34:33 |
+|       21 | KIRSTEN     | PALTROW      | 2006-02-15 04:34:33 |
+|       22 | ELVIS       | MARX         | 2006-02-15 04:34:33 |
+|       23 | SANDRA      | KILMER       | 2006-02-15 04:34:33 |
+|       24 | CAMERON     | STREEP       | 2006-02-15 04:34:33 |
+|       25 | KEVIN       | BLOOM        | 2006-02-15 04:34:33 |
+|       26 | RIP         | CRAWFORD     | 2006-02-15 04:34:33 |
+|       27 | JULIA       | MCQUEEN      | 2006-02-15 04:34:33 |
+|       28 | WOODY       | HOFFMAN      | 2006-02-15 04:34:33 |
+|       29 | ALEC        | WAYNE        | 2006-02-15 04:34:33 |
+|       30 | SANDRA      | PECK         | 2006-02-15 04:34:33 |
+|       31 | SISSY       | SOBIESKI     | 2006-02-15 04:34:33 |
+|       32 | TIM         | HACKMAN      | 2006-02-15 04:34:33 |
+|       33 | MILLA       | PECK         | 2006-02-15 04:34:33 |
+|       34 | AUDREY      | OLIVIER      | 2006-02-15 04:34:33 |
+|       35 | JUDY        | DEAN         | 2006-02-15 04:34:33 |
+|       36 | BURT        | DUKAKIS      | 2006-02-15 04:34:33 |
+|       37 | VAL         | BOLGER       | 2006-02-15 04:34:33 |
+|       38 | TOM         | MCKELLEN     | 2006-02-15 04:34:33 |
+|       39 | GOLDIE      | BRODY        | 2006-02-15 04:34:33 |
+|       40 | JOHNNY      | CAGE         | 2006-02-15 04:34:33 |
+|       41 | JODIE       | DEGENERES    | 2006-02-15 04:34:33 |
+|       42 | TOM         | MIRANDA      | 2006-02-15 04:34:33 |
+|       43 | KIRK        | JOVOVICH     | 2006-02-15 04:34:33 |
+|       44 | NICK        | STALLONE     | 2006-02-15 04:34:33 |
+|       45 | REESE       | KILMER       | 2006-02-15 04:34:33 |
+|       46 | PARKER      | GOLDBERG     | 2006-02-15 04:34:33 |
+|       47 | JULIA       | BARRYMORE    | 2006-02-15 04:34:33 |
+|       48 | FRANCES     | DAY-LEWIS    | 2006-02-15 04:34:33 |
+|       49 | ANNE        | CRONYN       | 2006-02-15 04:34:33 |
+|       50 | NATALIE     | HOPKINS      | 2006-02-15 04:34:33 |
+|       51 | GARY        | PHOENIX      | 2006-02-15 04:34:33 |
+|       52 | CARMEN      | HUNT         | 2006-02-15 04:34:33 |
+|       53 | MENA        | TEMPLE       | 2006-02-15 04:34:33 |
+|       54 | PENELOPE    | PINKETT      | 2006-02-15 04:34:33 |
+|       55 | FAY         | KILMER       | 2006-02-15 04:34:33 |
+|       56 | DAN         | HARRIS       | 2006-02-15 04:34:33 |
+|       57 | JUDE        | CRUISE       | 2006-02-15 04:34:33 |
+|       58 | CHRISTIAN   | AKROYD       | 2006-02-15 04:34:33 |
+|       59 | DUSTIN      | TAUTOU       | 2006-02-15 04:34:33 |
+|       60 | HENRY       | BERRY        | 2006-02-15 04:34:33 |
+|       61 | CHRISTIAN   | NEESON       | 2006-02-15 04:34:33 |
+|       62 | JAYNE       | NEESON       | 2006-02-15 04:34:33 |
+|       63 | CAMERON     | WRAY         | 2006-02-15 04:34:33 |
+|       64 | RAY         | JOHANSSON    | 2006-02-15 04:34:33 |
+|       65 | ANGELA      | HUDSON       | 2006-02-15 04:34:33 |
+|       66 | MARY        | TANDY        | 2006-02-15 04:34:33 |
+|       67 | JESSICA     | BAILEY       | 2006-02-15 04:34:33 |
+|       68 | RIP         | WINSLET      | 2006-02-15 04:34:33 |
+|       69 | KENNETH     | PALTROW      | 2006-02-15 04:34:33 |
+|       70 | MICHELLE    | MCCONAUGHEY  | 2006-02-15 04:34:33 |
+|       71 | ADAM        | GRANT        | 2006-02-15 04:34:33 |
+|       72 | SEAN        | WILLIAMS     | 2006-02-15 04:34:33 |
+|       73 | GARY        | PENN         | 2006-02-15 04:34:33 |
+|       74 | MILLA       | KEITEL       | 2006-02-15 04:34:33 |
+|       75 | BURT        | POSEY        | 2006-02-15 04:34:33 |
+|       76 | ANGELINA    | ASTAIRE      | 2006-02-15 04:34:33 |
+|       77 | CARY        | MCCONAUGHEY  | 2006-02-15 04:34:33 |
+|       78 | GROUCHO     | SINATRA      | 2006-02-15 04:34:33 |
+|       79 | MAE         | HOFFMAN      | 2006-02-15 04:34:33 |
+|       80 | RALPH       | CRUZ         | 2006-02-15 04:34:33 |
+|       81 | SCARLETT    | DAMON        | 2006-02-15 04:34:33 |
+|       82 | WOODY       | JOLIE        | 2006-02-15 04:34:33 |
+|       83 | BEN         | WILLIS       | 2006-02-15 04:34:33 |
+|       84 | JAMES       | PITT         | 2006-02-15 04:34:33 |
+|       85 | MINNIE      | ZELLWEGER    | 2006-02-15 04:34:33 |
+|       86 | GREG        | CHAPLIN      | 2006-02-15 04:34:33 |
+|       87 | SPENCER     | PECK         | 2006-02-15 04:34:33 |
+|       88 | KENNETH     | PESCI        | 2006-02-15 04:34:33 |
+|       89 | CHARLIZE    | DENCH        | 2006-02-15 04:34:33 |
+|       90 | SEAN        | GUINESS      | 2006-02-15 04:34:33 |
+|       91 | CHRISTOPHER | BERRY        | 2006-02-15 04:34:33 |
+|       92 | KIRSTEN     | AKROYD       | 2006-02-15 04:34:33 |
+|       93 | ELLEN       | PRESLEY      | 2006-02-15 04:34:33 |
+|       94 | KENNETH     | TORN         | 2006-02-15 04:34:33 |
+|       95 | DARYL       | WAHLBERG     | 2006-02-15 04:34:33 |
+|       96 | GENE        | WILLIS       | 2006-02-15 04:34:33 |
+|       97 | MEG         | HAWKE        | 2006-02-15 04:34:33 |
+|       98 | CHRIS       | BRIDGES      | 2006-02-15 04:34:33 |
+|       99 | JIM         | MOSTEL       | 2006-02-15 04:34:33 |
+|      100 | SPENCER     | DEPP         | 2006-02-15 04:34:33 |
+|      101 | SUSAN       | DAVIS        | 2006-02-15 04:34:33 |
+|      102 | WALTER      | TORN         | 2006-02-15 04:34:33 |
+|      103 | MATTHEW     | LEIGH        | 2006-02-15 04:34:33 |
+|      104 | PENELOPE    | CRONYN       | 2006-02-15 04:34:33 |
+|      105 | SIDNEY      | CROWE        | 2006-02-15 04:34:33 |
+|      106 | GROUCHO     | DUNST        | 2006-02-15 04:34:33 |
+|      107 | GINA        | DEGENERES    | 2006-02-15 04:34:33 |
+|      108 | WARREN      | NOLTE        | 2006-02-15 04:34:33 |
+|      109 | SYLVESTER   | DERN         | 2006-02-15 04:34:33 |
+|      110 | SUSAN       | DAVIS        | 2006-02-15 04:34:33 |
+|      111 | CAMERON     | ZELLWEGER    | 2006-02-15 04:34:33 |
+|      112 | RUSSELL     | BACALL       | 2006-02-15 04:34:33 |
+|      113 | MORGAN      | HOPKINS      | 2006-02-15 04:34:33 |
+|      114 | MORGAN      | MCDORMAND    | 2006-02-15 04:34:33 |
+|      115 | HARRISON    | BALE         | 2006-02-15 04:34:33 |
+|      116 | DAN         | STREEP       | 2006-02-15 04:34:33 |
+|      117 | RENEE       | TRACY        | 2006-02-15 04:34:33 |
+|      118 | CUBA        | ALLEN        | 2006-02-15 04:34:33 |
+|      119 | WARREN      | JACKMAN      | 2006-02-15 04:34:33 |
+|      120 | PENELOPE    | MONROE       | 2006-02-15 04:34:33 |
+|      121 | LIZA        | BERGMAN      | 2006-02-15 04:34:33 |
+|      122 | SALMA       | NOLTE        | 2006-02-15 04:34:33 |
+|      123 | JULIANNE    | DENCH        | 2006-02-15 04:34:33 |
+|      124 | SCARLETT    | BENING       | 2006-02-15 04:34:33 |
+|      125 | ALBERT      | NOLTE        | 2006-02-15 04:34:33 |
+|      126 | FRANCES     | TOMEI        | 2006-02-15 04:34:33 |
+|      127 | KEVIN       | GARLAND      | 2006-02-15 04:34:33 |
+|      128 | CATE        | MCQUEEN      | 2006-02-15 04:34:33 |
+|      129 | DARYL       | CRAWFORD     | 2006-02-15 04:34:33 |
+|      130 | GRETA       | KEITEL       | 2006-02-15 04:34:33 |
+|      131 | JANE        | JACKMAN      | 2006-02-15 04:34:33 |
+|      132 | ADAM        | HOPPER       | 2006-02-15 04:34:33 |
+|      133 | RICHARD     | PENN         | 2006-02-15 04:34:33 |
+|      134 | GENE        | HOPKINS      | 2006-02-15 04:34:33 |
+|      135 | RITA        | REYNOLDS     | 2006-02-15 04:34:33 |
+|      136 | ED          | MANSFIELD    | 2006-02-15 04:34:33 |
+|      137 | MORGAN      | WILLIAMS     | 2006-02-15 04:34:33 |
+|      138 | LUCILLE     | DEE          | 2006-02-15 04:34:33 |
+|      139 | EWAN        | GOODING      | 2006-02-15 04:34:33 |
+|      140 | WHOOPI      | HURT         | 2006-02-15 04:34:33 |
+|      141 | CATE        | HARRIS       | 2006-02-15 04:34:33 |
+|      142 | JADA        | RYDER        | 2006-02-15 04:34:33 |
+|      143 | RIVER       | DEAN         | 2006-02-15 04:34:33 |
+|      144 | ANGELA      | WITHERSPOON  | 2006-02-15 04:34:33 |
+|      145 | KIM         | ALLEN        | 2006-02-15 04:34:33 |
+|      146 | ALBERT      | JOHANSSON    | 2006-02-15 04:34:33 |
+|      147 | FAY         | WINSLET      | 2006-02-15 04:34:33 |
+|      148 | EMILY       | DEE          | 2006-02-15 04:34:33 |
+|      149 | RUSSELL     | TEMPLE       | 2006-02-15 04:34:33 |
+|      150 | JAYNE       | NOLTE        | 2006-02-15 04:34:33 |
+|      151 | GEOFFREY    | HESTON       | 2006-02-15 04:34:33 |
+|      152 | BEN         | HARRIS       | 2006-02-15 04:34:33 |
+|      153 | MINNIE      | KILMER       | 2006-02-15 04:34:33 |
+|      154 | MERYL       | GIBSON       | 2006-02-15 04:34:33 |
+|      155 | IAN         | TANDY        | 2006-02-15 04:34:33 |
+|      156 | FAY         | WOOD         | 2006-02-15 04:34:33 |
+|      157 | GRETA       | MALDEN       | 2006-02-15 04:34:33 |
+|      158 | VIVIEN      | BASINGER     | 2006-02-15 04:34:33 |
+|      159 | LAURA       | BRODY        | 2006-02-15 04:34:33 |
+|      160 | CHRIS       | DEPP         | 2006-02-15 04:34:33 |
+|      161 | HARVEY      | HOPE         | 2006-02-15 04:34:33 |
+|      162 | OPRAH       | KILMER       | 2006-02-15 04:34:33 |
+|      163 | CHRISTOPHER | WEST         | 2006-02-15 04:34:33 |
+|      164 | HUMPHREY    | WILLIS       | 2006-02-15 04:34:33 |
+|      165 | AL          | GARLAND      | 2006-02-15 04:34:33 |
+|      166 | NICK        | DEGENERES    | 2006-02-15 04:34:33 |
+|      167 | LAURENCE    | BULLOCK      | 2006-02-15 04:34:33 |
+|      168 | WILL        | WILSON       | 2006-02-15 04:34:33 |
+|      169 | KENNETH     | HOFFMAN      | 2006-02-15 04:34:33 |
+|      170 | MENA        | HOPPER       | 2006-02-15 04:34:33 |
+|      171 | OLYMPIA     | PFEIFFER     | 2006-02-15 04:34:33 |
+|      172 | GROUCHO     | WILLIAMS     | 2006-02-15 04:34:33 |
+|      173 | ALAN        | DREYFUSS     | 2006-02-15 04:34:33 |
+|      174 | MICHAEL     | BENING       | 2006-02-15 04:34:33 |
+|      175 | WILLIAM     | HACKMAN      | 2006-02-15 04:34:33 |
+|      176 | JON         | CHASE        | 2006-02-15 04:34:33 |
+|      177 | GENE        | MCKELLEN     | 2006-02-15 04:34:33 |
+|      178 | LISA        | MONROE       | 2006-02-15 04:34:33 |
+|      179 | ED          | GUINESS      | 2006-02-15 04:34:33 |
+|      180 | JEFF        | SILVERSTONE  | 2006-02-15 04:34:33 |
+|      181 | MATTHEW     | CARREY       | 2006-02-15 04:34:33 |
+|      182 | DEBBIE      | AKROYD       | 2006-02-15 04:34:33 |
+|      183 | RUSSELL     | CLOSE        | 2006-02-15 04:34:33 |
+|      184 | HUMPHREY    | GARLAND      | 2006-02-15 04:34:33 |
+|      185 | MICHAEL     | BOLGER       | 2006-02-15 04:34:33 |
+|      186 | JULIA       | ZELLWEGER    | 2006-02-15 04:34:33 |
+|      187 | RENEE       | BALL         | 2006-02-15 04:34:33 |
+|      188 | ROCK        | DUKAKIS      | 2006-02-15 04:34:33 |
+|      189 | CUBA        | BIRCH        | 2006-02-15 04:34:33 |
+|      190 | AUDREY      | BAILEY       | 2006-02-15 04:34:33 |
+|      191 | GREGORY     | GOODING      | 2006-02-15 04:34:33 |
+|      192 | JOHN        | SUVARI       | 2006-02-15 04:34:33 |
+|      193 | BURT        | TEMPLE       | 2006-02-15 04:34:33 |
+|      194 | MERYL       | ALLEN        | 2006-02-15 04:34:33 |
+|      195 | JAYNE       | SILVERSTONE  | 2006-02-15 04:34:33 |
+|      196 | BELA        | WALKEN       | 2006-02-15 04:34:33 |
+|      197 | REESE       | WEST         | 2006-02-15 04:34:33 |
+|      198 | MARY        | KEITEL       | 2006-02-15 04:34:33 |
+|      199 | JULIA       | FAWCETT      | 2006-02-15 04:34:33 |
+|      200 | THORA       | TEMPLE       | 2006-02-15 04:34:33 |
++----------+-------------+--------------+---------------------+
+200 rows in set (0.03 sec)
+
+mysql> select * from actor
+    -> where first_name like 't%';
++----------+------------+-----------+---------------------+
+| actor_id | first_name | last_name | last_update         |
++----------+------------+-----------+---------------------+
+|       32 | TIM        | HACKMAN   | 2006-02-15 04:34:33 |
+|       38 | TOM        | MCKELLEN  | 2006-02-15 04:34:33 |
+|       42 | TOM        | MIRANDA   | 2006-02-15 04:34:33 |
+|      200 | THORA      | TEMPLE    | 2006-02-15 04:34:33 |
++----------+------------+-----------+---------------------+
+4 rows in set (0.01 sec)
+
+mysql> show databases;
++----------------------+
+| Database             |
++----------------------+
+| bankapplication_jsp  |
+| bankmanagementsystem |
+| hibernate_project    |
+| information_schema   |
+| jspbankproject       |
+| mapping_relationship |
+| mysql                |
+| notetaker_hibernate  |
+| office_desk          |
+| performance_schema   |
+| practice_crud        |
+| revenue              |
+| sakila               |
+| smartcontactmanager  |
+| stored_proceduredb   |
+| student_git          |
+| sys                  |
+| thymeleaf_crud       |
+| thymeleaf_crud_new   |
+| world                |
++----------------------+
+20 rows in set (0.00 sec)
+
+mysql> source F:\CDAC\CDAC-Work-Repo\CDAC-MARCH-2024\SQL\demobldmysql.sql
+Query OK, 1 row affected (0.02 sec)
+
+Database changed
+Query OK, 0 rows affected, 3 warnings (0.04 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 0 rows affected, 1 warning (0.02 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 0 rows affected (0.02 sec)
+
+Query OK, 0 rows affected (0.02 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> show databases;
++----------------------+
+| Database             |
++----------------------+
+| bankapplication_jsp  |
+| bankmanagementsystem |
+| hibernate_project    |
+| iacsd_emp            |
+| information_schema   |
+| jspbankproject       |
+| mapping_relationship |
+| mysql                |
+| notetaker_hibernate  |
+| office_desk          |
+| performance_schema   |
+| practice_crud        |
+| revenue              |
+| sakila               |
+| smartcontactmanager  |
+| stored_proceduredb   |
+| student_git          |
+| sys                  |
+| thymeleaf_crud       |
+| thymeleaf_crud_new   |
+| world                |
++----------------------+
+21 rows in set (0.00 sec)
+
+mysql> use iacsd_emp;
+Database changed
+mysql> source F:\CDAC\CDAC-Work-Repo\CDAC-MARCH-2024\SQL\suppliercustomer.sql
+Database changed
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'number NOT NULL,
+  last_name char(50) NOT NULL,
+  first_name char(50) NOT NULL,
+' at line 2
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'number NOT NULL,
+  customer_id number,
+  order_date date,
+  CONSTRAINT orders_pk' at line 2
+ERROR 1146 (42S02): Table 'iacsd_emp.customers' doesn't exist
+ERROR 1146 (42S02): Table 'iacsd_emp.customers' doesn't exist
+ERROR 1146 (42S02): Table 'iacsd_emp.customers' doesn't exist
+ERROR 1146 (42S02): Table 'iacsd_emp.customers' doesn't exist
+ERROR 1146 (42S02): Table 'iacsd_emp.customers' doesn't exist
+ERROR 1146 (42S02): Table 'iacsd_emp.customers' doesn't exist
+ERROR 1146 (42S02): Table 'iacsd_emp.orders' doesn't exist
+ERROR 1146 (42S02): Table 'iacsd_emp.orders' doesn't exist
+ERROR 1146 (42S02): Table 'iacsd_emp.orders' doesn't exist
+ERROR 1146 (42S02): Table 'iacsd_emp.orders' doesn't exist
+ERROR 1146 (42S02): Table 'iacsd_emp.orders' doesn't exist
+mysql> show tables;
++---------------------+
+| Tables_in_iacsd_emp |
++---------------------+
+| bonus               |
+| dept                |
+| emp                 |
+| salgrade            |
+| suppliers           |
++---------------------+
+5 rows in set (0.00 sec)
+
+mysql> drop database iacsd_emp;
+Query OK, 5 rows affected (0.07 sec)
+
+mysql> show databass;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'databass' at line 1
+mysql> show databases;
++----------------------+
+| Database             |
++----------------------+
+| bankapplication_jsp  |
+| bankmanagementsystem |
+| hibernate_project    |
+| information_schema   |
+| jspbankproject       |
+| mapping_relationship |
+| mysql                |
+| notetaker_hibernate  |
+| office_desk          |
+| performance_schema   |
+| practice_crud        |
+| revenue              |
+| sakila               |
+| smartcontactmanager  |
+| stored_proceduredb   |
+| student_git          |
+| sys                  |
+| thymeleaf_crud       |
+| thymeleaf_crud_new   |
+| world                |
++----------------------+
+20 rows in set (0.00 sec)
+
+mysql> source F:\CDAC\CDAC-Work-Repo\CDAC-MARCH-2024\SQL\demobldmysql.sql
+Query OK, 1 row affected (0.00 sec)
+
+Database changed
+Query OK, 0 rows affected, 3 warnings (0.02 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 0 rows affected, 1 warning (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 0 rows affected (0.02 sec)
+
+Query OK, 0 rows affected (0.03 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> show databases;
++----------------------+
+| Database             |
++----------------------+
+| bankapplication_jsp  |
+| bankmanagementsystem |
+| hibernate_project    |
+| iacsd_emp            |
+| information_schema   |
+| jspbankproject       |
+| mapping_relationship |
+| mysql                |
+| notetaker_hibernate  |
+| office_desk          |
+| performance_schema   |
+| practice_crud        |
+| revenue              |
+| sakila               |
+| smartcontactmanager  |
+| stored_proceduredb   |
+| student_git          |
+| sys                  |
+| thymeleaf_crud       |
+| thymeleaf_crud_new   |
+| world                |
++----------------------+
+21 rows in set (0.00 sec)
+
+mysql> source F:\CDAC\CDAC-Work-Repo\CDAC-MARCH-2024\SQL\suppliercustomer.sql
+Database changed
+Query OK, 0 rows affected (0.02 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 0 rows affected (0.02 sec)
+
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'number,
+  order_date date,
+  CONSTRAINT orders_pk PRIMARY KEY (order_id)
+)' at line 3
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+ERROR 1146 (42S02): Table 'iacsd_emp.orders' doesn't exist
+ERROR 1146 (42S02): Table 'iacsd_emp.orders' doesn't exist
+ERROR 1146 (42S02): Table 'iacsd_emp.orders' doesn't exist
+ERROR 1146 (42S02): Table 'iacsd_emp.orders' doesn't exist
+ERROR 1146 (42S02): Table 'iacsd_emp.orders' doesn't exist
+mysql> drop database iacsd_emp;
+Query OK, 6 rows affected (0.04 sec)
+
+mysql> source F:\CDAC\CDAC-Work-Repo\CDAC-MARCH-2024\SQL\demobldmysql.sql
+Query OK, 1 row affected (0.00 sec)
+
+Database changed
+Query OK, 0 rows affected, 3 warnings (0.02 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 0 rows affected, 1 warning (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 0 rows affected (0.02 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> show tables;
++---------------------+
+| Tables_in_iacsd_emp |
++---------------------+
+| bonus               |
+| dept                |
+| emp                 |
+| salgrade            |
++---------------------+
+4 rows in set (0.00 sec)
+
+mysql> source F:\CDAC\CDAC-Work-Repo\CDAC-MARCH-2024\SQL\suppliercustomer.sql
+Database changed
+Query OK, 0 rows affected (0.02 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'number,
+  order_date date,
+  CONSTRAINT orders_pk PRIMARY KEY (order_id)
+)' at line 3
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+ERROR 1146 (42S02): Table 'iacsd_emp.orders' doesn't exist
+ERROR 1146 (42S02): Table 'iacsd_emp.orders' doesn't exist
+ERROR 1146 (42S02): Table 'iacsd_emp.orders' doesn't exist
+ERROR 1146 (42S02): Table 'iacsd_emp.orders' doesn't exist
+ERROR 1146 (42S02): Table 'iacsd_emp.orders' doesn't exist
+mysql> drop database iacsd_emp;
+Query OK, 6 rows affected (0.04 sec)
+
+mysql> source F:\CDAC\CDAC-Work-Repo\CDAC-MARCH-2024\SQL\demobldmysql.sql
+Query OK, 1 row affected (0.00 sec)
+
+Database changed
+Query OK, 0 rows affected, 3 warnings (0.02 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 0 rows affected, 1 warning (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> source F:\CDAC\CDAC-Work-Repo\CDAC-MARCH-2024\SQL\suppliercustomer.sql
+Database changed
+Query OK, 0 rows affected (0.02 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+mysql> show tables;
++---------------------+
+| Tables_in_iacsd_emp |
++---------------------+
+| bonus               |
+| customers           |
+| dept                |
+| emp                 |
+| orders              |
+| salgrade            |
+| suppliers           |
++---------------------+
+7 rows in set (0.00 sec)
+
+mysql> select * from emp;
++-------+--------+-----------+------+------------+---------+---------+--------+
+| EMPNO | ENAME  | JOB       | MGR  | HIREDATE   | SAL     | COMM    | DEPTNO |
++-------+--------+-----------+------+------------+---------+---------+--------+
+|  7369 | SMITH  | CLERK     | 7902 | 1980-12-17 |  800.00 |    NULL |     20 |
+|  7499 | ALLEN  | SALESMAN  | 7698 | 1981-02-20 | 1600.00 |  300.00 |     30 |
+|  7521 | WARD   | SALESMAN  | 7698 | 1981-02-22 | 1250.00 |  500.00 |     30 |
+|  7566 | JONES  | MANAGER   | 7839 | 1981-04-02 | 2975.00 |    NULL |     20 |
+|  7654 | MARTIN | SALESMAN  | 7698 | 1981-09-28 | 1250.00 | 1400.00 |     30 |
+|  7698 | BLAKE  | MANAGER   | 7839 | 1981-05-01 | 2850.00 |    NULL |     30 |
+|  7782 | CLARK  | MANAGER   | 7839 | 1981-06-09 | 2450.00 |    NULL |     10 |
+|  7788 | SCOTT  | ANALYST   | 7566 | 1982-12-09 | 3000.00 |    NULL |     20 |
+|  7839 | KING   | PRESIDENT | NULL | 1981-11-17 | 5000.00 |    NULL |     10 |
+|  7844 | TURNER | SALESMAN  | 7698 | 1981-09-08 | 1500.00 |    0.00 |     30 |
+|  7876 | ADAMS  | CLERK     | 7788 | 1983-01-12 | 1100.00 |    NULL |     20 |
+|  7900 | JAMES  | CLERK     | 7698 | 1981-12-03 |  950.00 |    NULL |     30 |
+|  7902 | FORD   | ANALYST   | 7566 | 1981-12-03 | 3000.00 |    NULL |     20 |
+|  7934 | MILLER | CLERK     | 7782 | 1982-01-23 | 1300.00 |    NULL |     10 |
++-------+--------+-----------+------+------------+---------+---------+--------+
+14 rows in set (0.00 sec)
+
+mysql> desc suppliers;
++---------------+----------+------+-----+---------+-------+
+| Field         | Type     | Null | Key | Default | Extra |
++---------------+----------+------+-----+---------+-------+
+| supplier_id   | int      | NO   | PRI | NULL    |       |
+| supplier_name | char(50) | NO   |     | NULL    |       |
+| city          | char(50) | YES  |     | NULL    |       |
+| state         | char(25) | YES  |     | NULL    |       |
++---------------+----------+------+-----+---------+-------+
+4 rows in set (0.04 sec)
+
+mysql> select * from suppliers
+    -> where state in ('california','Texas','Arkansas':
+    -> where state in ('california','Texas','Arkansas':;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':
+where state in ('california','Texas','Arkansas':' at line 2
+mysql> select * from suppliers
+    -> where state in ('california','Texas','Arkansas');
++-------------+-------------------+------------------+------------+
+| supplier_id | supplier_name     | city             | state      |
++-------------+-------------------+------------------+------------+
+|         200 | Google            | Mountain View    | California |
+|         300 | Oracle            | Redwood City     | California |
+|         400 | Kimberly-Clark    | Irving           | Texas      |
+|         500 | Tyson Foods       | Springdale       | Arkansas   |
+|         700 | Dole Food Company | Westlake Village | California |
+|         900 | Electronic Arts   | Redwood City     | California |
++-------------+-------------------+------------------+------------+
+6 rows in set (0.00 sec)
+
+mysql> select * from suppliers
+    -> where city <> springldale;
+ERROR 1054 (42S22): Unknown column 'springldale' in 'where clause'
+mysql> select * from suppliers
+    -> where city <> 'springldale';
++-------------+-------------------+------------------+------------+
+| supplier_id | supplier_name     | city             | state      |
++-------------+-------------------+------------------+------------+
+|         100 | Microsoft         | Redmond          | Washington |
+|         200 | Google            | Mountain View    | California |
+|         300 | Oracle            | Redwood City     | California |
+|         400 | Kimberly-Clark    | Irving           | Texas      |
+|         500 | Tyson Foods       | Springdale       | Arkansas   |
+|         600 | SC Johnson        | Racine           | Wisconsin  |
+|         700 | Dole Food Company | Westlake Village | California |
+|         800 | Flowers Foods     | Thomasville      | Georgia    |
+|         900 | Electronic Arts   | Redwood City     | California |
++-------------+-------------------+------------------+------------+
+9 rows in set (0.00 sec)
+
+mysql> desc order;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1
+mysql> desc orders;
++-------------+------+------+-----+---------+-------+
+| Field       | Type | Null | Key | Default | Extra |
++-------------+------+------+-----+---------+-------+
+| order_id    | int  | NO   | PRI | NULL    |       |
+| customer_id | int  | YES  |     | NULL    |       |
+| order_date  | date | YES  |     | NULL    |       |
++-------------+------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+
+mysql> select order_id, customer_id from orders
+    -> where order_date = '2016-02-18';
++----------+-------------+
+| order_id | customer_id |
++----------+-------------+
+|        4 |        4000 |
+|        5 |        NULL |
++----------+-------------+
+2 rows in set (0.00 sec)
+
+mysql> select order_id, customer_id from orders
+    -> where order_date between '2016-02-01' and '2016-02-29';
++----------+-------------+
+| order_id | customer_id |
++----------+-------------+
+|        4 |        4000 |
+|        5 |        NULL |
++----------+-------------+
+2 rows in set (0.00 sec)
+
+mysql> select * from customers;
++-------------+-----------+------------+-------------------+
+| customer_id | last_name | first_name | favorite_website  |
++-------------+-----------+------------+-------------------+
+|        4000 | Jackson   | Joe        | techonthenet.com  |
+|        5000 | Smith     | Jane       | digminecraft.com  |
+|        6000 | Ferguson  | Samantha   | bigactivities.com |
+|        7000 | Reynolds  | Allen      | checkyourmath.com |
+|        8000 | Anderson  | Paige      | NULL              |
+|        9000 | Johnson   | Derek      | KLFSpro.com       |
++-------------+-----------+------------+-------------------+
+6 rows in set (0.00 sec)
+
+mysql> select * from customers
+    -> where last_name in ('Reynolds','anderson');
++-------------+-----------+------------+-------------------+
+| customer_id | last_name | first_name | favorite_website  |
++-------------+-----------+------------+-------------------+
+|        7000 | Reynolds  | Allen      | checkyourmath.com |
+|        8000 | Anderson  | Paige      | NULL              |
++-------------+-----------+------------+-------------------+
+2 rows in set (0.00 sec)
+
+mysql> select *  from suppliers
+    -> where suppliers_id between 200 and 700;
+ERROR 1054 (42S22): Unknown column 'suppliers_id' in 'where clause'
+mysql> select * from suppliers;
++-------------+-------------------+------------------+------------+
+| supplier_id | supplier_name     | city             | state      |
++-------------+-------------------+------------------+------------+
+|         100 | Microsoft         | Redmond          | Washington |
+|         200 | Google            | Mountain View    | California |
+|         300 | Oracle            | Redwood City     | California |
+|         400 | Kimberly-Clark    | Irving           | Texas      |
+|         500 | Tyson Foods       | Springdale       | Arkansas   |
+|         600 | SC Johnson        | Racine           | Wisconsin  |
+|         700 | Dole Food Company | Westlake Village | California |
+|         800 | Flowers Foods     | Thomasville      | Georgia    |
+|         900 | Electronic Arts   | Redwood City     | California |
++-------------+-------------------+------------------+------------+
+9 rows in set (0.00 sec)
+
+mysql> select *  from suppliers
+    -> where supplier_id between 200 and 700;
++-------------+-------------------+------------------+------------+
+| supplier_id | supplier_name     | city             | state      |
++-------------+-------------------+------------------+------------+
+|         200 | Google            | Mountain View    | California |
+|         300 | Oracle            | Redwood City     | California |
+|         400 | Kimberly-Clark    | Irving           | Texas      |
+|         500 | Tyson Foods       | Springdale       | Arkansas   |
+|         600 | SC Johnson        | Racine           | Wisconsin  |
+|         700 | Dole Food Company | Westlake Village | California |
++-------------+-------------------+------------------+------------+
+6 rows in set (0.01 sec)
+
+mysql> desc customers;
++------------------+----------+------+-----+---------+-------+
+| Field            | Type     | Null | Key | Default | Extra |
++------------------+----------+------+-----+---------+-------+
+| customer_id      | int      | NO   | PRI | NULL    |       |
+| last_name        | char(50) | NO   |     | NULL    |       |
+| first_name       | char(50) | NO   |     | NULL    |       |
+| favorite_website | char(50) | YES  |     | NULL    |       |
++------------------+----------+------+-----+---------+-------+
+4 rows in set (0.00 sec)
+
+mysql> select *  from customers
+    -> where favorite_website is null;
++-------------+-----------+------------+------------------+
+| customer_id | last_name | first_name | favorite_website |
++-------------+-----------+------------+------------------+
+|        8000 | Anderson  | Paige      | NULL             |
++-------------+-----------+------------+------------------+
+1 row in set (0.00 sec)
+
+mysql> select *  from customers
+    -> where favorite_website is not null;
++-------------+-----------+------------+-------------------+
+| customer_id | last_name | first_name | favorite_website  |
++-------------+-----------+------------+-------------------+
+|        4000 | Jackson   | Joe        | techonthenet.com  |
+|        5000 | Smith     | Jane       | digminecraft.com  |
+|        6000 | Ferguson  | Samantha   | bigactivities.com |
+|        7000 | Reynolds  | Allen      | checkyourmath.com |
+|        9000 | Johnson   | Derek      | KLFSpro.com       |
++-------------+-----------+------------+-------------------+
+5 rows in set (0.00 sec)
+
+mysql> select * from suppliers;
++-------------+-------------------+------------------+------------+
+| supplier_id | supplier_name     | city             | state      |
++-------------+-------------------+------------------+------------+
+|         100 | Microsoft         | Redmond          | Washington |
+|         200 | Google            | Mountain View    | California |
+|         300 | Oracle            | Redwood City     | California |
+|         400 | Kimberly-Clark    | Irving           | Texas      |
+|         500 | Tyson Foods       | Springdale       | Arkansas   |
+|         600 | SC Johnson        | Racine           | Wisconsin  |
+|         700 | Dole Food Company | Westlake Village | California |
+|         800 | Flowers Foods     | Thomasville      | Georgia    |
+|         900 | Electronic Arts   | Redwood City     | California |
++-------------+-------------------+------------------+------------+
+9 rows in set (0.00 sec)
+
+mysql> select *  from suppliers
+    -> where suppliers_id !>=200 and suppliers_id !<= 700;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!>=200 and suppliers_id !<= 700' at line 2
+mysql> select *  from suppliers
+    -> where suppliers_id not in (200,700);
+ERROR 1054 (42S22): Unknown column 'suppliers_id' in 'where clause'
+mysql> select *  from suppliers
+    -> where supplier_id !>=200 and suppliers_id !<= 700;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!>=200 and suppliers_id !<= 700' at line 2
+mysql> select *  from suppliers
+    -> where supplier_id not in (200,700);
++-------------+-----------------+--------------+------------+
+| supplier_id | supplier_name   | city         | state      |
++-------------+-----------------+--------------+------------+
+|         100 | Microsoft       | Redmond      | Washington |
+|         300 | Oracle          | Redwood City | California |
+|         400 | Kimberly-Clark  | Irving       | Texas      |
+|         500 | Tyson Foods     | Springdale   | Arkansas   |
+|         600 | SC Johnson      | Racine       | Wisconsin  |
+|         800 | Flowers Foods   | Thomasville  | Georgia    |
+|         900 | Electronic Arts | Redwood City | California |
++-------------+-----------------+--------------+------------+
+7 rows in set (0.00 sec)
+
+mysql> select *  from suppliers
+    -> where supplier_id not between 200 and 700;
++-------------+-----------------+--------------+------------+
+| supplier_id | supplier_name   | city         | state      |
++-------------+-----------------+--------------+------------+
+|         100 | Microsoft       | Redmond      | Washington |
+|         800 | Flowers Foods   | Thomasville  | Georgia    |
+|         900 | Electronic Arts | Redwood City | California |
++-------------+-----------------+--------------+------------+
+3 rows in set (0.00 sec)
+
+mysql> 9. find all suppliers with supplierid not  >=200 and  not <=7009. find all suppliers with supplierid not  >=200 and  not <=700
