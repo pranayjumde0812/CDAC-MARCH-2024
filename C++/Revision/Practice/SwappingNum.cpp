@@ -52,7 +52,5 @@ marks <int>m(23,78);
 m.display();
 
 
-
-
 	return 0;
 }

@@ -35,7 +35,7 @@ int main()
     }
     cout << "\nmin of the array is: " << arr[0];
     cout << "\nmax of the array is: " << arr[size - 1];
-    cout << "sorted array";
+    cout << "\nsorted array : ";
     for (int i = 0; i < size; i++)
     {
         cout << arr[i] << " ";

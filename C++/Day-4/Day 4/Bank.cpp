@@ -63,17 +63,9 @@ CheckingAccount(int accountNumber, int Initbalance , int n  ): BankAccount(accou
  this->n=n;
   
 }
-// void setRate(int Rate){
 
-//    this-> Rate = 10;
-//  }
-//  int getRate(){
-
-//      return Rate;
-//  }
 void CalIneterest(){
-   //   setRate(10);
-    //  int r = getRate();
+
      double  Interest = Initbalance*Rate*n*0.01;
     cout<<"Interest is :"<<Interest<<endl;
 }

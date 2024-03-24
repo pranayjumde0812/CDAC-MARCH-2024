@@ -34,7 +34,7 @@ int main() {
         
         case '*':
             c = a * b;
-            cout << "Multiplication of (a+b) = " << c;
+            cout << "Multiplication of (a*b) = " << c;
             break;
         
         case '/':

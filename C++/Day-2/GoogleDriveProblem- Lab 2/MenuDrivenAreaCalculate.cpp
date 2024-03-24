@@ -21,7 +21,7 @@ int main()
         cout << "a. Compute Area of Circle\n";
         cout << "b. Compute Area of Rectangle\n";
         cout << "c. Compute Area of Triangle\n";
-        cout << "c. Exit\n";
+        cout << "d. Exit\n";
 
         cout << "Enter choice in a, b, c." << endl;
         cin >> choice;
@@ -44,6 +44,10 @@ int main()
             cin >> base >> height;
             area = 0.5 * base * height;
             cout << "Area of triangle= " << area << endl;
+            break;
+        
+        case 'd':
+            cout << "Exiting....." << endl;
             break;
 
         default:

@@ -47,17 +47,3 @@ void EmployeeManagement :: readEmployee(string filename){
 	}
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-

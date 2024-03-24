@@ -1,3 +1,5 @@
+// Search element from array
+
 #include <iostream>
 
 using namespace std;
@@ -24,10 +26,5 @@ int main() {
 			}	
     }
     
-    
 	return 0;
 }
-
-
-
-

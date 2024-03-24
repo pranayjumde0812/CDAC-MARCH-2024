@@ -67,10 +67,10 @@ class Teacher:public Person{
 
 int main()
 {
-    Student s1("Anchal",23,122,9.95);
+    Student s1("Rahul",23,122,9.95);
     s1.displayInfo();
 
-    Teacher t1("Megha",35,1234,"IT");
+    Teacher t1("Virat",35,1234,"IT");
     t1.displayInfo();
     return 0;
 }

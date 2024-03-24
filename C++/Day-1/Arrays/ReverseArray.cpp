@@ -1,3 +1,5 @@
+// Reverse the array element
+
 #include <iostream>
 
 using namespace std;
@@ -19,7 +21,4 @@ int main() {
 	return 0;
 	
 }
-
-
-
 

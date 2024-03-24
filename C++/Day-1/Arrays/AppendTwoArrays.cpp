@@ -1,3 +1,5 @@
+// Append 2 array
+
 #include<iostream>
 using namespace std;
 

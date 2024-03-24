@@ -1,3 +1,5 @@
+// Sum of array element
+
 #include <iostream>
 
 using namespace std;

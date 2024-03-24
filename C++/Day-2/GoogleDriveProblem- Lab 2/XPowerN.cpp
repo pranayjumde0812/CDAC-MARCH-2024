@@ -13,7 +13,7 @@ int main()
 
     while (n != 0)
     {
-        power = x * x;
+        power = power * x;
         n--;
     }
 

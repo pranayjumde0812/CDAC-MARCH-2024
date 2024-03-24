@@ -1,3 +1,5 @@
+// Area of rectangle using class and method
+
 #include<iostream>
 
 using namespace std;

@@ -1,0 +1,341 @@
+Enter password: ****
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 8
+Server version: 8.0.32 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2023, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> show databases;
++----------------------+
+| Database             |
++----------------------+
+| bankapplication_jsp  |
+| bankmanagementsystem |
+| hibernate_project    |
+| iacsd_emp            |
+| information_schema   |
+| jspbankproject       |
+| mapping_relationship |
+| mysql                |
+| notetaker_hibernate  |
+| office_desk          |
+| performance_schema   |
+| practice_crud        |
+| revenue              |
+| sakila               |
+| smartcontactmanager  |
+| stored_proceduredb   |
+| student_git          |
+| sys                  |
+| thymeleaf_crud       |
+| thymeleaf_crud_new   |
+| world                |
++----------------------+
+21 rows in set (0.03 sec)
+
+mysql> use iacsd_emp;
+Database changed
+mysql> show tables;
++---------------------+
+| Tables_in_iacsd_emp |
++---------------------+
+| bonus               |
+| customers           |
+| dept                |
+| emp                 |
+| orders              |
+| salgrade            |
+| suppliers           |
++---------------------+
+7 rows in set (0.02 sec)
+
+mysql> select year(hiredate) as 'Hiring year'
+    -> from emp
+    -> group by (hiredate)
+    -> having count(hiredate)>10;
+Empty set (0.03 sec)
+
+mysql> select year(hiredate) as 'Hiring year'
+    -> from emp
+    -> group by (hiredate)
+    -> having count(hiredate)>4;
+Empty set (0.00 sec)
+
+mysql> select year(hiredate) as 'Hiring year'
+    -> from emp
+    -> group by year(hiredate)
+    -> having count(hiredate)>4;
++-------------+
+| Hiring year |
++-------------+
+|        1981 |
++-------------+
+1 row in set (0.00 sec)
+
+mysql> select year(hiredate) as 'Hiring year'
+    -> from emp
+    -> group by (hiredate)
+    -> having count(hiredate)>10;
+Empty set (0.00 sec)
+
+mysql> select year(hiredate) as 'Hiring year'
+    -> from emp
+    -> group by (hiredate)c
+    -> ^C
+mysql> select * emp;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'emp' at line 1
+mysql> select * from  emp;
++-------+--------+-----------+------+------------+---------+---------+--------+
+| EMPNO | ENAME  | JOB       | MGR  | HIREDATE   | SAL     | COMM    | DEPTNO |
++-------+--------+-----------+------+------------+---------+---------+--------+
+|  7369 | SMITH  | CLERK     | 7902 | 1980-12-17 |  800.00 |    NULL |     20 |
+|  7499 | ALLEN  | SALESMAN  | 7698 | 1981-02-20 | 1600.00 |  300.00 |     30 |
+|  7521 | WARD   | SALESMAN  | 7698 | 1981-02-22 | 1250.00 |  500.00 |     30 |
+|  7566 | JONES  | MANAGER   | 7839 | 1981-04-02 | 2975.00 |    NULL |     20 |
+|  7654 | MARTIN | SALESMAN  | 7698 | 1981-09-28 | 1250.00 | 1400.00 |     30 |
+|  7698 | BLAKE  | MANAGER   | 7839 | 1981-05-01 | 2850.00 |    NULL |     30 |
+|  7782 | CLARK  | MANAGER   | 7839 | 1981-06-09 | 2450.00 |    NULL |     10 |
+|  7788 | SCOTT  | ANALYST   | 7566 | 1982-12-09 | 3000.00 |    NULL |     20 |
+|  7839 | KING   | PRESIDENT | NULL | 1981-11-17 | 5000.00 |    NULL |     10 |
+|  7844 | TURNER | SALESMAN  | 7698 | 1981-09-08 | 1500.00 |    0.00 |     30 |
+|  7876 | ADAMS  | CLERK     | 7788 | 1983-01-12 | 1100.00 |    NULL |     20 |
+|  7900 | JAMES  | CLERK     | 7698 | 1981-12-03 |  950.00 |    NULL |     30 |
+|  7902 | FORD   | ANALYST   | 7566 | 1981-12-03 | 3000.00 |    NULL |     20 |
+|  7934 | MILLER | CLERK     | 7782 | 1982-01-23 | 1300.00 |    NULL |     10 |
++-------+--------+-----------+------+------------+---------+---------+--------+
+14 rows in set (0.00 sec)
+
+mysql> select year(hiredate) as 'Hiring year'
+    -> from emp
+    -> group by year(hiredate)
+    -> having count(hiredate)>=10;
++-------------+
+| Hiring year |
++-------------+
+|        1981 |
++-------------+
+1 row in set (0.00 sec)
+
+mysql> select ename from emp
+    -> where year(hiredate)=1987;
+Empty set (0.00 sec)
+
+mysql> select ename from emp
+    -> where year(hiredate)=1981;
++--------+
+| ename  |
++--------+
+| ALLEN  |
+| WARD   |
+| JONES  |
+| MARTIN |
+| BLAKE  |
+| CLARK  |
+| KING   |
+| TURNER |
+| JAMES  |
+| FORD   |
++--------+
+10 rows in set (0.00 sec)
+
+mysql> insert into emp values();
+ERROR 1364 (HY000): Field 'EMPNO' doesn't have a default value
+mysql> select * from  emp;
++-------+--------+-----------+------+------------+---------+---------+--------+
+| EMPNO | ENAME  | JOB       | MGR  | HIREDATE   | SAL     | COMM    | DEPTNO |
++-------+--------+-----------+------+------------+---------+---------+--------+
+|  7369 | SMITH  | CLERK     | 7902 | 1980-12-17 |  800.00 |    NULL |     20 |
+|  7499 | ALLEN  | SALESMAN  | 7698 | 1981-02-20 | 1600.00 |  300.00 |     30 |
+|  7521 | WARD   | SALESMAN  | 7698 | 1981-02-22 | 1250.00 |  500.00 |     30 |
+|  7566 | JONES  | MANAGER   | 7839 | 1981-04-02 | 2975.00 |    NULL |     20 |
+|  7654 | MARTIN | SALESMAN  | 7698 | 1981-09-28 | 1250.00 | 1400.00 |     30 |
+|  7698 | BLAKE  | MANAGER   | 7839 | 1981-05-01 | 2850.00 |    NULL |     30 |
+|  7782 | CLARK  | MANAGER   | 7839 | 1981-06-09 | 2450.00 |    NULL |     10 |
+|  7788 | SCOTT  | ANALYST   | 7566 | 1982-12-09 | 3000.00 |    NULL |     20 |
+|  7839 | KING   | PRESIDENT | NULL | 1981-11-17 | 5000.00 |    NULL |     10 |
+|  7844 | TURNER | SALESMAN  | 7698 | 1981-09-08 | 1500.00 |    0.00 |     30 |
+|  7876 | ADAMS  | CLERK     | 7788 | 1983-01-12 | 1100.00 |    NULL |     20 |
+|  7900 | JAMES  | CLERK     | 7698 | 1981-12-03 |  950.00 |    NULL |     30 |
+|  7902 | FORD   | ANALYST   | 7566 | 1981-12-03 | 3000.00 |    NULL |     20 |
+|  7934 | MILLER | CLERK     | 7782 | 1982-01-23 | 1300.00 |    NULL |     10 |
++-------+--------+-----------+------+------------+---------+---------+--------+
+14 rows in set (0.00 sec)
+
+mysql> insert into emp values(1999,'PRANAY','DEVELOPER',NULL,'2024-03-05',50000,6000,30);
+Query OK, 1 row affected (0.01 sec)
+
+mysql> select * from  emp;
++-------+--------+-----------+------+------------+----------+---------+--------+
+| EMPNO | ENAME  | JOB       | MGR  | HIREDATE   | SAL      | COMM    | DEPTNO |
++-------+--------+-----------+------+------------+----------+---------+--------+
+|  1999 | PRANAY | DEVELOPER | NULL | 2024-03-05 | 50000.00 | 6000.00 |     30 |
+|  7369 | SMITH  | CLERK     | 7902 | 1980-12-17 |   800.00 |    NULL |     20 |
+|  7499 | ALLEN  | SALESMAN  | 7698 | 1981-02-20 |  1600.00 |  300.00 |     30 |
+|  7521 | WARD   | SALESMAN  | 7698 | 1981-02-22 |  1250.00 |  500.00 |     30 |
+|  7566 | JONES  | MANAGER   | 7839 | 1981-04-02 |  2975.00 |    NULL |     20 |
+|  7654 | MARTIN | SALESMAN  | 7698 | 1981-09-28 |  1250.00 | 1400.00 |     30 |
+|  7698 | BLAKE  | MANAGER   | 7839 | 1981-05-01 |  2850.00 |    NULL |     30 |
+|  7782 | CLARK  | MANAGER   | 7839 | 1981-06-09 |  2450.00 |    NULL |     10 |
+|  7788 | SCOTT  | ANALYST   | 7566 | 1982-12-09 |  3000.00 |    NULL |     20 |
+|  7839 | KING   | PRESIDENT | NULL | 1981-11-17 |  5000.00 |    NULL |     10 |
+|  7844 | TURNER | SALESMAN  | 7698 | 1981-09-08 |  1500.00 |    0.00 |     30 |
+|  7876 | ADAMS  | CLERK     | 7788 | 1983-01-12 |  1100.00 |    NULL |     20 |
+|  7900 | JAMES  | CLERK     | 7698 | 1981-12-03 |   950.00 |    NULL |     30 |
+|  7902 | FORD   | ANALYST   | 7566 | 1981-12-03 |  3000.00 |    NULL |     20 |
+|  7934 | MILLER | CLERK     | 7782 | 1982-01-23 |  1300.00 |    NULL |     10 |
++-------+--------+-----------+------+------------+----------+---------+--------+
+15 rows in set (0.00 sec)
+
+mysql> select * from emp
+    -> where floor(datediff(curdate(),hiredate)/365)>5;
++-------+--------+-----------+------+------------+---------+---------+--------+
+| EMPNO | ENAME  | JOB       | MGR  | HIREDATE   | SAL     | COMM    | DEPTNO |
++-------+--------+-----------+------+------------+---------+---------+--------+
+|  7369 | SMITH  | CLERK     | 7902 | 1980-12-17 |  800.00 |    NULL |     20 |
+|  7499 | ALLEN  | SALESMAN  | 7698 | 1981-02-20 | 1600.00 |  300.00 |     30 |
+|  7521 | WARD   | SALESMAN  | 7698 | 1981-02-22 | 1250.00 |  500.00 |     30 |
+|  7566 | JONES  | MANAGER   | 7839 | 1981-04-02 | 2975.00 |    NULL |     20 |
+|  7654 | MARTIN | SALESMAN  | 7698 | 1981-09-28 | 1250.00 | 1400.00 |     30 |
+|  7698 | BLAKE  | MANAGER   | 7839 | 1981-05-01 | 2850.00 |    NULL |     30 |
+|  7782 | CLARK  | MANAGER   | 7839 | 1981-06-09 | 2450.00 |    NULL |     10 |
+|  7788 | SCOTT  | ANALYST   | 7566 | 1982-12-09 | 3000.00 |    NULL |     20 |
+|  7839 | KING   | PRESIDENT | NULL | 1981-11-17 | 5000.00 |    NULL |     10 |
+|  7844 | TURNER | SALESMAN  | 7698 | 1981-09-08 | 1500.00 |    0.00 |     30 |
+|  7876 | ADAMS  | CLERK     | 7788 | 1983-01-12 | 1100.00 |    NULL |     20 |
+|  7900 | JAMES  | CLERK     | 7698 | 1981-12-03 |  950.00 |    NULL |     30 |
+|  7902 | FORD   | ANALYST   | 7566 | 1981-12-03 | 3000.00 |    NULL |     20 |
+|  7934 | MILLER | CLERK     | 7782 | 1982-01-23 | 1300.00 |    NULL |     10 |
++-------+--------+-----------+------+------------+---------+---------+--------+
+14 rows in set (0.01 sec)
+
+mysql> select empid,ename,date_add(hiredate,interval 1 month) as 'Salary Date' from emp;
+ERROR 1054 (42S22): Unknown column 'empid' in 'field list'
+mysql> select empno,ename,date_add(hiredate,interval 1 month) as 'Salary Date' from emp;
++-------+--------+-------------+
+| empno | ename  | Salary Date |
++-------+--------+-------------+
+|  1999 | PRANAY | 2024-04-05  |
+|  7369 | SMITH  | 1981-01-17  |
+|  7499 | ALLEN  | 1981-03-20  |
+|  7521 | WARD   | 1981-03-22  |
+|  7566 | JONES  | 1981-05-02  |
+|  7654 | MARTIN | 1981-10-28  |
+|  7698 | BLAKE  | 1981-06-01  |
+|  7782 | CLARK  | 1981-07-09  |
+|  7788 | SCOTT  | 1983-01-09  |
+|  7839 | KING   | 1981-12-17  |
+|  7844 | TURNER | 1981-10-08  |
+|  7876 | ADAMS  | 1983-02-12  |
+|  7900 | JAMES  | 1982-01-03  |
+|  7902 | FORD   | 1982-01-03  |
+|  7934 | MILLER | 1982-02-23  |
++-------+--------+-------------+
+15 rows in set (0.00 sec)
+
+mysql> select ename, hiredate,floor(datediff(now(),hiredate)/365) as 'Experience' from emp;
++--------+------------+------------+
+| ename  | hiredate   | Experience |
++--------+------------+------------+
+| PRANAY | 2024-03-05 |          0 |
+| SMITH  | 1980-12-17 |         43 |
+| ALLEN  | 1981-02-20 |         43 |
+| WARD   | 1981-02-22 |         43 |
+| JONES  | 1981-04-02 |         43 |
+| MARTIN | 1981-09-28 |         42 |
+| BLAKE  | 1981-05-01 |         42 |
+| CLARK  | 1981-06-09 |         42 |
+| SCOTT  | 1982-12-09 |         41 |
+| KING   | 1981-11-17 |         42 |
+| TURNER | 1981-09-08 |         42 |
+| ADAMS  | 1983-01-12 |         41 |
+| JAMES  | 1981-12-03 |         42 |
+| FORD   | 1981-12-03 |         42 |
+| MILLER | 1982-01-23 |         42 |
++--------+------------+------------+
+15 rows in set (0.00 sec)
+
+mysql> select deptno, year(hiredate),count(*)
+    -> from emp
+    -> group by deptno,year(hiredate);
++--------+----------------+----------+
+| deptno | year(hiredate) | count(*) |
++--------+----------------+----------+
+|     30 |           2024 |        1 |
+|     20 |           1980 |        1 |
+|     30 |           1981 |        6 |
+|     20 |           1981 |        2 |
+|     10 |           1981 |        2 |
+|     20 |           1982 |        1 |
+|     20 |           1983 |        1 |
+|     10 |           1982 |        1 |
++--------+----------------+----------+
+8 rows in set (0.00 sec)
+
+mysql> select deptno, year(hiredate),count(*)
+    -> from emp
+    -> group by deptno,year(hiredate)
+    -> order by deptno;
++--------+----------------+----------+
+| deptno | year(hiredate) | count(*) |
++--------+----------------+----------+
+|     10 |           1981 |        2 |
+|     10 |           1982 |        1 |
+|     20 |           1980 |        1 |
+|     20 |           1981 |        2 |
+|     20 |           1982 |        1 |
+|     20 |           1983 |        1 |
+|     30 |           1981 |        6 |
+|     30 |           2024 |        1 |
++--------+----------------+----------+
+8 rows in set (0.00 sec)
+
+mysql> group by deptno,year(hiredate) as 'hiring year'
+    -> from emp
+    -> group by deptno,year(hiredate)
+    -> order by deptno;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group by deptno,year(hiredate) as 'hiring year'
+from emp
+group by deptno,year(hi' at line 1
+mysql> select deptno, year(hiredate) as 'Joining Year',count(*)
+    -> from emp
+    -> group by deptno,year(hiredate)
+    -> order by deptno;
++--------+--------------+----------+
+| deptno | Joining Year | count(*) |
++--------+--------------+----------+
+|     10 |         1981 |        2 |
+|     10 |         1982 |        1 |
+|     20 |         1980 |        1 |
+|     20 |         1981 |        2 |
+|     20 |         1982 |        1 |
+|     20 |         1983 |        1 |
+|     30 |         1981 |        6 |
+|     30 |         2024 |        1 |
++--------+--------------+----------+
+8 rows in set (0.00 sec)
+
+mysql> select deptno, year(hiredate) as 'Joining Year',count(*) as 'Total Employee'
+    -> from emp
+    -> group by deptno,year(hiredate)
+    -> order by deptno;
++--------+--------------+----------------+
+| deptno | Joining Year | Total Employee |
++--------+--------------+----------------+
+|     10 |         1981 |              2 |
+|     10 |         1982 |              1 |
+|     20 |         1980 |              1 |
+|     20 |         1981 |              2 |
+|     20 |         1982 |              1 |
+|     20 |         1983 |              1 |
+|     30 |         1981 |              6 |
+|     30 |         2024 |              1 |
++--------+--------------+----------------+
+8 rows in set (0.00 sec)
+
+mysql>

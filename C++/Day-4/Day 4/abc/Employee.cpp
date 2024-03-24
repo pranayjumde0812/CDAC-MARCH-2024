@@ -72,22 +72,22 @@ class Worker: public Employee{
 
    int main(){
     
-       Employee ep(101,"Anchal",100000) ;
+       Employee ep(101,"Rahul",100000) ;
        ep.display();
         ep.computeNetSalary();
 
         cout<<"----------------------------------------------------"<<endl;
 
-        Manager mg(101 , "Prerna"  , 100000,122,20000);
+        Manager mg(101 , "Mahesh"  , 100000,122,20000);
         mg.display();
         mg.computeNetSalary();
         double s = mg.computeNetSalary();
         cout<<"Net Salary :"<<s<<endl;
-cout<<"----------------------------------------------------"<<endl;
+		cout<<"----------------------------------------------------"<<endl;
 
 
 
-    Worker w(102 , "Pranay"  , 200000, 2, 5);
+    Worker w(102 , "Pratik"  , 200000, 2, 5);
         w.display();
         double k = w.computeNetSalary();
         
@@ -103,12 +103,7 @@ int i ;
    Tata[0]=&mg;
    Tata[1]=&w;
   
-  
-
-
-
-
-
+  	
  return 0 ;
 
 

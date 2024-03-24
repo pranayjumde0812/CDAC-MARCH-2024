@@ -60,9 +60,6 @@ int main()
     date.setMm(12);
     date.setYy(1988);
 
-    cout << "Name = " << person.getName() << ", Age = " << person.getAge() << ", City = " << person.getCity() << endl;
+    cout << "Day = " << date.getDd() << ", Month = " << date.getMm() << ", Year = " << date.getYy() << endl;
 
-    cout << "Using Paramter construcor" << endl;
-    Person person1("Anuj", 25, "Nagpur");
-    cout << "Name = " << person1.getName() << ", Age = " << person1.getAge() << ", City = " << person1.getCity() << endl;
 }

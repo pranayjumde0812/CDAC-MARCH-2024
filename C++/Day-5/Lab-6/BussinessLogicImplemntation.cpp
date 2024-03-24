@@ -2,16 +2,8 @@
 #include<string>
 #include "Employee.h"
 
-//#ifndef EMPLOYEE_H
-//#define EMPLOYEE_H
-
-// Content of Employee.h goes here
-
-//#endif // EMPLOYEE_H
-
 using namespace std;
 
-//implemetaion of all methods from Employee.h
 
 Employee :: Employee(){
 	cout<<"....Default Constructor of Employee.....\n";

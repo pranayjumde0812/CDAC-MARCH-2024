@@ -1,3 +1,5 @@
+// Addition of two arrays
+
 #include<iostream>
 using namespace std;
 
