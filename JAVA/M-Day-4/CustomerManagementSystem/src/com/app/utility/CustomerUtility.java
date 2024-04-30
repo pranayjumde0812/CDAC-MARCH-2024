@@ -53,4 +53,13 @@ public class CustomerUtility {
         customer.setSubscribed(false);
         return "Customer Unsubscribed";
     }
+
+    public static void updatePassword(Customer customer, String oldPassword, String newPassword) throws Exception {
+        if (customer.getPassword().equals(oldPassword)) {
+            customer.setPassword(newPassword);
+            System.out.println("Password Updated Successfully");
+        } else {
+            throw new Exception("Old Password is wrong !!!!!");
+        }
+    }
 }

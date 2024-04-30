@@ -31,6 +31,11 @@ public class Main {
 
                             break;
                         case 3:
+                            System.out.println("Enter your registered Email");
+                            Customer cust1 = checkRegisteredCustomer(customers, sc.next());
+                            System.out.println("Enter Old Password then Enter new Password");
+                            updatePassword(cust1, sc.next(), sc.next());
+
                             break;
                         case 4:
                             System.out.println("Enter customer email to unsubscribe");
@@ -41,7 +46,8 @@ public class Main {
                         case 5:
                             for (Customer customer : customers) {
                                 if (customer != null) {
-                                    System.out.println(customer.getFirstName() + " " + customer.getLastName() + " " + customer.getDateOfBirth());
+//                                    System.out.println(customer.getFirstName() + " " + customer.getLastName() + " " + customer.getPassword());
+                                    System.out.println(customer);
                                 }
                             }
                             break;
