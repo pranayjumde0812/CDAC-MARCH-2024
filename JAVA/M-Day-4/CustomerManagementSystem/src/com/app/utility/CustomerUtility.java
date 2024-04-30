@@ -62,4 +62,13 @@ public class CustomerUtility {
             throw new Exception("Old Password is wrong !!!!!");
         }
     }
+
+    public static void displayAllCustomersDetails(ArrayList<Customer> customers) {
+        for (Customer customer : customers) {
+            if (customer != null) {
+//                System.out.println(customer.getFirstName() + " " + customer.getLastName() + " " + customer.getPassword());
+                System.out.println(customer);
+            }
+        }
+    }
 }

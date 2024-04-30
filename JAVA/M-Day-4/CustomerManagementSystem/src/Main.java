@@ -44,12 +44,7 @@ public class Main {
                             System.out.println(str);
                             break;
                         case 5:
-                            for (Customer customer : customers) {
-                                if (customer != null) {
-//                                    System.out.println(customer.getFirstName() + " " + customer.getLastName() + " " + customer.getPassword());
-                                    System.out.println(customer);
-                                }
-                            }
+                            displayAllCustomersDetails(customers);
                             break;
                         case 0:
                             System.out.println("Exiting.....");
