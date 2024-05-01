@@ -1,15 +1,21 @@
-package com.app.utility;
+package com.app.utils;
 
 import com.app.cms.Customer;
-import com.app.enums.ServicePlan;
+import com.app.custom_exception.DuplicateCustomerException;
+import com.app.custom_exception.NotEmailFormatException;
+import com.app.custom_exception.ServicePlanDetailsMisMatchedException;
+import com.app.custom_exception.ServicePlanNotFoundException;
 
-import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
+
+import static com.app.validations.CustomerValidation.validAllInputs;
 
 public class CustomerUtility {
 
-    public static Customer acceptCustomerDetails() throws IllegalArgumentException {
+    public static List<Customer> acceptCustomerDetails(List<Customer> list) throws IllegalArgumentException, DuplicateCustomerException, ServicePlanDetailsMisMatchedException, ServicePlanNotFoundException, NotEmailFormatException {
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter First name : ");
         String firstName = scanner.next();
@@ -26,27 +32,31 @@ public class CustomerUtility {
         System.out.println("Enter Registration amount : ");
         double registrationAmount = scanner.nextDouble();
 
-        return new Customer(firstName, lastName, email, pass, registrationAmount, LocalDate.parse(dob), ServicePlan.valueOf(servicePlan.toUpperCase()));
+        Customer customer = validAllInputs(firstName, lastName, email, pass, registrationAmount, dob, servicePlan, list);
+        list.add(customer);
+        return list;
     }
 
-    public static Customer checkRegisteredCustomer(ArrayList<Customer> list, String email) throws Exception {
+    public static Customer checkRegisteredCustomer(List<Customer> list, String email) throws Exception {
 
-        for (Customer customer : list) {
-            if (customer != null && email.equals(customer.getEmail())) {
-                return customer;
-            }
+//        for (Customer customer : list) {
+//            if (customer != null && email.equals(customer.getEmail())) {
+//                return customer;
+//            }
+//        }
+
+        Customer customer = new Customer(email);
+        if (list.contains(customer)) {
+            return list.get(list.indexOf(customer));
         }
         throw new Exception("Email not registered");
     }
 
-    public static String loginTOAccount(Customer customer, String password) throws Exception {
-        String string = "";
+    public static Customer loginTOAccount(Customer customer, String password) throws Exception {
         if (customer.getPassword().equals(password)) {
-            string += "Login Successfully";
-        } else {
-            throw new Exception("Invalid Credentials");
+            return customer;
         }
-        return string;
+        throw new Exception("Invalid Credentials");
     }
 
     public static String customerUnsubscribe(Customer customer) {

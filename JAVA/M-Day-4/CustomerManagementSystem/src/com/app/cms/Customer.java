@@ -27,8 +27,7 @@ public class Customer {
         this.isSubscribed = true;
     }
 
-    public Customer(String firstName, String lastName, String email, String password,
-                    double registrationAmount, LocalDate dateOfBirth, ServicePlan servicePlan) {
+    public Customer(String firstName, String lastName, String email, String password, double registrationAmount, LocalDate dateOfBirth, ServicePlan servicePlan) {
         this.uuid = ++objCount;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -38,6 +37,10 @@ public class Customer {
         this.dateOfBirth = dateOfBirth;
         this.servicePlan = servicePlan;
         this.isSubscribed = true;
+    }
+
+    public Customer(String email) {
+        this.email = email;
     }
 
     public String getLastName() {
@@ -110,13 +113,16 @@ public class Customer {
 
     @Override
     public String toString() {
-        return "uuid=" + uuid +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", email='" + email + '\'' +
-                ", password='" + password + '\'' +
-                ", registrationAmount=" + registrationAmount +
-                ", dateOfBirth=" + dateOfBirth +
-                ", servicePlan='" + servicePlan;
+        return "uuid=" + uuid + ", firstName='" + firstName + '\'' + ", lastName='" + lastName + '\'' + ", email='" + email + '\'' + ", password='" + password + '\'' + ", registrationAmount=" + registrationAmount + ", dateOfBirth=" + dateOfBirth + ", servicePlan='" + servicePlan;
+    }
+
+
+    @Override
+    public boolean equals(Object object) {
+        if (object instanceof Customer) {
+            Customer customer = (Customer) object;
+            return this.email.equals(customer.getEmail());
+        }
+        return false;
     }
 }
