@@ -1,20 +1,16 @@
 package com.app.utils;
 
 import com.app.cms.Customer;
-import com.app.custom_exception.DuplicateCustomerException;
-import com.app.custom_exception.NotEmailFormatException;
-import com.app.custom_exception.ServicePlanDetailsMisMatchedException;
-import com.app.custom_exception.ServicePlanNotFoundException;
+import com.app.custom_exception.*;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import static com.app.validations.CustomerValidation.validAllInputs;
+import static com.app.validations.CustomerValidation.*;
 
 public class CustomerUtility {
 
-    public static List<Customer> acceptCustomerDetails(List<Customer> list) throws IllegalArgumentException, DuplicateCustomerException, ServicePlanDetailsMisMatchedException, ServicePlanNotFoundException, NotEmailFormatException {
+    public static List<Customer> acceptCustomerDetails(List<Customer> list) throws IllegalArgumentException, DuplicateCustomerException, ServicePlanDetailsMisMatchedException, ServicePlanNotFoundException, NotEmailFormatException, NotAlphanumericPasswordException {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter First name : ");
@@ -34,10 +30,11 @@ public class CustomerUtility {
 
         Customer customer = validAllInputs(firstName, lastName, email, pass, registrationAmount, dob, servicePlan, list);
         list.add(customer);
+//        scanner.close();
         return list;
     }
 
-    public static Customer checkRegisteredCustomer(List<Customer> list, String email) throws Exception {
+    public static Customer checkRegisteredCustomer(List<Customer> list, String email) throws InvalidCredentialsException {
 
 //        for (Customer customer : list) {
 //            if (customer != null && email.equals(customer.getEmail())) {
@@ -49,36 +46,36 @@ public class CustomerUtility {
         if (list.contains(customer)) {
             return list.get(list.indexOf(customer));
         }
-        throw new Exception("Email not registered");
+        throw new InvalidCredentialsException("Email not registered");
     }
 
-    public static Customer loginTOAccount(Customer customer, String password) throws Exception {
+    public static Customer loginTOAccount(List<Customer> list, String email, String password) throws InvalidCredentialsException {
+        Customer customer = checkRegisteredCustomer(list, email);
         if (customer.getPassword().equals(password)) {
             return customer;
         }
-        throw new Exception("Invalid Credentials");
+        throw new InvalidCredentialsException("Invalid Credentials");
     }
 
-    public static String customerUnsubscribe(Customer customer) {
-        customer.setSubscribed(false);
-        return "Customer Unsubscribed";
+    public static String customerUnsubscribe(List<Customer> list, String email) throws InvalidCredentialsException {
+        Customer customer = checkRegisteredCustomer(list, email);
+        list.remove(list.indexOf(customer));
+        return "Customer Un-subscribed";
     }
 
-    public static void updatePassword(Customer customer, String oldPassword, String newPassword) throws Exception {
+    public static void updatePassword(List<Customer> list, String email, String oldPassword, String newPassword) throws InvalidCredentialsException, NotAlphanumericPasswordException {
+        Customer customer = checkRegisteredCustomer(list, email);
         if (customer.getPassword().equals(oldPassword)) {
+            newPassword = validatePassword(newPassword);
             customer.setPassword(newPassword);
             System.out.println("Password Updated Successfully");
-        } else {
-            throw new Exception("Old Password is wrong !!!!!");
-        }
+        } else
+            throw new InvalidCredentialsException("Invalid Credentials");
     }
 
-    public static void displayAllCustomersDetails(ArrayList<Customer> customers) {
+    public static void displayAllCustomersDetails(List<Customer> customers) {
         for (Customer customer : customers) {
-            if (customer != null) {
-//                System.out.println(customer.getFirstName() + " " + customer.getLastName() + " " + customer.getPassword());
-                System.out.println(customer);
-            }
+            System.out.println(customer);
         }
     }
 }

@@ -25,29 +25,22 @@ public class Main {
                             System.out.println("Customer register successfully");
                             break;
                         case 2:
-                            System.out.println("Enter your Email");
-                            Customer cust = checkRegisteredCustomer(customers, sc.next());
-                            System.out.println("Enter your Password");
-                            cust = loginTOAccount(cust, sc.next());
-                            System.out.println(cust);
-
+                            System.out.println("Enter your Email & Password");
+                            Customer customer = loginTOAccount(customers, sc.next(), sc.next());
+                            System.out.println(customer);
                             break;
                         case 3:
-                            System.out.println("Enter your registered Email");
-                            Customer cust1 = checkRegisteredCustomer(customers, sc.next());
-                            System.out.println("Enter Old Password then Enter new Password");
-                            updatePassword(cust1, sc.next(), sc.next());
-
+                            System.out.println("Enter your registered Email, Old Password then Enter new Password");
+                            updatePassword(customers, sc.next(), sc.next(), sc.next());
                             break;
-//                        case 4:
-//                            System.out.println("Enter customer email to unsubscribe");
-//                            Customer c = checkRegisteredCustomer(customers, sc.next());
-//                            String str = customerUnsubscribe(c);
-//                            System.out.println(str);
-//                            break;
-//                        case 5:
-//                            displayAllCustomersDetails(customers);
-//                            break;
+                        case 4:
+                            System.out.println("Enter customer email to unsubscribe");
+                            String str = customerUnsubscribe(customers, sc.next());
+                            System.out.println(str);
+                            break;
+                        case 5:
+                            displayAllCustomersDetails(customers);
+                            break;
                         case 0:
                             System.out.println("Exiting.....");
                             break;

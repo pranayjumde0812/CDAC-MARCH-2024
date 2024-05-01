@@ -1,10 +1,7 @@
 package com.app.validations;
 
 import com.app.cms.Customer;
-import com.app.custom_exception.DuplicateCustomerException;
-import com.app.custom_exception.NotEmailFormatException;
-import com.app.custom_exception.ServicePlanDetailsMisMatchedException;
-import com.app.custom_exception.ServicePlanNotFoundException;
+import com.app.custom_exception.*;
 import com.app.enums.ServicePlan;
 
 import java.time.LocalDate;
@@ -14,7 +11,7 @@ import java.util.regex.Pattern;
 public class CustomerValidation {
 
     public static Customer validAllInputs(String firstName, String lastName, String email, String pass,
-                                          double registrationAmount, String dateOfBirth, String servicePlan, List<Customer> list) throws DuplicateCustomerException, ServicePlanDetailsMisMatchedException, ServicePlanNotFoundException, NotEmailFormatException {
+                                          double registrationAmount, String dateOfBirth, String servicePlan, List<Customer> list) throws DuplicateCustomerException, ServicePlanDetailsMisMatchedException, ServicePlanNotFoundException, NotEmailFormatException, NotAlphanumericPasswordException {
 
         String validatedEmail = validateDuplicateEmailAndCheckPattern(list, email);
         LocalDate dob = LocalDate.parse(dateOfBirth);
@@ -64,7 +61,7 @@ public class CustomerValidation {
         throw new ServicePlanNotFoundException("Service plan does not exist...Please check again.");
     }
 
-    public static String validatePassword(String password) {
+    public static String validatePassword(String password) throws NotAlphanumericPasswordException {
         return password;
     }
 }
