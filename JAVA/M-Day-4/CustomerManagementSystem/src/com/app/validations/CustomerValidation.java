@@ -34,13 +34,13 @@ public class CustomerValidation {
         String emailRegex = "^[A-Za-z0-9+_.-]+@(?:[A-Za-z0-9-]+\\.)+(com|org|net)$";
 
         // Create a pattern from the regex
-        Pattern pattern = Pattern.compile(emailRegex);
+//        Pattern pattern = Pattern.compile(emailRegex);
 
         // Match the given string with the pattern
-        boolean matches = pattern.matcher(email).matches();
+//        boolean matches = pattern.matcher(email).matches();
 
         // Return validation result
-        if (matches) {
+        if (email.matches(emailRegex)) {
             return customer.getEmail();
         } else {
             throw new NotEmailFormatException("Invalid email. It should contain .com, .org, or .net and include '@'.");

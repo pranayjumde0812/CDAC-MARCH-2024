@@ -50,27 +50,48 @@ public class CustomerUtility {
     }
 
     public static Customer loginTOAccount(List<Customer> list, String email, String password) throws InvalidCredentialsException {
-        Customer customer = checkRegisteredCustomer(list, email);
-        if (customer.getPassword().equals(password)) {
-            return customer;
+//        Customer customer = checkRegisteredCustomer(list, email);
+//        if (customer.getPassword().equals(password)) {
+//            return customer;
+//        }                                                  // this logic will increase time complexity
+//        throw new InvalidCredentialsException("Invalid Credentials");
+
+        // this is fast performance logic
+        Customer newCustomer = new Customer(email);
+        int index = list.indexOf(newCustomer); // TC: O(n)
+        if (index == -1) {
+            throw new InvalidCredentialsException("Email not registered");
+        } else {
+            Customer validCustomer = list.get(index); // TC: O(1)
+            if (validCustomer.getPassword().equals(password)) {
+                return validCustomer;
+            } else throw new InvalidCredentialsException("Invalid Credentials");
         }
-        throw new InvalidCredentialsException("Invalid Credentials");
+
     }
 
     public static String customerUnsubscribe(List<Customer> list, String email) throws InvalidCredentialsException {
-        Customer customer = checkRegisteredCustomer(list, email);
-        list.remove(list.indexOf(customer));
-        return "Customer Un-subscribed";
+//        Customer customer = checkRegisteredCustomer(list, email);
+//        list.remove(list.indexOf(customer));
+        Customer foundCustomer;
+        Customer customer = new Customer(email);
+        int index = list.indexOf(customer); // TC: O(n)
+        if (index == -1) {
+            throw new InvalidCredentialsException("Not a registered customer");
+        } else {
+            foundCustomer = list.get(index); // TC: O(1)
+            list.remove(foundCustomer);
+        }
+        return "Customer " + foundCustomer.getFirstName() + " is unsubscribed";
     }
 
     public static void updatePassword(List<Customer> list, String email, String oldPassword, String newPassword) throws InvalidCredentialsException, NotAlphanumericPasswordException {
-        Customer customer = checkRegisteredCustomer(list, email);
+        Customer customer = loginTOAccount(list, email, oldPassword);
         if (customer.getPassword().equals(oldPassword)) {
             newPassword = validatePassword(newPassword);
             customer.setPassword(newPassword);
             System.out.println("Password Updated Successfully");
-        } else
-            throw new InvalidCredentialsException("Invalid Credentials");
+        } else throw new InvalidCredentialsException("Invalid Credentials");
     }
 
     public static void displayAllCustomersDetails(List<Customer> customers) {
