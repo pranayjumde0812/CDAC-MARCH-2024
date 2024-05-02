@@ -4,7 +4,7 @@ import com.app.enums.ServicePlan;
 
 import java.time.LocalDate;
 
-public class Customer {
+public class Customer implements Comparable<Customer> {
 
     private int uuid;
     private String firstName;
@@ -124,5 +124,10 @@ public class Customer {
             return this.email.equals(customer.getEmail());
         }
         return false;
+    }
+
+    @Override
+    public int compareTo(Customer customer) {
+        return this.email.compareTo(customer.getEmail());
     }
 }

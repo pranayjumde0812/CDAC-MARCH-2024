@@ -2,7 +2,11 @@ package com.app.utils;
 
 import com.app.cms.Customer;
 import com.app.custom_exception.*;
+import com.app.enums.ServicePlan;
 
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
@@ -30,7 +34,7 @@ public class CustomerUtility {
 
         Customer customer = validAllInputs(firstName, lastName, email, pass, registrationAmount, dob, servicePlan, list);
         list.add(customer);
-//        scanner.close();
+
         return list;
     }
 
@@ -98,5 +102,23 @@ public class CustomerUtility {
         for (Customer customer : customers) {
             System.out.println(customer);
         }
+    }
+
+
+    public static List<Customer> populatedData() {
+        Customer c1 = new Customer("Pranay", "Jumde", "p@gmail.com", "123",
+                2000, LocalDate.parse("1999-08-08"), ServicePlan.valueOf("GOLD"));
+        Customer c2 = new Customer("Ayush", "Gupta", "a@gmail.com", "123",
+                2000, LocalDate.parse("1999-08-08"), ServicePlan.valueOf("GOLD"));
+        Customer c3 = new Customer("Karshin", "Sinha", "k@gmail.com", "123",
+                2000, LocalDate.parse("2001-11-12"), ServicePlan.valueOf("GOLD"));
+        Customer c4 = new Customer("Sai", "Kakde", "s@gmail.com", "123",
+                2000, LocalDate.parse("2001-11-12"), ServicePlan.valueOf("GOLD"));
+        Customer c5 = new Customer("Prajwal", "Wandhare", "pw@gmail.com", "123",
+                2000, LocalDate.parse("2000-02-02"), ServicePlan.valueOf("GOLD"));
+
+        List<Customer> customerList = Arrays.asList(c1, c2, c3, c4, c5);
+
+        return customerList;
     }
 }

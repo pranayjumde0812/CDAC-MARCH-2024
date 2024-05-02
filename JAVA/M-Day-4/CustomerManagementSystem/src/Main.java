@@ -1,8 +1,7 @@
 import com.app.cms.Customer;
+import com.app.utils.CustomerSortDobAndLastnameComparator;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 import static com.app.utils.CustomerUtility.*;
 
@@ -16,13 +15,16 @@ public class Main {
             do {
                 System.out.println("Enter the choice");
                 System.out.println("1.Sign-Up | 2.Sign-In(Login) | 3. Change Password");
-                System.out.println("4.Un-subscribe | 5.Display all customers | 0. Exit");
+                System.out.println("4.Un-subscribe | 5.Display all customers | 6. Sort customers on email");
+                System.out.println("7.Sort customer on DOB and lastname | 8.Remove customer born after given date");
+                System.out.println("0. Exit");
                 choice = sc.nextInt();
                 try {
                     switch (choice) {
                         case 1:
-                            customers = acceptCustomerDetails(customers);
-                            System.out.println("Customer register successfully");
+//                            customers = acceptCustomerDetails(customers);
+//                            System.out.println("Customer register successfully");
+                            customers = populatedData();
                             break;
                         case 2:
                             System.out.println("Enter your Email & Password");
@@ -40,6 +42,17 @@ public class Main {
                             break;
                         case 5:
                             displayAllCustomersDetails(customers);
+                            break;
+                        case 6:
+                            Collections.sort(customers);
+                            System.out.println("Customer sorted according to email");
+                            break;
+                        case 7:
+                            Collections.sort(customers, new CustomerSortDobAndLastnameComparator());
+                            System.out.println("Customer sorted according to to DOB and Lastname");
+                            break;
+                        case 8:
+
                             break;
                         case 0:
                             System.out.println("Exiting.....");
