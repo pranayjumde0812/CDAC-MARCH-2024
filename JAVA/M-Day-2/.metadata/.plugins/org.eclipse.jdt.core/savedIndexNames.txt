@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+E:\CDAC\CDAC-Work-Repo\CDAC-MARCH-2024\JAVA\M-Day-2\.metadata\.plugins\org.eclipse.jdt.core
+1778418218.index
+1865797976.index
+456454925.index

@@ -1,0 +1,16 @@
+eclipse.preferences.version=1
+org.eclipse.jdt.core.classpathVariable.ASPECTJRT_LIB=C\:/Programs/sts-bundle/sts-3.9.18.RELEASE/plugins/org.aspectj.runtime_1.9.6.202103162301.jar
+org.eclipse.jdt.core.classpathVariable.ECLIPSE_HOME=C\:/Programs/sts-bundle/sts-3.9.18.RELEASE/
+org.eclipse.jdt.core.classpathVariable.JRE_LIB=C\:/Programs/jdk-11.0.17/lib/jrt-fs.jar
+org.eclipse.jdt.core.classpathVariable.JRE_SRC=C\:/Programs/jdk-11.0.17/lib/src.zip
+org.eclipse.jdt.core.classpathVariable.JRE_SRCROOT=
+org.eclipse.jdt.core.classpathVariable.JUNIT_HOME=C\:/Programs/sts-bundle/sts-3.9.18.RELEASE/plugins/org.junit_4.13.0.v20200204-1500.jar
+org.eclipse.jdt.core.classpathVariable.M2_REPO=C\:/Users/admin/.m2/repository
+org.eclipse.jdt.core.codeComplete.visibilityCheck=enabled
+org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
+org.eclipse.jdt.core.compiler.codegen.targetPlatform=11
+org.eclipse.jdt.core.compiler.compliance=11
+org.eclipse.jdt.core.compiler.problem.assertIdentifier=error
+org.eclipse.jdt.core.compiler.problem.enumIdentifier=error
+org.eclipse.jdt.core.compiler.release=enabled
+org.eclipse.jdt.core.compiler.source=11
