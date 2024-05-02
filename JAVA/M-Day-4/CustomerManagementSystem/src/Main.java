@@ -22,7 +22,7 @@ public class Main {
                 try {
                     switch (choice) {
                         case 1:
-//                            customers = acceptCustomerDetails(customers);
+//                            acceptCustomerDetails(customers);
 //                            System.out.println("Customer register successfully");
                             customers = populatedData();
                             break;

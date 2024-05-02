@@ -61,6 +61,11 @@ public class CustomerValidation {
     }
 
     public static String validatePassword(String password) throws NotAlphanumericPasswordException {
-        return password;
+
+        String passwordRegx = "((?=.*\\d)(?=.*[a-z])(?=.*[#@$*]).{5,20})";
+        if (password.matches(passwordRegx)) {
+            return password;
+        }
+        throw new NotAlphanumericPasswordException("Invalid Password type... It Must be alphanumeric type");
     }
 }
