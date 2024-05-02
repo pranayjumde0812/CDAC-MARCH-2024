@@ -6,7 +6,6 @@ import com.app.enums.ServicePlan;
 
 import java.time.LocalDate;
 import java.util.List;
-import java.util.regex.Pattern;
 
 public class CustomerValidation {
 

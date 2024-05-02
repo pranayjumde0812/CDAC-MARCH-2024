@@ -5,10 +5,7 @@ import com.app.custom_exception.*;
 import com.app.enums.ServicePlan;
 
 import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 import static com.app.validations.CustomerValidation.*;
 
@@ -101,6 +98,18 @@ public class CustomerUtility {
     public static void displayAllCustomersDetails(List<Customer> customers) {
         for (Customer customer : customers) {
             System.out.println(customer);
+        }
+    }
+
+    public static void removeCustomerAfterGivenDob(List<Customer> customerList, String date) {
+        LocalDate givenDate = LocalDate.parse(date);
+
+        Iterator<Customer> iterator = customerList.iterator();
+        while (iterator.hasNext()) {
+            Customer customer = iterator.next();
+            if (customer.getDateOfBirth().isAfter(givenDate)) {
+                iterator.remove();
+            }
         }
     }
 

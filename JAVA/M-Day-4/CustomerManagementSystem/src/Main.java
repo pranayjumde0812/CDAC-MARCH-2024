@@ -52,7 +52,8 @@ public class Main {
                             System.out.println("Customer sorted according to to DOB and Lastname");
                             break;
                         case 8:
-
+                            System.out.println("Enter the date- yyyy-MM-dd");
+                            removeCustomerAfterGivenDob(customers, sc.next());
                             break;
                         case 0:
                             System.out.println("Exiting.....");
