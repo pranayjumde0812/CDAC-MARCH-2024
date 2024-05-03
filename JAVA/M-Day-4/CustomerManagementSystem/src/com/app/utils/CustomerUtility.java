@@ -126,7 +126,9 @@ public class CustomerUtility {
         Customer c5 = new Customer("Prajwal", "Wandhare", "pw@gmail.com", "123",
                 2000, LocalDate.parse("2000-02-02"), ServicePlan.valueOf("GOLD"));
 
-        List<Customer> customerList = Arrays.asList(c1, c2, c3, c4, c5);
+        List<Customer> customerList = new ArrayList<>(Arrays.asList(c1, c2, c3, c4, c5));
+        /// Because of Arrays.asList() it created constant array and iterator throws exception saying Unsupported
+        // So we have to create growable arraylist.
 
         return customerList;
     }

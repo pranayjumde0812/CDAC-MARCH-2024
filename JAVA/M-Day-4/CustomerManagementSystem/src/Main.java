@@ -10,7 +10,7 @@ public class Main {
 
 
         try (Scanner sc = new Scanner(System.in)) {
-            List<Customer> customers = new ArrayList<>();
+            List<Customer> customers = populatedData();
             int choice;
             do {
                 System.out.println("Enter the choice");
@@ -22,9 +22,8 @@ public class Main {
                 try {
                     switch (choice) {
                         case 1:
-//                            acceptCustomerDetails(customers);
-//                            System.out.println("Customer register successfully");
-                            customers = populatedData();
+                            acceptCustomerDetails(customers);
+                            System.out.println("Customer register successfully");
                             break;
                         case 2:
                             System.out.println("Enter your Email & Password");
