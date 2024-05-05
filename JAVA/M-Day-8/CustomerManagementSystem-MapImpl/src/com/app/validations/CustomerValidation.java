@@ -6,11 +6,12 @@ import com.app.enums.ServicePlan;
 
 import java.time.LocalDate;
 import java.util.List;
+import java.util.Map;
 
 public class CustomerValidation {
 
     public static Customer validAllInputs(String firstName, String lastName, String email, String pass,
-                                          double registrationAmount, String dateOfBirth, String servicePlan, List<Customer> list) throws DuplicateCustomerException, ServicePlanDetailsMisMatchedException, ServicePlanNotFoundException, NotEmailFormatException, NotAlphanumericPasswordException {
+                                          double registrationAmount, String dateOfBirth, String servicePlan, Map<String, Customer> list) throws DuplicateCustomerException, ServicePlanDetailsMisMatchedException, ServicePlanNotFoundException, NotEmailFormatException, NotAlphanumericPasswordException {
 
         String validatedEmail = validateDuplicateEmailAndCheckPattern(list, email);
         LocalDate dob = LocalDate.parse(dateOfBirth);
@@ -20,12 +21,12 @@ public class CustomerValidation {
         return new Customer(firstName, lastName, validatedEmail, password, registrationAmount, dob, servPlan);
     }
 
-    public static String validateDuplicateEmailAndCheckPattern(List<Customer> list, String email) throws DuplicateCustomerException, NotEmailFormatException {
+    public static String validateDuplicateEmailAndCheckPattern(Map<String, Customer> list, String email) throws DuplicateCustomerException, NotEmailFormatException {
 
         Customer customer = new Customer(email);
 
         // Check for duplicate email(already registered)
-        if (list.contains(customer)) {
+        if (list.containsKey(customer)) {
             throw new DuplicateCustomerException("Already registered Email....Use another email");
         }
 

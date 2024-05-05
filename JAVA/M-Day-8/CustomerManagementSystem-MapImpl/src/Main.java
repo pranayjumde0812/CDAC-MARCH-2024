@@ -10,7 +10,7 @@ public class Main {
 
 
         try (Scanner sc = new Scanner(System.in)) {
-            List<Customer> customers = populatedData();
+            Map<String, Customer> customers = populatedData();
             int choice;
             do {
                 System.out.println("Enter the choice");
@@ -43,16 +43,26 @@ public class Main {
                             displayAllCustomersDetails(customers);
                             break;
                         case 6:
-                            Collections.sort(customers);
+                            customers = new TreeMap<>(customers);
                             System.out.println("Customer sorted according to email");
+                            displayAllCustomersDetails(customers);
                             break;
                         case 7:
-                            Collections.sort(customers, new CustomerSortDobAndLastnameComparator());
+                            Collection<Customer> collection = customers.values();
+                            List<Customer> customerList = new ArrayList<>(collection);
+                            Collections.sort(customerList, new CustomerSortDobAndLastnameComparator());
                             System.out.println("Customer sorted according to to DOB and Lastname");
+                            for (Customer c : customerList) {
+                                System.out.println(c);
+                            }
                             break;
                         case 8:
                             System.out.println("Enter the date- yyyy-MM-dd");
-                            removeCustomerAfterGivenDob(customers, sc.next());
+                            String strDate = sc.next();
+                            removeCustomerAfterGivenDob(customers, strDate);
+                            System.out.println("Customer removed after date = " + strDate + "successfully.");
+                            System.out.println("Remaining Customer");
+                            displayAllCustomersDetails(customers);
                             break;
                         case 0:
                             System.out.println("Exiting.....");

@@ -4,7 +4,7 @@ import com.app.enums.ServicePlan;
 
 import java.time.LocalDate;
 
-public class Customer implements Comparable<Customer> {
+public class Customer {
 
     private int uuid;
     private String firstName;
@@ -117,17 +117,13 @@ public class Customer implements Comparable<Customer> {
     }
 
 
-    @Override
-    public boolean equals(Object object) {
-        if (object instanceof Customer) {
-            Customer customer = (Customer) object;
-            return this.email.equals(customer.getEmail());
-        }
-        return false;
-    }
+//    @Override
+//    public boolean equals(Object object) {
+//        if (object instanceof Customer) {
+//            Customer customer = (Customer) object;
+//            return this.email.equals(customer.getEmail());
+//        }
+//        return false;
+//    }
 
-    @Override
-    public int compareTo(Customer customer) {
-        return this.email.compareTo(customer.getEmail());
-    }
 }
