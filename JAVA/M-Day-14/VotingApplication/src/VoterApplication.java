@@ -2,7 +2,6 @@ import com.voting.dao.UserDao;
 import com.voting.dao.dao_impl.UserDaoImpl;
 import com.voting.model.User;
 
-import java.sql.SQLException;
 import java.util.Scanner;
 
 public class VoterApplication {
@@ -20,7 +19,6 @@ public class VoterApplication {
                         case 1:
                             System.out.println("Enter Email And Password to LogIn to System");
                             User user = userDao.signIn(sc.next(), sc.next());
-
                             break;
                         case 2:
 

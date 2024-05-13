@@ -3,12 +3,12 @@ package com.voting.dao.dao_impl;
 import com.voting.dao.UserDao;
 import com.voting.model.User;
 
-import static com.voting.database.DatabaseConnectivity.*;
-
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+
+import static com.voting.database.DatabaseConnectivity.openConnection;
 
 public class UserDaoImpl implements UserDao {
     private Connection connection;
