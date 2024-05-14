@@ -42,9 +42,7 @@ public class UserDaoImpl implements UserDao {
 
         try (ResultSet rs = preStm1.executeQuery()) {
             if (rs.next()) {
-                return new User(rs.getInt(1), rs.getString(2), rs.getString(3),
-                        rs.getString(4), rs.getString(5), rs.getDate(6),
-                        rs.getBoolean(7), rs.getString(8));
+                return new User(rs.getInt(1), rs.getString(2), rs.getString(3), rs.getString(4), rs.getString(5), rs.getDate(6), rs.getBoolean(7), rs.getString(8));
             }
         }
 
@@ -55,8 +53,7 @@ public class UserDaoImpl implements UserDao {
     public String castVote(User user, Scanner sc) throws SQLException {
         String name = null;
 
-        if (user == null)
-            return "Invalid user";
+        if (user == null) return "Invalid user";
 
         if (!user.isVotingStatus()) {
             System.out.println("Status Updated");
@@ -84,8 +81,7 @@ public class UserDaoImpl implements UserDao {
             preStm4.setString(1, name);
 
             try (ResultSet voteCount = preStm4.executeQuery()) {
-                if (voteCount.next())
-                    preStm3.setInt(1, voteCount.getInt(1) + 1);
+                if (voteCount.next()) preStm3.setInt(1, voteCount.getInt(1) + 1);
                 preStm3.setString(2, name);
                 preStm3.executeUpdate();
 
@@ -93,24 +89,50 @@ public class UserDaoImpl implements UserDao {
                 preStm2.setInt(2, user.getUserId());
                 preStm2.executeUpdate();
 
-                return "Hello, " + user.getFirstName()
-                        + "\nYou have casted the vote successfully"
-                        + "\nThank You for your important vote";
+                return "Hello, " + user.getFirstName() + "\nYou have casted the vote successfully" + "\nThank You for your important vote";
             }
         }
 
-        return "Hello, " + user.getFirstName()
-                + "\nyou have already voted."
-                + "\nThank You for your important vote";
+        return "Hello, " + user.getFirstName() + "\nyou have already voted." + "\nThank You for your important vote";
     }
 
     @Override
-    public void adminWork(User user) throws SQLException {
-        ResultSet resultSet = stm1.executeQuery("select * from candidates order by votes desc limit 2");
+    public void adminWork(User user, Scanner sc) throws SQLException {
 
-        while (resultSet.next()) {
-            System.out.println(resultSet.getInt(1) + " " + resultSet.getString(2)
-                    + " " + resultSet.getInt(3) + " " + resultSet.getString(4));
+        System.out.println("Welcome Admin " + user.getFirstName());
+        System.out.println("---------------------------------------------------");
+        boolean exit = false;
+        while (!exit) {
+            System.out.println("Select Operation : \n1. Top two highest voted candidates \n2. Party wise vote analysis \n3. Exit");
+            switch (sc.nextInt()) {
+                case 1:
+                    try (ResultSet resultSet = stm1.executeQuery("select * from candidates order by votes desc limit 2")) {
+//                        System.out.println("Id      Name     Votes     Party");
+                        System.out.printf("%-7s %-10s %-10s %-20s%n", "Id", "Name", "Votes", "Party");
+                        while (resultSet.next()) {
+                            System.out.printf("%-7d %-10s %-10d %-20s%n",
+                                    resultSet.getInt(1),
+                                    resultSet.getString(2),
+                                    resultSet.getInt(3),
+                                    resultSet.getString(4));
+
+//                            System.out.println(resultSet.getInt(1) + "      " + resultSet.getString(2) + "      " + resultSet.getInt(3) + "       " + resultSet.getString(4));
+                        }
+                    }
+                    break;
+                case 2:
+                    try (ResultSet resultSet = stm1.executeQuery("select party_name, votes from candidates group by party_name order by votes desc ")) {
+                        System.out.println("Party_Name    Total_votes");
+                        while (resultSet.next()) {
+                            System.out.printf("%-18s %d", resultSet.getString(1), resultSet.getInt(2));
+                            System.out.println();
+                        }
+                    }
+                    break;
+                case 3:
+                    exit = true;
+                    break;
+            }
         }
 
     }
@@ -118,14 +140,10 @@ public class UserDaoImpl implements UserDao {
     // add clean up method to close DB resources
     @Override
     public void cleanUp() throws SQLException {
-        if (preStm1 != null)
-            preStm1.close();
-        if (preStm2 != null)
-            preStm2.close();
-        if (preStm3 != null)
-            preStm3.close();
-        if (preStm4 != null)
-            preStm4.close();
+        if (preStm1 != null) preStm1.close();
+        if (preStm2 != null) preStm2.close();
+        if (preStm3 != null) preStm3.close();
+        if (preStm4 != null) preStm4.close();
 
         closeConnection();
     }

@@ -11,7 +11,7 @@ public interface UserDao {
 
     String castVote(User user, Scanner sc) throws SQLException;
 
-    void adminWork(User user) throws SQLException;
+    void adminWork(User user, Scanner sc) throws SQLException;
 
     // cleanup resources
     void cleanUp() throws SQLException;

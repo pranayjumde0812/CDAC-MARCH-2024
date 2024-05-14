@@ -23,7 +23,7 @@ public class VoterApplication {
                                 System.out.println(userDao.castVote(user, sc));
 
                             if (user.getRole().equals("admin"))
-                                userDao.adminWork(user);
+                                userDao.adminWork(user, sc);
                             System.out.println(user.getFirstName() + " Logged out Successfully");
                             break;
                         case 2:
