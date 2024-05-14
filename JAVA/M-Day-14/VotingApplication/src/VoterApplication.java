@@ -13,14 +13,17 @@ public class VoterApplication {
             boolean exit = false;
             do {
                 System.out.println("Enter Your Choice : ");
-                System.out.println("1. Log In \n2. Signup \n3. Change Password ");
+                System.out.println("1. Log In \n2. Signup \n3. Change Password \n4. Admin Login");
                 try {
                     switch (sc.nextInt()) {
                         case 1:
                             System.out.println("Enter Email And Password to LogIn to System");
                             User user = userDao.signIn(sc.next(), sc.next());
-//                            System.out.println(user);
-                            System.out.println(userDao.castVote(user, sc));
+                            if (user.getRole().equals("voter"))
+                                System.out.println(userDao.castVote(user, sc));
+
+                            if (user.getRole().equals("admin"))
+                                userDao.adminWork(user);
                             System.out.println(user.getFirstName() + " Logged out Successfully");
                             break;
                         case 2:
@@ -30,7 +33,8 @@ public class VoterApplication {
 
                             break;
                         case 4:
-
+                            exit = true;
+                            userDao.cleanUp();
                             break;
                     }
                 } catch (Exception ex) {

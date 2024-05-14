@@ -3,13 +3,10 @@ package com.voting.dao.dao_impl;
 import com.voting.dao.UserDao;
 import com.voting.model.User;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.Scanner;
 
-import static com.voting.database.DatabaseConnectivity.openConnection;
+import static com.voting.database.DatabaseConnectivity.*;
 
 public class UserDaoImpl implements UserDao {
     private Connection connection;
@@ -17,6 +14,7 @@ public class UserDaoImpl implements UserDao {
     private PreparedStatement preStm2;
     private PreparedStatement preStm3;
     private PreparedStatement preStm4;
+    private Statement stm1;
 
     public UserDaoImpl() throws SQLException, ClassNotFoundException {
         //open connection
@@ -34,7 +32,7 @@ public class UserDaoImpl implements UserDao {
         //prepare statement login
         preStm3 = connection.prepareStatement("update candidates set votes=? where name=?");
 
-
+        stm1 = connection.createStatement();
     }
 
     @Override
@@ -104,5 +102,31 @@ public class UserDaoImpl implements UserDao {
         return "Hello, " + user.getFirstName()
                 + "\nyou have already voted."
                 + "\nThank You for your important vote";
+    }
+
+    @Override
+    public void adminWork(User user) throws SQLException {
+        ResultSet resultSet = stm1.executeQuery("select * from candidates order by votes desc limit 2");
+
+        while (resultSet.next()) {
+            System.out.println(resultSet.getInt(1) + " " + resultSet.getString(2)
+                    + " " + resultSet.getInt(3) + " " + resultSet.getString(4));
+        }
+
+    }
+
+    // add clean up method to close DB resources
+    @Override
+    public void cleanUp() throws SQLException {
+        if (preStm1 != null)
+            preStm1.close();
+        if (preStm2 != null)
+            preStm2.close();
+        if (preStm3 != null)
+            preStm3.close();
+        if (preStm4 != null)
+            preStm4.close();
+
+        closeConnection();
     }
 }

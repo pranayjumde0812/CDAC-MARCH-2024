@@ -10,4 +10,9 @@ public interface UserDao {
     User signIn(String email, String password) throws SQLException;
 
     String castVote(User user, Scanner sc) throws SQLException;
+
+    void adminWork(User user) throws SQLException;
+
+    // cleanup resources
+    void cleanUp() throws SQLException;
 }
