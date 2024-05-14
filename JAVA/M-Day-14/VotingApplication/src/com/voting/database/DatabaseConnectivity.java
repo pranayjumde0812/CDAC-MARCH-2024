@@ -18,10 +18,11 @@ public class DatabaseConnectivity {
 
     public static Connection openConnection() throws ClassNotFoundException, SQLException {
         // Load Driver
-        Class.forName("com.mysql.cj.jdbc.Driver");
+//        Class.forName("com.mysql.cj.jdbc.Driver");
 
         // Get Connection
         connection = DriverManager.getConnection(DB_URL, USERNAME, PASSWORD);
+//        System.out.println(connection);
 
         return connection;
     }

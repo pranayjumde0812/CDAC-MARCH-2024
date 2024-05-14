@@ -13,12 +13,15 @@ public class VoterApplication {
             boolean exit = false;
             do {
                 System.out.println("Enter Your Choice : ");
-                System.out.println("1. Log In \n2. Signup \n3. Change Password \n4. ");
+                System.out.println("1. Log In \n2. Signup \n3. Change Password ");
                 try {
                     switch (sc.nextInt()) {
                         case 1:
                             System.out.println("Enter Email And Password to LogIn to System");
                             User user = userDao.signIn(sc.next(), sc.next());
+//                            System.out.println(user);
+                            System.out.println(userDao.castVote(user, sc));
+                            System.out.println(user.getFirstName() + " Logged out Successfully");
                             break;
                         case 2:
 
