@@ -2,7 +2,6 @@ package com.app.pages;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.Iterator;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
