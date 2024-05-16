@@ -7,6 +7,8 @@ import java.util.List;
 import static com.app.utils.DBUtils.*;
 
 import com.app.entities.User;
+import com.app.exception.InvalidDateException;
+import com.app.validations.UserValidations;
 
 public class UserDaoImpl implements UserDao {
 	// state
@@ -65,24 +67,27 @@ public class UserDaoImpl implements UserDao {
 	}
 
 	@Override
-	public String voterRegistration(User newVoter) throws SQLException {
+	public String voterRegistration(User newVoter) throws SQLException, InvalidDateException {
 		// 1. set IN params
 		/*
 		 * int userId, String firstName, String lastName, String email, String password,
 		 * Date dob, boolean status, String role
 		 */
+
+		Date validateDate = UserValidations.validateDate(newVoter.getDob());
+
 		pst3.setString(1, newVoter.getFirstName());
 		pst3.setString(2, newVoter.getLastName());
 		pst3.setString(3, newVoter.getEmail());
 		pst3.setString(4, newVoter.getPassword());
-		pst3.setDate(5, newVoter.getDob());
+		pst3.setDate(5, validateDate);
 		pst3.setBoolean(6, newVoter.isStatus());
 		pst3.setString(7, newVoter.getRole());
 		// exec : executeUpdate
 		int rows = pst3.executeUpdate();
 		if (rows == 1)
-			return "Voter registered....";
-		return "Voter registration failed !";
+			return "success";
+		return "failed";
 	}
 
 	@Override
