@@ -7,6 +7,10 @@
 <title>Login Form</title>
 </head>
 <body>
-	<h6>Welcome ${requestScope.user.role}, ${requestScope.user}</h6>
+	<%-- <h6>Welcome ${requestScope.user.role}, ${requestScope.user}</h6> --%>
+
+	<h2>This is Blogger dashboard</h2>
+	<h3 align="center">${sessionScope.message}</h3>
+	<h4 align="right"><a href="/logout">Logout</a></h4>
 </body>
 </html>

@@ -1,5 +1,7 @@
 package com.blogs.controller;
 
+import javax.servlet.http.HttpSession;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -13,5 +15,14 @@ public class HomeController {
 		System.out.println("Inside HomeController");
 		
 		return "/users/login";
+	}
+	
+	@RequestMapping("/logout")
+	public String logout(HttpSession session) {
+		
+		System.out.println(session.getId() + " In logout handler before Logout");
+		session.invalidate();
+		
+		return "redirect:/";
 	}
 }

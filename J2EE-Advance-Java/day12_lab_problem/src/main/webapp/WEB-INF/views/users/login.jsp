@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
+	
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,11 +8,9 @@
 <title>Login Form</title>
 </head>
 <body>
-
-	<%-- <h5>${requestScope.error}</h5> --%>
-	<h3 align="center">${sessionScope.message}</h3>
-
-	<form action="/users/login" method="post">
+	
+	<h5 style="color: red;">${requestScope.message}</h5>
+	<form action="users/login" method="post">
 		<table style="background-color: lightgrey; margin: auto">
 			<tr>
 				<td>Enter User Email</td>
@@ -24,9 +23,10 @@
 
 			<tr>
 				<td><input type="submit" value="Login" /></td>
+				
 			</tr>
 		</table>
 	</form>
-	
+
 </body>
 </html>
