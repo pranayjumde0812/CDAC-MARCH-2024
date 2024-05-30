@@ -19,13 +19,13 @@ import com.blogs.service.CategoryService;
 @RestController
 @RequestMapping("/categories")
 public class CategoryController {
-
+	
 	@Autowired
 	private CategoryService categoryService;
 
 	@GetMapping("/getCategories")
 	public List<Category> getAllCategories() {
-
+		
 		return categoryService.getAllCategories();
 	}
 
@@ -48,10 +48,10 @@ public class CategoryController {
 		return categoryService.getCategoryDetails(id);
 	}
 	
-	@PutMapping
-	public Category updateCategoryDetails() {
+	@PutMapping("/updateCategory")
+	public Category updateCategoryDetails(@RequestBody Category category) {
 		
-		return null;
+		return categoryService.updateCategory(category);
 	}
 
 }
