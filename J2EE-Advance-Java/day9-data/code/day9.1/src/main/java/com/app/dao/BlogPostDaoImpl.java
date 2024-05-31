@@ -29,12 +29,11 @@ public class BlogPostDaoImpl implements BlogPostDao {
 				// establish uni dir asso between post --> author
 				post.setAuthor(author);// uni asso.
 				// a bi dir asso post <--> category
-				cat.addBlogPost(post);//bi dir asso				
+				cat.addBlogPost(post);// bi dir asso
 
 				// since no cascading yet -- explicitly persist post.
 				// session.persist(post);
 				mesg = "added new post successfully ";
-
 			}
 			tx.commit();
 

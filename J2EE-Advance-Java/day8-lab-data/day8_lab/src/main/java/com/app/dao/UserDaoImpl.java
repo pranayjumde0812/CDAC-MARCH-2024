@@ -1,16 +1,10 @@
 package com.app.dao;
 
-import org.apache.commons.io.FileUtils;
-import org.hibernate.*;
 import static com.app.utils.HibernateUtils.getFactory;
 
-import java.io.File;
-import java.io.IOException;
-import java.io.Serializable;
-import java.time.LocalDate;
-import java.util.List;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
 
-import com.app.entities.Role;
 import com.app.entities.User;
 
 public class UserDaoImpl implements UserDao {
@@ -30,6 +24,7 @@ public class UserDaoImpl implements UserDao {
 			// 3. Session API -- public void persist(Object o) throws HibExc
 			session.persist(user); // user : persistent
 			tx.commit();
+			
 			// rec will be inserted in db
 			mesg = "User registered successfully , with ID =  " + user.getId();
 		} catch (RuntimeException e) {
@@ -43,7 +38,7 @@ public class UserDaoImpl implements UserDao {
 		return mesg;
 	}
 
-		@Override
+	@Override
 	public User authenticateUser(String email, String password) {
 		User user = null;
 		String jpql = "select u from User u where u.email=:em and u.password=:pass";
@@ -65,5 +60,4 @@ public class UserDaoImpl implements UserDao {
 		return user;
 	}
 
-	
 }

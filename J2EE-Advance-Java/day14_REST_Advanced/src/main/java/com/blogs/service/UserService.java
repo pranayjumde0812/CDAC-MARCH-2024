@@ -1,9 +1,9 @@
 package com.blogs.service;
 
 import com.blogs.dto.AuthDTO;
-import com.blogs.entities.User;
+import com.blogs.dto.UserResponseDTO;
 
 public interface UserService {
 
-	User /* UserResponseDTO */ login(AuthDTO authDTO);
+	/* User */ UserResponseDTO  login(AuthDTO authDTO);
 }

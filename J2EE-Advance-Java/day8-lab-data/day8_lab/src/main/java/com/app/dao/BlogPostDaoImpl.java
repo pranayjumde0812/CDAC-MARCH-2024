@@ -31,6 +31,7 @@ public class BlogPostDaoImpl implements BlogPostDao {
 				post.setAuthor(author);
 				// since no cascading yet -- explicitly persist post.
 				session.persist(post);
+
 				mesg = "added new post with id " + post.getId();
 
 			}

@@ -7,6 +7,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.blogs.custom_exceptions.InvalidCredentialsException;
 import com.blogs.dto.AuthDTO;
+import com.blogs.dto.UserResponseDTO;
 import com.blogs.entities.User;
 import com.blogs.repository.UserRepository;
 
@@ -21,12 +22,12 @@ public class UserServiceImpl implements UserService {
 	private ModelMapper modelMapper;
 
 	@Override
-	public User/* UserResponseDTO */ login(AuthDTO authDTO) {
+	public /* User */ UserResponseDTO login(AuthDTO authDTO) {
 
 		User user = userRepository.findByEmailAndPassword(authDTO.getEmail(), authDTO.getPassword())
 				.orElseThrow(() -> new InvalidCredentialsException("Invalid Credentials Please check again"));
 
-		return user;
+		return modelMapper.map(user, UserResponseDTO.class);
 	}
 
 }

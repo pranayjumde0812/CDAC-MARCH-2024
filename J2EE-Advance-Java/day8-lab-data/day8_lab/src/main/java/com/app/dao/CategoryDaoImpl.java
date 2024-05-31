@@ -11,7 +11,7 @@ public class CategoryDaoImpl implements CategoryDao {
 
 	@Override
 	public String addNewCategory(Category category) {
-		String mesg="adding category failed";
+		String mesg = "adding category failed";
 		// 1. get session from SF (getCurrentSession)
 		Session session = getFactory().getCurrentSession();
 		// 2. Begin a Tx
@@ -19,7 +19,7 @@ public class CategoryDaoImpl implements CategoryDao {
 		try {
 			session.persist(category);
 			tx.commit();
-			mesg="Added new category with ID="+category.getId();
+			mesg = "Added new category with ID=" + category.getId();
 		} catch (RuntimeException e) {
 			if (tx != null)
 				tx.rollback();

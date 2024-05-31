@@ -47,7 +47,7 @@ public class CategoryDaoImpl implements CategoryDao {
 			if (category != null) {
 				// => category - persistent
 				session.delete(category);
-				mesg="deleted category along with child recs";
+				mesg = "deleted category along with child recs";
 			}
 			tx.commit();// session.flush --> dirty checking --> casacding --> child recs n then parent
 						// rec will be deleted
@@ -63,16 +63,14 @@ public class CategoryDaoImpl implements CategoryDao {
 	@Override
 	public Category getCategoryDetails(String categoryName) {
 		Category category = null;
-		String jpql="select c from Category c where c.name=:nm";
+		String jpql = "select c from Category c where c.name=:nm";
 		// 1. get session from SF (getCurrentSession)
 		Session session = getFactory().getCurrentSession();
 		// 2. Begin a Tx
 		Transaction tx = session.beginTransaction();
 		try {
-			category=session.createQuery(jpql,Category.class)
-					.setParameter("nm", categoryName)
-					.getSingleResult();
-			//category : persistent
+			category = session.createQuery(jpql, Category.class).setParameter("nm", categoryName).getSingleResult();
+			// category : persistent
 			tx.commit();
 		} catch (RuntimeException e) {
 			if (tx != null)
@@ -80,24 +78,22 @@ public class CategoryDaoImpl implements CategoryDao {
 			// re throw the exc to the caller
 			throw e;
 		}
-		return category;//detached
+		return category;// detached
 	}
 
 	@Override
 	public Category getCategoryAndPostDetails(String categoryName) {
 		Category category = null;
-		String jpql="select c from Category c left join fetch c.posts  where c.name=:nm";
+		String jpql = "select c from Category c left join fetch c.posts  where c.name=:nm";
 		// 1. get session from SF (getCurrentSession)
 		Session session = getFactory().getCurrentSession();
 		// 2. Begin a Tx
 		Transaction tx = session.beginTransaction();
 		try {
-			category=session.createQuery(jpql,Category.class)
-					.setParameter("nm", categoryName)
-					.getSingleResult();
-			//category : persistent 
-			//access the collection of posts
-		//	category.getPosts().size();
+			category = session.createQuery(jpql, Category.class).setParameter("nm", categoryName).getSingleResult();
+			// category : persistent
+			// access the collection of posts
+			// category.getPosts().size();
 			tx.commit();
 		} catch (RuntimeException e) {
 			if (tx != null)
@@ -105,8 +101,8 @@ public class CategoryDaoImpl implements CategoryDao {
 			// re throw the exc to the caller
 			throw e;
 		}
-		return category;//detached
-	
+		return category;// detached
+
 	}
 
 }
