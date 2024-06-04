@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        function operations(){
+            var num1 = parseInt(document.getElementById("number1").value);
+            var num2 = parseInt(document.getElementById("number2").value);
+            var operator = document.getElementById("operator").value;
+            // alert(num1);
+            // alert(num2);
+            // alert(operator);
+
+            switch(operator){
+                case "+": 
+                document.getElementById("result").innerHTML = "Addition = "+(num1 + num2);
+                break;
+                case "-": 
+                document.getElementById("result").innerHTML = "Substraction = "+(num1 - num2);
+                break;
+                case "*": 
+                document.getElementById("result").innerHTML = "Multiplication = "+(num1  *num2);
+                break;
+                case "/": 
+                document.getElementById("result").innerHTML = "Division = "+(num1 / num2);
+                break;
+            }
+
+        }
+    </script>
+
+    Number1 : <input type="text" id="number1" placeholder="Enter the number 1" autofocus></br>
+    Number2 : <input type="text" id="number2" placeholder="Enter the number 2"></br>
+    Operator : <input type="text" id="operator" placeholder=" + , - , * , / "></br>
+    <button type="button" id="button" onclick="operations()">Operation</button></br>
+    <div id="result"></div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function displayMessage(){
+            var num1 = parseInt(document.getElementById("number").value);
+            var textMessage = document.getElementById("message").value;
+
+            for(i=0 ; i<num1; i++){
+                document.getElementById("result").innerHTML += textMessage +"</br>";
+            }
+            document.getElementById("message").value = "";
+            document.getElementById("number").value = "";
+        }
+    </script>
+
+
+    <input type="text" id="message" placeholder="Enter the message" onfocus="focus"/></br>
+    <input type="text" id="number" placeholder="Enter number of times yo want to display message"/></br>
+    <button type="button" onclick="displayMessage()">Ckeck</button></br>
+    <div id="result"></div>
+</body>
+</html>

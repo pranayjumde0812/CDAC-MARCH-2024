@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        function findEven(){
+            var x = parseInt(document.getElementById("even").value);
+
+            while(x>0){
+                if(x%2===0){
+                    document.getElementById("result").innerHTML += "Even Number : " + x +"</br>";
+                }
+                x--;
+            }
+        }
+
+    </script>
+
+    Enter Number : <input type="text" id="even" placeholder="Enter the number"></body><br>
+    <button type="button" id="btn" onclick="findEven()">Find Even</button><br>
+    <div id="result"></div>
+
+</body>
+</html>
