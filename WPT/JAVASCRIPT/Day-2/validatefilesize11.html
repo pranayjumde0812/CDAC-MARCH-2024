@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function validateSize() {
+            alert("in validatesize")
+            var f = document.getElementById("files");
+            //f.files[0].size it will give size in bytes
+            alert(f.files[0].size)
+            alert(f.files[0].size / 1024 + "KB");
+            if (f.files[0].size / 1024 < 10) {
+                alert("in if")
+                document.getElementById("errfile").innerHTML = "";
+                //return true;
+            }
+            document.getElementById("errfile").innerHTML = "file size exceeds the limit 10KB"
+            //return false;
+        }
+    </script>
+</head>
+
+<body>
+    <form>
+        Files : <input type="file" name="files" id="files" onchange="validateSize()">
+        <span id="errfile"></span>
+    </form>
+</body>
+
+</html>

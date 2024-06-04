@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function mathsTable(){
+            var number = parseInt(document.getElementById("number").value);
+
+            for(i=1; i<=10; i++){
+                document.getElementById("result").innerHTML += number +" * "+ i +" = "+(number*i)+"</br>";
+            }
+        }
+    </script>
+</head>
+<body>
+    <input type="text" id="number" placeholder="ENTER THE NUMBER"></br>
+    <button type="button" id="btn" onclick="mathsTable()">Show Tables</button></br>
+    <div id="result"></div>
+</body>
+</html>

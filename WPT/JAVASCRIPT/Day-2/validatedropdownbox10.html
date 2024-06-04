@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function validatedropdown(id, errid) {
+            //get reference of dropdown box centers
+            var c = document.getElementById(id);
+            //retrieve the value of index of the selected option
+            var pos = c.selectedIndex;
+            alert(c.selectedIndex)
+            //retrieve the value of selected option
+            var val = c.options[pos].value;
+            if (val === "test") {
+                document.getElementById(errid).innerHTML = "pls select any one center"
+                return false;
+            }
+            document.getElementById(errid).innerHTML = ""
+            return true;
+        }
+        function validatedata() {
+            var flag = validatedropdown("center", "errcenter")
+            return flag;
+        }
+    </script>
+</head>
+
+<body>
+    <form onsubmit="return validatedata()">
+        <select id="center" name="center">
+            <option value="test">-----select one----</option>
+            <option value="Acts">Acts</option>
+            <option value="IACSD">IACSD</option>
+            <option value="Sunbeam">Sunbeam</option>
+            <option value="IET">IET</option>
+            <option value="KnowIt">KnowIt</option>
+        </select><span id="errcenter" style="color:red"></span>
+        <br><button type="submit" name="btn" id="submit">Submit</button>
+    </form>
+</body>
+
+</html>

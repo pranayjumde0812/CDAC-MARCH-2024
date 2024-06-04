@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        const validatecheckbox = (nm, errid) => {
+            var subarr = document.getElementsByName(nm);
+            var cnt = 0;
+            var str = "";
+            for (var i = 0; i < subarr.length; i++) {
+                if (subarr[i].checked) {
+                    cnt++;
+                    str = str + subarr[i].value + ",";
+                }
+                /*if(cnt>=2){
+                      break;
+                   }*/
+            }
+            if (cnt >= 2) {
+                //clear the message
+                document.getElementById(errid).innerHTML = "";
+                alert(str);
+                return true;
+            }
+            //display error message
+            document.getElementById(errid).innerHTML = "pls select minimum 2 subjects"
+            return false;
+        }
+        const validateradio = (nm, errid) => {
+            var arr = document.getElementsByName(nm);
+            for (var i = 0; i < arr.length; i++) {
+                if (arr[i].checked) {
+                    document.getElementById(errid).innerHTML = "";
+                    return true;
+                }
+            }
+            document.getElementById(errid).innerHTML = "pls select one choice";
+            return false;
+        }
+        function validatedata() {
+            var flag = validatecheckbox("subjects", "errsub");
+            var flag1 = validateradio("gender", "errgender")
+            return flag && flag1;
+        }
+    </script>
+</head>
+
+<body>
+    <form onsubmit="return validatedata()">
+        Gender:<br>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+        <span id="errgender"></span>
+        <br>
+        Subjects: <br>
+        <input type="checkbox" name="subjects" id="java" value="java" checked><label for="java">Java</label>
+        <input type="checkbox" name="subjects" id="C++" value="C++"><label for="C++">C++</label><br>
+        <input type="checkbox" name="subjects" id="database" value="database"><label for="database">database</label>
+        <input type="checkbox" name="subjects" id="React" value="React"><label for="React">React</label><span
+            id="errsub" style="color:red"></span><br>
+        <button type="submit" name="btn" id="btn" value="submit">Select subject</button>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var arr=new Array(1,2,3,4)
+        var arr2=[12,13,14,15]
+        var arr3=[1,2,3,arr2]  //length 4
+        var arr4=[10,20,...arr2] //length 6
+        document.write("length of arr3 ",arr3.length,"<br>")
+        document.write("length of arr4 ",arr4.length,"<br>")
+        //to add element at the end
+        arr2.push(23)
+        document.write("arr2 data : ",arr2,"<br>")
+        document.write("arr3 data : ",arr3,"<br>")
+        document.write("arr4 data : ",arr4,"<br>")
+        //to delet from the end
+        arr2.pop()
+        document.write("arr2 data : ",arr2,"<br>")
+        document.write("arr3 data : ",arr3,"<br>")
+        document.write("arr4 data : ",arr4,"<br>")
+    </script>
+</body>
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function validatetextbox(id, errid) {
+            var nm = document.getElementById(id).value;
+            if (nm.trim().length === 0) {
+                document.getElementById(errid).innerHTML = "pls enter valid name"
+                return false;
+            } else {
+                document.getElementById(errid).innerHTML = ""
+                return true;
+            }
+        }
+        function validatecheckbox(nm, errid) {
+            var arr = document.getElementsByName(nm);
+            var cnt = 0;
+            for (var i = 0; i < arr.length; i++) {
+                if (arr[i].checked) {
+                    cnt++;
+                    if (cnt >= 2) {
+                        document.getElementById(errid).innerHTML = "";
+                        return true;
+                    }
+                }
+            }
+            document.getElementById(errid).innerHTML = "pls select minimum 2 options"
+            return false;
+        }
+        function validateradio(nm, errid) {
+            var arr = document.getElementsByName(nm);
+            for (var i = 0; i < arr.length; i++) {
+                if (arr[i].checked) {
+                    document.getElementById(errid).innerHTML = "";
+                    return true;
+                }
+            }
+            document.getElementById(errid).innerHTML = "pls selecte minimum one degree";
+            return false;
+
+        }
+        function validatedropdown(id, errid) {
+            var c = document.getElementById(id);
+            var pos = c.selectedIndex;
+            var val = c.options[pos].value;
+            if (val === "test") {
+                document.getElementById(errid).innerHTML = "pls select the city"
+                return false;
+            }
+            document.getElementById(errid).innerHTML = ""
+            return true;
+
+        }
+        function validatedata() {
+            var flag1 = validatetextbox("name", "errnm");
+            var flag2 = validatecheckbox("skills", "errskills");
+            var flag3 = validateradio("degree", "errdegree")
+            var flag4 = validatedropdown("city", "errcity")
+            return flag1 && flag2 && flag3 && flag4;
+        }
+    </script>
+</head>
+
+<body>
+    <table>
+        <form action="/register" method="post" onsubmit="return validatedata()">
+            <tr>
+                <td> <label for="name">name:</label> </td>
+                <td><input type="text" name="nm" id="name"></td>
+                <td id="errnm"></td>
+            </tr>
+            <tr>
+                <td> <label for="Address">Address:</label> </td>
+                <td><textarea name="addr" id="addr" cols="25" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td> <label for="Date of joining">Date of joining:</label> </td>
+                <td><input type="date" name="dt" id="dt" min="2024-04-02" max="2024-06-01"></td>
+            </tr>
+            <tr>
+                <td><label for="email">email :</label></td>
+                <td><input type="email" name="em" id="email"></td>
+            </tr>
+            <tr>
+                <td><label for="Gender">Gender :</label></td>
+                <td><input type="radio" name="gender" id="male" value="male"><label for="male">Male</label>
+
+                    <input type="radio" name="gender" id="female" value="Female" checked><label
+                        for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="skills">Skills :</label></td>
+                <td><input type="checkbox" name="skills" id="java" value="java"><label for="java">Java</label>
+
+                    <input type="checkbox" name="skills" id="C++" value="C++"><label for="C++">C++</label>
+
+                    <input type="checkbox" name="skills" id="database" value="database"><label
+                        for="database">database</label><br>
+
+                    <input type="checkbox" name="skills" id="python" value="python"><label for="python">python</label>
+
+                    <input type="checkbox" name="skills" id="linux" value="linux"><label for="linux">linux</label>
+
+                    <input type="checkbox" name="skills" id="perl" value="perl"><label for="perl">perl</label>
+                </td>
+                <td id="errskills"></td>
+            </tr>
+            <tr>
+                <td><label for="Degree">Degree :</label></td>
+                <td><input type="radio" name="degree" id="BE" value="BE"><label for="BE">BE</label>
+
+                    <input type="radio" name="degree" id="BTech" value="BTech"><label for="BTech">BTech</label>
+
+                    <input type="radio" name="degree" id="PHD" value="PHD"><label for="PHD">PHD</label>
+                </td>
+                <td id="errdegree"></td>
+            </tr>
+            <tr>
+                <td><label for="profile">profile :</label></td>
+                <td><input type="file" name="profile" id="profile">
+                </td>
+            </tr>
+            <tr>
+                <td>City :</td>
+                <td><select id="city" name="city">
+                        <option value="test">-----select one---</option>
+                        <option value="pune">Pune</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Banglore">Banglore</option>
+                        <option value="Mumbai">Mumbai</option>
+                    </select></td>
+                <td id="errcity"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button type="submit" name="btn" id="register">Register me</button>
+                    <button type="reset" name="btn" id="cancel">cancel</button>
+                </td>
+            </tr>
+
+
+        </form>
+    </table>
+</body>
+
+</html>

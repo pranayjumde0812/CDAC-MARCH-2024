@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function stringfunctions() {
+            var str = document.getElementById("str").value;
+            var c = document.getElementById("op");
+            var pos = c.selectedIndex;
+            var op = c.options[pos].value;
+            switch (op) {
+                case "upper":
+                    var result = str.toUpperCase();
+
+                    break;
+                case "lower":
+                    var result = str.toLowerCase();
+                    break;
+                case "slice":
+                    var start = prompt("enetr start index")
+                    var end = prompt("enetr end index")
+                    var result = str.slice(start, end);
+                    break;
+                case "indexof":
+                    var s = prompt("enetr the string to search")
+                    result = str.indexOf(s)
+                    break;
+                case "includes":
+                    var s = prompt("enetr the string to search")
+                    if (str.includes(s))
+                        result = "found"
+                    else
+                        result = "Not Found"
+                    break;
+                case "split":
+                    result = str.split(" ");
+                    break
+                case "replace":
+                    pattern = /ain/gi
+                    result = str.replace(pattern, "XXXXXX");
+                    break
+                case "match":
+                    pattern = /ain/gi
+                    result = str.match(pattern); //all occurrences
+                    break
+                case "search":
+                    pattern = /ain/g
+                    result = str.search(pattern); //position of first occurrence
+                    break;
+            }
+            document.getElementById("result").value = result;
+
+        }
+    </script>
+</head>
+
+<body>
+    <form>
+        String : <input type="text" name="str" id="str"><br>
+        Result : <input type="text" name="result" id="result" readonly><br>
+        Operations : <select name="op" id="op">
+            <option value="upper">upper</option>
+            <option value="lower">lower</option>
+            <option value="slice">slice</option>
+            <option value="indexof">indexof</option>
+            <option value="includes">includes</option>
+            <option value="split">split</option>
+            <option value="replace">replace</option>
+            <option value="match">match</option>
+            <option value="search">search</option>
+        </select>
+        <button type="button" name="select" id="select" onclick="stringfunctions()">show Result</button>
+    </form>
+</body>
+
+</html>
