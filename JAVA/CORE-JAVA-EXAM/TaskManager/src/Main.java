@@ -57,6 +57,7 @@ public class Main {
                             Collection<Task> values = taskMap.values();
                             List<Task> taskList = new ArrayList<>(values);
                             Collections.sort(taskList, new TaskSortingOnTaskDate());
+//                            taskList.sort(Comparator.comparing(Task::getTaskDate));
                             System.out.println("Sorted on Task date");
                             for (Task task : taskList) {
                                 System.out.println(task);
