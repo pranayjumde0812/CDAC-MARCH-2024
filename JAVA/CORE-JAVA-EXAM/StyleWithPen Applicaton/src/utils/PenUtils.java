@@ -12,9 +12,8 @@ public class PenUtils {
 
         System.out.println("Enter the Pen Details");
         System.out.println("Brand , Color, InkColor, Material, Stock(Quantity), " +
-                "StockUpdateDate, StockListingDate, Price, Discount");
-        Pen pen = new Pen(sc.next(), sc.next(), sc.next(), sc.next(), sc.nextInt(), LocalDate.parse(sc.next()),
-                LocalDate.parse(sc.next()), sc.nextDouble(), sc.nextDouble());
+                "Price, Discount");
+        Pen pen = new Pen(sc.next(), sc.next(), sc.next(), sc.next(), sc.nextInt(), sc.nextDouble(), sc.nextDouble());
 
         map.put(pen.getPid(), pen);
 
@@ -28,7 +27,9 @@ public class PenUtils {
 
         if (map.containsKey(id)) {
             System.out.println("Enter new Stock value");
-            map.get(id).setStock(sc.nextInt());
+            Pen pen = map.get(id);
+            pen.setStock(pen.getStock() + sc.nextInt());
+            pen.setStockUpdateDate(LocalDate.now());
             return "Stock updated successfully";
         } else
             return "Invalid Id... Pen is not present in stock";
@@ -53,18 +54,12 @@ public class PenUtils {
         while (iterator.hasNext()) {
             Pen pen = iterator.next();
 
-            if (calculateDateAndMonthDiff(pen.getStockListingDate(), pen.getStockUpdateDate())) {
+            if (calculateDateDifference(pen.getStockUpdateDate(), 9)) {
                 Pen remove = map.remove(pen.getPid());
                 System.out.println("Pen with ID " + remove.getPid() + " is removed from stocks");
             }
         }
 
-//        for (Pen pen : map.values()) {
-//            if (calculateDateAndMonthDiff(pen.getStockListingDate(), pen.getStockUpdateDate())) {
-//                Pen remove = map.remove(pen);
-//                System.out.println("Pen with ID " + remove.getPid() + " is removed from stocks");
-//            }
-//        }
     }
 
     public static boolean calculateDateDifference(LocalDate date, int month) {
@@ -72,8 +67,4 @@ public class PenUtils {
         return Period.between(date, LocalDate.now()).getMonths() > month;
     }
 
-    public static boolean calculateDateAndMonthDiff(LocalDate listingDate, LocalDate lastUpdatedDate) {
-
-        return listingDate.equals(lastUpdatedDate) && listingDate.isBefore(LocalDate.now().minusMonths(9));
-    }
 }

@@ -21,7 +21,7 @@ public class Pen {
     }
 
     public Pen(String brand, String penColor, String inkColor,
-               String material, int stock, LocalDate stockUpdateDate, LocalDate stockListingDate,
+               String material, int stock,
                double price, double discount) {
         this.pid = ++uid;
         this.brand = brand;
@@ -29,8 +29,8 @@ public class Pen {
         this.inkColor = inkColor;
         this.material = material;
         this.stock = stock;
-        this.stockUpdateDate = stockUpdateDate;
-        this.stockListingDate = stockListingDate;
+        this.stockUpdateDate = LocalDate.now();
+        this.stockListingDate = LocalDate.now();
         this.price = price;
         this.discount = discount;
     }
