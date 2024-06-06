@@ -60,4 +60,29 @@ public class Main {
     }
 }
 
+//1.
+//A company StyleWithPen sells stylish Pens online.
+//Company needs an interface for site admin to manage stocks.
+//
+//Write a console-based menu driven java program for site ADMIN to perform following operations:
+//
+//        1. Add new Pen
+//2. Update stock of a Pen
+//3. Set discount of 20% for all the pens which are not at all sold in last 3 months
+//4. Remove Pens which are never sold once listed in 9 months
+//
+//You can define a class Pen with the following fields –
+//        a.	ID (unique identifier for each Pen, should be generated automatically)
+//b.	Brand (Example:  Cello, Parker, Reynolds etc.)
+//c.	Color
+//d.	InkColor
+//e.	Material (Example: Plastic, Alloy Steel, Metal etc.)
+//f.	Stock (Available quantity)
+//g.	Stock Update Date (it changed every time when admin update stock or user order executed)
+//h.	Stock Listing Date (date on which product is added to site for sale)
+//i.	Price (in INR)
+//j.	Discounts (in percentage)
+//
+//Note: You can use java collection to store items in memory.
+
 //cello red blue plastic 20 2023-05-22 2023-05-22 30 5
