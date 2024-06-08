@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./script/jquery.js"></script>
+    <script>
+        $(document).ready(function(){
+            /*$('p').each(function(index,element){
+                alert(index+". "+$(element).html())
+
+            })*/
+            $('p').each(function(index){
+                alert(index+". "+$(this).html())
+
+            })
+        })
+    </script>
+</head>
+<body>
+    <p>This is p1</p>
+    <p>This is p2</p>
+    <p>This is p3</p>
+</body>
+</html>

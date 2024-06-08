@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./script/jquery.js"></script>
+    <script>
+        $(document).ready(function(){
+           // $('p').css("background-color","yellow")
+           $('p,h1').css({"background-color":"cyan",
+            "color":"blue",
+            "font-size":"40px"
+           })
+           $('.myclass').css("border","2px solid red")
+        })
+    </script>
+</head>
+<body>
+    <h2 class="myclass">This is h2</h2>
+    <p>This is p</p>
+    <h1 class="myclass">This is h1</h1>
+    <div>
+        <h2>This is h2 in div</h2>
+        <p>this is p in div</p>
+        <h1>This is h1</h1>
+    </div>
+</body>
+</html>

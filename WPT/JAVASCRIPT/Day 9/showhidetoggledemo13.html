@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width:100px;
+            height:100px;
+            border:2px solid red;
+            border-radius:20px;
+            background-color: aqua;
+
+        }
+    </style>
+    <script src="./script/jquery.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#show').click(function(){
+                $('#mydiv1').show(1000,function(){
+                    console.log("in show")
+                })
+                $('#mydiv2').hide(1000,function(){
+                    console.log("in hide")
+                })
+            })
+            $('#hide').click(function(){
+                $('#mydiv1').hide(1000,function(){
+                    console.log("in hide")
+                })
+                $('#mydiv2').show(1000,function(){
+                    console.log("in show")
+                }) 
+            })
+            $('#toggle').click(function(){
+                $('#mydiv1').toggle(2000,function(){
+                    console.log("in toggle")
+                })
+                $('#mydiv2').toggle(2000,function(){
+                    console.log("in toggle")
+                }) 
+            })
+        })
+    </script>
+</head>
+<body>
+    <button type="button" name="show" id="show">Show</button>
+    <button type="button" name="hide" id="hide">hide</button>
+    <button type="button" name="toggle" id="toggle">toggle</button>
+    <div id="mydiv1">
+        <img src="../images/flowers.png" width="100px" height="100px"></img>
+    </div>
+    <div id="mydiv2">
+        This is div1
+    </div>
+</body>
+</html>

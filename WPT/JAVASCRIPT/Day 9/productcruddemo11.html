@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./script/jquery.js"></script>
+    <script>
+        var arr=[{pid : 1, pname:"lays",qty:30},{pid : 2, pname:"marie",qty:40}]
+
+        //display table
+        function displayTable(){
+            var str="<table border='2'><tr><th>Product Id</th><th>Prduct Name</th><th>Product Qty</th></tr>"
+            for(var p of arr) {
+                str+=`<tr><td>${p.pid}</td><td>${p.pname}</td><td>${p.qty}</td></tr>`
+            }
+            str+="</table>"
+            $('#mydiv').html(str)
+                
+
+        }
+        //clear all the textboxes
+        function clearForm() {
+             $('#pid').val("")
+             $('#pname').val("")
+             $('#qty').val("")
+
+        }
+        $(document).ready(function(){
+            // to display table as soon as page is loaded
+            displayTable()
+
+            //adding a new product in the array
+            $("#add").click(function(){
+                var pid=parseInt($('#pid').val())
+                var pname=$('#pname').val()
+                var qty=parseInt($('#qty').val())
+                //var p={pid:pid,pname:pname,qty:qty}
+                var p={pid,pname,qty}
+                arr.push(p)
+                displayTable()
+                clearForm()
+                $('#pid').focus()
+
+
+            }) 
+
+            //delete the product from the array
+            $("#delete").click(function(){
+                var pid=parseInt($('#pid').val())
+                
+                var pos=arr.findIndex(ob=>ob.pid===pid)
+                if(pos!==-1) {
+                    arr.splice(pos,1)
+                }
+
+                
+                displayTable()
+                clearForm()
+                $('#pid').focus()
+
+
+            }) 
+
+
+
+
+
+        })
+
+
+    </script>
+</head>
+<body>
+    <form>
+
+        Product id: <input type="text" name="pid" id="pid" ><br>
+        Product pname: <input type="text" name="pname" id="pname" ><br>
+        Product qty: <input type="text" name="qty" id="qty" ><br>
+        <button type="button" name="add" id="add" >Add Product</button>
+        <button type="button" name="delete" id="delete">Delete Product</button>
+        <button type="button" name="update" id="update">Update Product</button>
+        
+    </form>
+    <div id="mydiv"></div>
+</body>
+</html>

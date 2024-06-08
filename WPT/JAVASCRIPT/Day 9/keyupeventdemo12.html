@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./script/jquery.js"></script>
+    <script>
+        var arr=[{pid :1,pname:"lays",qty:30},
+        {pid : 2, pname:"marie",qty:40},
+        {pid : 3, pname:"maggi",qty:30},
+        {pid : 4, pname:"lazania",qty:60},
+        {pid : 5, pname:"pringles",qty:50}]
+        var searcharr=[...arr];
+        //display table
+        function displayTable(){
+            var str="<table border='2'><tr><th>Product Id</th><th>Prduct Name</th><th>Product Qty</th></tr>"
+            for(var p of searcharr) {
+                str+=`<tr><td>${p.pid}</td><td>${p.pname}</td><td>${p.qty}</td></tr>`
+            }
+            str+="</table>"
+            $('#mydiv').html(str)
+        }
+        $(document).ready(function(){
+            displayTable()
+            $('#search').keyup(function(){
+                //alert(e);
+                //console.log(e)
+                //retrive the value from search text box
+                 var v=$('#search').val();
+                 var ch=$('#choice option:selected').val();
+                 switch(ch){
+                    case "pid":
+
+                        break;
+                    case "pname":
+                            if(v!==""){
+                            //if the search textbox is not empty
+                            //then change the searcharr by filtering arr
+                            searcharr=arr.filter(ob=>ob.pname.includes(v))
+                        
+                        }else{
+                            //if the search textbox is empty
+                            //copy arr into  searcharr 
+                            searcharr=[...arr]
+                        }
+                        break;
+                    case "qty":
+                        if(v!==""){
+                            var v=parseInt(v)
+                            searcharr=arr.filter(ob=>ob.qty<v)
+                        }else{
+                            searcharr=[...arr]
+                        }
+                       
+                        break;
+                 }
+                 
+                 displayTable();
+            })
+        })
+    </script>
+</head>
+<body>
+    Search : <input type="text" name="search" id="search">
+    <select id="choice">
+        <option value="pid">pid</option>
+        <option value="pname">pname</option>
+        <option value="qty">qty</option>
+    </select>
+    <div id="mydiv"></div>
+</body>
+</html>

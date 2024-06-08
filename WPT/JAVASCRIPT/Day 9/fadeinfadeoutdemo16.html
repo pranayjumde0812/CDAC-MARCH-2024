@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width:100px;
+            height:100px;
+            border:2px solid red;
+            border-radius:20px;
+            background-color: aqua;
+
+        }
+    </style>
+    <script src="./script/jquery.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#fadein').click(function(){
+                $('#mydiv1').fadeIn(1000,function(){
+                    console.log("in show")
+                })
+                $('#mydiv2').fadeOut(1000,function(){
+                    console.log("in hide")
+                })
+            })
+            $('#fadeout').click(function(){
+                $('#mydiv1').fadeOut(1000,function(){
+                    console.log("in hide")
+                })
+                $('#mydiv2').fadeIn(1000,function(){
+                    console.log("in show")
+                }) 
+            })
+            $('#fadeto').click(function(){
+                $('#mydiv1').fadeTo(2000,0.3,function(){
+                    console.log("in toggle")
+                })
+                $('#mydiv2').fadeTo(2000,0.3,function(){
+                    console.log("in toggle")
+                }) 
+            })
+        })
+    </script>
+</head>
+<body>
+    <button type="button" name="fadein" id="fadein">fadein</button>
+    <button type="button" name="fadeout" id="fadeout">fadeout</button>
+    <button type="button" name="fadeto" id="fadeto">fadeto</button>
+    <div id="mydiv1">
+        <img src="../images/flowers.png" width="100px" height="100px"></img>
+    </div>
+    <div id="mydiv2">
+        This is div1
+    </div>
+</body>
+</html>

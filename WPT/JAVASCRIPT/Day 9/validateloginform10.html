@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="./script/jquery.js"></script>
+
+    <script>
+
+        function validateTextBox(id, errid)
+        {
+            //alert("in validateTextBox")
+            //retrieve value of the given id
+            var v= $("#" +id).val()
+            //check whether it is not only spaces
+            if(v.trim().length===0)
+            {
+                //alert("in if()" +v)
+                //display error message
+                $("#" +errid).html("Please enter valid value!")
+                return false;
+            }
+            else
+            {
+                //alert("in else" +v)
+                //remove error message
+                $("#" +errid).html("")
+                return true;
+            }
+
+        }
+
+        $(document).ready(function(){
+            //assign submit event to form
+            $("#frm").submit(function(){
+               // alert("in Submit")
+               //validate user name
+                var flag1= validateTextBox("uname", "erruname")
+                //validate password
+                var flag2=validateTextBox("pass", "errpass")
+                return flag1 && flag2;
+            })
+        })
+
+    </script>
+</head>
+<body>
+    <form id="frm">
+        User name: <input type="text" name="uname" id="uname" required>
+        <span id="erruname"></span><br>
+        Password: <input type="password" name="pass" id="pass" required>
+        <span id="errpass"></span><br>
+
+        <button type="submit" name="btn" id="btn">Login</button>
+    </form>
+</body>
+</html>

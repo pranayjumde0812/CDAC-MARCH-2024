@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./script/jquery.js"></script>
+    <script>
+        $(document).ready(function(){
+            //assigning focus event to existing text boxes
+            $('input[type=text]').focus(function(){
+                $(this).css("background-color","yellow")
+            })
+             //assigning blur event to existing text boxes
+            $('input[type=text]').blur(function(){
+                $(this).css("background-color","white")
+            })
+            let cnt=0
+            //assign click event to add button
+            $('#add').on("click",function(){
+                //clone will create a copy
+                var p=$('#choice').clone();
+                //change the value of id property
+                $(p).attr("id","choice"+cnt)
+                //clearing the text box
+                $(p).val("")
+                cnt++;
+                //adding a text box at the end of div
+                $('#mydiv1').append(p)
+                $('#mydiv1').append("<br>")
+
+            })
+            $("#submit").click(function(){
+                $('#add').off("click");
+                var nm=$('#nm').val();
+                var addr=$('#addr').val();
+                var choice=""
+                $('input[name=choice]').each(function(index,element){
+                     choice=choice+$(element).val()+","
+                })
+                data=`Name : ${nm} <br> Address: ${addr}<br>Choices: ${choice}<br>` 
+                $('#mydiv2').html(data);
+            })
+        })
+    </script>
+</head>
+<body>
+    <div id="mydiv1">
+    Name : <input type="text" name="nm" id="nm"><br>
+    Address: <input type="text" name="addr" id="addr"><br>
+    Choice: <input type="text" name="choice" id="choice">
+    <button type="button" name="add" id="add">Add more</button>
+    <button type="button" name="submit" id="submit">submit data</button><br>
+   </div>
+   <div id="mydiv2">
+
+   </div>
+</body>
+</html>

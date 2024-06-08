@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            background-color: aqua;
+            border:2px solid red;
+            border-radius: 6px;
+        }
+        .myclass{
+            display:none;
+        }
+        .myc{
+            display:block
+        }
+
+    </style>
+    <script src="./script/jquery.js"></script>
+    <script>
+        $(document).ready(function(){
+                   //hover(mouseover,mouseout)
+            /*$('h1').hover(function(){
+                $('div').addClass("myc");
+                $('div').removeClass("myclass")
+            },function(){
+                $('div').addClass("myclass");
+                $('div').removeClass("myc")
+            })*/
+            $('h1').hover(function(){
+                console.log("in single function hover")
+
+                //function chaining
+                $('div').toggleClass('myclass')
+                .toggleClass("myc");
+            })
+
+
+        })
+    </script>
+</head>
+<body>
+    <h1>This is h1</h1>
+    <div class="myclass">
+        <p>This is p1</p>
+        <p>This is p2</p>
+        <p>this is p3</p>
+     </div>
+</body>
+</html>
