@@ -38,7 +38,7 @@ public class PenUtils {
     public static void set20PercentDiscount(Map<Integer, Pen> map) {
 
         for (Pen pen : map.values()) {
-            if (calculateDateDifference(pen.getStockUpdateDate(), 3)) {
+            if ((Period.between(pen.getStockUpdateDate(), LocalDate.now()).toTotalMonths()) > 3) {
                 pen.setDiscount(20);
                 System.out.println("Discount for " + pen.getPid() + " is updated to 20%");
             }
@@ -47,14 +47,14 @@ public class PenUtils {
 
     public static void deleteNotSoledPenIn9Months(Map<Integer, Pen> map) {
 
-        Collection<Pen> values = map.values();
-        List<Pen> list = new ArrayList<>(values);
-        Iterator<Pen> iterator = list.iterator();
+//        Collection<Pen> values = map.values();
+//        List<Pen> list = new ArrayList<>(values);
+        Iterator<Pen> iterator = map.values().iterator();
 
         while (iterator.hasNext()) {
             Pen pen = iterator.next();
 
-            if (calculateDateDifference(pen.getStockUpdateDate(), 9)) {
+            if ((Period.between(pen.getStockListingDate(), pen.getStockUpdateDate()).toTotalMonths()) >= 9) {
                 Pen remove = map.remove(pen.getPid());
                 System.out.println("Pen with ID " + remove.getPid() + " is removed from stocks");
             }
@@ -62,9 +62,9 @@ public class PenUtils {
 
     }
 
-    public static boolean calculateDateDifference(LocalDate date, int month) {
-
-        return Period.between(date, LocalDate.now()).getMonths() > month;
-    }
+//    public static boolean calculateDateDifference(LocalDate date, int month) {
+//
+//        return Period.between(date, LocalDate.now()).getMonths() > month;
+//    }
 
 }
