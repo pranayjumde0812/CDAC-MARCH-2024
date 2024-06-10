@@ -14,7 +14,7 @@ public class CricketerUtils {
         cricketers.add(new Cricketer("Pranay", 24, "pranay@gmail.com", "9657963378", 9));
         cricketers.add(new Cricketer("Anuj", 24, "anuj@gmail.com", "9844775566", 8));
         cricketers.add(new Cricketer("Vishal", 22, "vishal@gmail.com", "7744112255", 7));
-        cricketers.add(new Cricketer("Rahul", 29, "rahul@gmail.com", "9467852133", 6));
+        cricketers.add(new Cricketer("Rahul", 29, "rahul@gmail.com", "9467852133", 10));
         cricketers.add(new Cricketer("Pavan", 21, "pavan@gmail.com", "9994445214", 8));
 
         return cricketers;

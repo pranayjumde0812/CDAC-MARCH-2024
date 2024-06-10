@@ -57,7 +57,8 @@ public class CricketerTest {
                             break;
                         case 5:
                             cricketers.sort(Comparator.comparing(Cricketer::getRating));
-                            displayAllCricketers(cricketers);
+//                            cricketers.sort(Comparator.comparing(Cricketer::getRating).thenComparing(Cricketer::getAge));
+//                            displayAllCricketers(cricketers);
                             break;
                         case 0:
                             System.out.println("Exiting...");

@@ -48,13 +48,18 @@ public class Main {
                             displayAllCustomersDetails(customers);
                             break;
                         case 7:
-                            Collection<Customer> collection = customers.values();
-                            List<Customer> customerList = new ArrayList<>(collection);
-                            Collections.sort(customerList, new CustomerSortDobAndLastnameComparator());
-                            System.out.println("Customer sorted according to to DOB and Lastname");
-                            for (Customer c : customerList) {
-                                System.out.println(c);
-                            }
+//                            Collection<Customer> collection = customers.values();
+//                            List<Customer> customerList = new ArrayList<>(collection);
+//                            Collections.sort(customerList, new CustomerSortDobAndLastnameComparator());
+//                            System.out.println("Customer sorted according to to DOB and Lastname");
+//                            for (Customer c : customerList) {
+//                                System.out.println(c);
+//                            }
+                            customers.values()
+                                    .stream()
+                                    .sorted(Comparator.comparing(Customer::getDateOfBirth)
+                                            .thenComparing(Customer::getLastName))
+                                    .forEach(System.out::println);
                             break;
                         case 8:
                             System.out.println("Enter the date- yyyy-MM-dd");

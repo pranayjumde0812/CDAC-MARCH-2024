@@ -1,5 +1,7 @@
 package pojo;
 
+import java.util.Objects;
+
 public class Cricketer {
 //    String name,int age,String email_id,String Phone,int rating
 
@@ -85,5 +87,8 @@ public class Cricketer {
         return false;
     }
 
-
+//    @Override
+//    public int hashCode() {
+//        return Objects.hashCode(name);
+//    }
 }
