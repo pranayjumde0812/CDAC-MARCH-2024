@@ -68,7 +68,9 @@ public class PetStoreApplication {
 
             int choice;
             do {
-                System.out.println("1.Login\n2.Add new Pet(Admin Only)\n3.Update Pet Details(Admin Only)" + "\n4.Display All available petList\n5.Order a Pet\n6.Check order status by order Id" + "\n7.Update order status(Admin only)\n0.Exit");
+                System.out.println("1.Login\n2.Add new Pet(Admin Only)\n3.Update Pet Details(Admin Only)"
+                        + "\n4.Display All available petList\n5.Order a Pet\n6.Check order status by order Id"
+                        + "\n7.Update order status(Admin only)\n0.Exit");
                 choice = sc.nextInt();
                 try {
                     switch (choice) {
