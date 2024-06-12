@@ -15,9 +15,9 @@ public class Main {
 
         for (char value : ch) {
 
-            int c = 'N' - value;
+            int c = 78 - value;
 
-            nStr.append((char) (c + 'M'));
+            nStr.append((char) (c + 77));
         }
 
         return nStr.toString();

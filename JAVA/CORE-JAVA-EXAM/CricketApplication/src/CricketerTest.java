@@ -60,6 +60,9 @@ public class CricketerTest {
 //                            cricketers.sort(Comparator.comparing(Cricketer::getRating).thenComparing(Cricketer::getAge));
 //                            displayAllCricketers(cricketers);
                             break;
+//                        case 6:
+//                            cricketers.removeIf(s -> s.getAge() > 21);
+//                            break;
                         case 0:
                             System.out.println("Exiting...");
                             break;

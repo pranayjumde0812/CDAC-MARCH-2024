@@ -26,7 +26,7 @@ public class CustomerValidation {
         Customer customer = new Customer(email);
 
         // Check for duplicate email(already registered)
-        if (list.containsKey(customer)) {
+        if (list.containsKey(email)) {
             throw new DuplicateCustomerException("Already registered Email....Use another email");
         }
 

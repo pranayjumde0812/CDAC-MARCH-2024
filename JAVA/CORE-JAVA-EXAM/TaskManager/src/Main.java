@@ -30,9 +30,7 @@ public class Main {
             Map<Integer, Task> taskMap = new HashMap<>();
             int choice;
             do {
-                System.out.println("1. Add New Task\n2. Delete a Task\n3. Update task status" +
-                        "\n4. Display all pending tasks\n5. Display all pending tasks for today" +
-                        "\n6. Display all tasks sorted by taskDate\n0. Exit");
+                System.out.println("1. Add New Task\n2. Delete a Task\n3. Update task status" + "\n4. Display all pending tasks\n5. Display all pending tasks for today" + "\n6. Display all tasks sorted by taskDate\n0. Exit");
 
                 choice = sc.nextInt();
 
@@ -54,14 +52,18 @@ public class Main {
                             displayAllPendingTaskForToday(taskMap);
                             break;
                         case 6:
-                            Collection<Task> values = taskMap.values();
-                            List<Task> taskList = new ArrayList<>(values);
-                            Collections.sort(taskList, new TaskSortingOnTaskDate());
-//                            taskList.sort(Comparator.comparing(Task::getTaskDate));
-                            System.out.println("Sorted on Task date");
-                            for (Task task : taskList) {
-                                System.out.println(task);
-                            }
+//                            Collection<Task> values = taskMap.values();
+//                            List<Task> taskList = new ArrayList<>(values);
+//                            Collections.sort(taskList, new TaskSortingOnTaskDate());
+////                            taskList.sort(Comparator.comparing(Task::getTaskDate));
+//                            System.out.println("Sorted on Task date");
+//                            for (Task task : taskList) {
+//                                System.out.println(task);
+//                            }
+                            taskMap.values()
+                                    .stream()
+                                    .sorted(Comparator.comparing(Task::getTaskDate))
+                                    .forEach(System.out::println);
                             break;
                         case 0:
                             System.out.println("Exiting......");
