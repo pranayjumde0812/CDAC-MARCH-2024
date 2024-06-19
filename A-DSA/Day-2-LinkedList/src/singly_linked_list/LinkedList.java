@@ -102,21 +102,39 @@ public class LinkedList {
         }
 
         Node secondLast = get(size - 2);
-
         int val = tail.value;
-
         tail = secondLast;
-
         tail.next = null;
+        size--;
 
         return val;
     }
 
+    // Delete At Position
+
+    public int delete(int index) {
+
+        if (index == 1) {
+            return deleteFirst();
+        }
+
+        if (index == size - 1) {
+            return deleteLast();
+        }
+
+        Node previous = get(index - 1);
+
+        int val = previous.next.value;
+
+        previous.next = previous.next.next;
+
+        return val;
+    }
 
     // get Function
     public Node get(int index) {
         Node temp = head;
-        for (int i = 1; i < index; i++) {
+        for (int i = 0; i < index; i++) {
             temp = temp.next;
         }
         return temp;
