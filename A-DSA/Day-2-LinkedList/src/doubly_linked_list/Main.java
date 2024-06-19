@@ -60,6 +60,7 @@ public class Main {
         System.out.println("------------------------------- Delete By index -----------------------------------------");
         dll.display();
         System.out.println(dll.delete(5));
+        dll.display();
 
     }
 }

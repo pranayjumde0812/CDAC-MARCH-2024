@@ -114,12 +114,17 @@ public class DoublyLinkedList {
             temp = temp.next;
         }
 
-        temp.prev.next = temp.next;
+        int val = temp.value;
+
+        Node previous = temp.prev;
+        Node nextNode = temp.next;
+
+        previous.next = nextNode;
         if (temp.next != null) {
-            temp.next.
+            nextNode.prev = previous;
         }
 
-        return temp.value;
+        return val;
     }
 
     public void display() {
