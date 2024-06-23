@@ -20,5 +20,7 @@ public class Main {
         System.out.println("Middle element of SLL = " + list.findMiddleElement());
         list.display();
         list.reverse();
+        list.display();
+//        list.reverse(list.head);
     }
 }

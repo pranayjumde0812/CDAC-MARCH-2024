@@ -2,7 +2,7 @@ package doubly_linked_list;
 
 public class DoublyLinkedList {
 
-    private Node head;
+    Node head;
 
     private class Node {
         int value;
@@ -126,6 +126,17 @@ public class DoublyLinkedList {
         }
 
         return val;
+    }
+
+    // Q7. Reverse a LL
+    public void reverse(Node headNode) {
+        if (headNode == null) {
+            System.out.println();
+            return;
+        }
+
+        reverse(headNode.next);
+        System.out.print(headNode.value + " ");
     }
 
     public void display() {

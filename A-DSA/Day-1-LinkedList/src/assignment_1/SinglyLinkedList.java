@@ -2,7 +2,7 @@ package assignment_1;
 
 public class SinglyLinkedList {
 
-    private Node head;
+    Node head;
 
     public SinglyLinkedList() {
         head = null;
@@ -93,24 +93,21 @@ public class SinglyLinkedList {
         return slow.getData();
     }
 
-    // Q2. Reverse LL without recursion
+    // Q3. Reverse LL without recursion
     public void reverse() {
-        Node temp = head;
-
-        if (temp == null) {
+//        Node temp = head;
+        if (head == null) {
             return;
         }
-
         Node n1 = head;
         Node n2 = head.getNext();
-
         while (n2 != null) {
             Node n3 = n2.getNext();
             n2.setNext(n1);
             n1 = n2;
             n2 = n3;
         }
-
+        Node temp = head;
         temp.setNext(null);
         temp = n1;
 
@@ -119,5 +116,15 @@ public class SinglyLinkedList {
             temp = temp.getNext();
         }
         System.out.println();
+    }
+
+    // Q7. Reverse a LL
+    public void reverse(Node headNode) {
+        if (headNode == null) {
+            System.out.println();
+            return;
+        }
+        reverse(headNode.getNext());
+        System.out.print(headNode.getData() + " ");
     }
 }

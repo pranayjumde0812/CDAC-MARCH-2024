@@ -61,6 +61,7 @@ public class Main {
         dll.display();
         System.out.println(dll.delete(5));
         dll.display();
-
+        System.out.println("------------------------------- Reverse with Recursion -----------------------------------------");
+        dll.reverse(dll.head);
     }
 }
