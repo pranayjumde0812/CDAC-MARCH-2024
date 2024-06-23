@@ -79,4 +79,45 @@ public class SinglyLinkedList {
 
         return sum;
     }
+
+    // Q2. Find middle element in LL in single pass
+    public int findMiddleElement() {
+        Node slow = head;
+        Node fast = head;
+
+        while (fast.getNext() != null && fast.getNext().getNext() != null) {
+            slow = slow.getNext();
+            fast = fast.getNext().getNext();
+        }
+
+        return slow.getData();
+    }
+
+    // Q2. Reverse LL without recursion
+    public void reverse() {
+        Node temp = head;
+
+        if (temp == null) {
+            return;
+        }
+
+        Node n1 = head;
+        Node n2 = head.getNext();
+
+        while (n2 != null) {
+            Node n3 = n2.getNext();
+            n2.setNext(n1);
+            n1 = n2;
+            n2 = n3;
+        }
+
+        temp.setNext(null);
+        temp = n1;
+
+        while (temp != null) {
+            System.out.print(temp.getData() + " ");
+            temp = temp.getNext();
+        }
+        System.out.println();
+    }
 }
