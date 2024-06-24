@@ -1,4 +1,4 @@
-package static_stack_class;
+package stack_using_array;
 
 public class Stack<T> {
     T[] arr;

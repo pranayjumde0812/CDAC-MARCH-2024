@@ -1,4 +1,4 @@
-package Dynamic_Stack;
+package Stack_Using_ArrayList;
 
 public class DynamicStackMain {
 
