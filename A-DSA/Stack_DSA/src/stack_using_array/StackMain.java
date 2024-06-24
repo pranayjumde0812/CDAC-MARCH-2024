@@ -18,5 +18,9 @@ public class StackMain {
         System.out.println(stack.push(22));
 
         stack.displayStack();
+        System.out.println(stack.pop());
+        stack.displayStack();
+        System.out.println(stack.peek());
+        stack.displayStack();
     }
 }
