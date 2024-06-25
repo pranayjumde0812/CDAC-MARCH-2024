@@ -50,8 +50,8 @@ public class DoublyLinkedList {
             last = last.next;
         }
 
-        last.next = node;
         node.prev = last;
+        last.next = node;
     }
 
     // Insert At index

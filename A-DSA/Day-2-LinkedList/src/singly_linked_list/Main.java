@@ -5,7 +5,7 @@ public class Main {
         LinkedList list = new LinkedList();
 
         System.out.println("++++++++++++++++++++++++++++++++++ Insert First +++++++++++++++++++++++++++++++++++++++++++++++");
-        list.display();
+//        list.display();
         list.insertFirst(10);
         list.insertFirst(90);
         list.insertFirst(8);
@@ -32,6 +32,8 @@ public class Main {
         list.insert(500, 2);
         list.display();
         list.insert(610, 5);
+        list.display();
+        list.insert(1516, 16);
         list.display();
         System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
         System.out.println("+++++++++++++++++++++++++++++++++ Delete First ++++++++++++++++++++++++++++++++++++++++++++++++");

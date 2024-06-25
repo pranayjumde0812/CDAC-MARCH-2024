@@ -54,22 +54,22 @@ public class LinkedList {
     }
 
     // insert value at a specific position
-    public void insert(int val, int index) {
+    public void insert(int val, int position) {
         // If the index is 1 then we can call insertFirst(val)
-        if (index == 1) {
+        if (position == 1) {
             insertFirst(val);
             return;
         }
 
         // If the index is equal to size then we can call insertLast(val)
-        if (index == size) {
+        if (position == size + 1) {
             insertLast(val);
             return;
         }
 
         // If index is in between 1st and size
         Node temp = head;
-        for (int i = 1; i < index; i++) {
+        for (int i = 1; i < position - 1; i++) {
             temp = temp.next;
         }
 
@@ -112,17 +112,17 @@ public class LinkedList {
 
     // Delete At Position
 
-    public int delete(int index) {
+    public int delete(int position) {
 
-        if (index == 1) {
+        if (position == 1) {
             return deleteFirst();
         }
 
-        if (index == size - 1) {
+        if (position == size) {
             return deleteLast();
         }
 
-        Node previous = get(index - 1);
+        Node previous = get(position - 2);
 
         int val = previous.next.value;
 
