@@ -56,18 +56,18 @@ public class DoublyLinkedList {
 
     // Insert At index
 
-    public void insert(int value, int index) {
+    public void insert(int value, int position) {
 
         Node node = new Node(value);
 
-        if (index == 0) {
+        if (position == 1) {
             insertFirst(value);
             return;
         }
 
         Node last = head;
 
-        for (int i = 1; i < index; i++) {
+        for (int i = 1; i < position - 1; i++) {
             last = last.next;
         }
 
@@ -108,10 +108,10 @@ public class DoublyLinkedList {
     }
 
     // Delete at specific Position
-    public int delete(int index) {
+    public int delete(int position) {
         Node temp = head;
 
-        for (int i = 1; i <= index; i++) {
+        for (int i = 1; i < position; i++) {
             temp = temp.next;
         }
 
@@ -131,12 +131,12 @@ public class DoublyLinkedList {
     // Q7. Reverse a LL
     public void reverse(Node headNode) {
         if (headNode == null) {
-            System.out.println();
+//            System.out.println();
             return;
         }
 
         reverse(headNode.next);
-        System.out.print(headNode.value + " ");
+        System.out.print(headNode.value + " -> ");
     }
 
     public void display() {

@@ -121,7 +121,7 @@ public class SinglyLinkedList {
     // Q7. Reverse a LL
     public void reverse(Node headNode) {
         if (headNode == null) {
-            System.out.println();
+//            System.out.println();
             return;
         }
         reverse(headNode.getNext());

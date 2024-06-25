@@ -19,8 +19,10 @@ public class Main {
         System.out.println("Sum of even element of SLL = " + list.sumOfEvenElement());
         System.out.println("Middle element of SLL = " + list.findMiddleElement());
         list.display();
-        list.reverse();
+//        list.reverse();
         list.display();
-//        list.reverse(list.head);
+        list.reverse(list.head);
+        System.out.println();
+        list.display();
     }
 }

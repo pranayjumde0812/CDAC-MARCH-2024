@@ -33,7 +33,7 @@ public class Main {
         System.out.println("------------------------------- Insert At Specific position -----------------------------------------");
         dll.insert(222, 8);
         dll.display();
-        dll.insert(66, 0);
+        dll.insert(66, 1);
         dll.display();
         dll.insert(88, 5);
         dll.display();
@@ -57,11 +57,13 @@ public class Main {
         System.out.println(dll.deleteLast());
         dll.display();
 
-        System.out.println("------------------------------- Delete By index -----------------------------------------");
+        System.out.println("------------------------------- Delete By Position -----------------------------------------");
         dll.display();
         System.out.println(dll.delete(5));
         dll.display();
         System.out.println("------------------------------- Reverse with Recursion -----------------------------------------");
         dll.reverse(dll.head);
+        System.out.println();
+        dll.display();
     }
 }
