@@ -17,9 +17,9 @@ public class DynamicStack {
         return false;
     }
 
-    public int pop() {
+    public Integer pop() {
         if (isEmpty()) {
-            return Integer.MIN_VALUE;
+            return null;
         }
 
         return stack.remove(stack.size() - 1);
