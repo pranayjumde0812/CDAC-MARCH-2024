@@ -2,10 +2,10 @@ package Stack_Using_LinkedList;
 
 public class StackLL<T> {
 
-    private Node head;
+    private Node top;
 
     public StackLL() {
-        this.head = null;
+        this.top = null;
     }
 
     private class Node {
@@ -19,19 +19,19 @@ public class StackLL<T> {
     }
 
     public boolean isEmpty() {
-        return head == null;
+        return top == null;
     }
 
     public boolean push(T data) {
         Node node = new Node(data);
 
         if (isEmpty()) {
-            head = node;
+            top = node;
             return true;
         }
 
-        node.next = head;
-        head = node;
+        node.next = top;
+        top = node;
         return true;
     }
 
@@ -41,9 +41,9 @@ public class StackLL<T> {
             return null;
         }
 
-        T value = head.data;
+        T value = top.data;
 
-        head = head.next;
+        top = top.next;
         return value;
     }
 
@@ -52,12 +52,12 @@ public class StackLL<T> {
             return null;
         }
 
-        return head.data;
+        return top.data;
     }
 
 
     public void display() {
-        Node temp = head;
+        Node temp = top;
         while (temp != null) {
             System.out.print(temp.data + " ");
             temp = temp.next;
