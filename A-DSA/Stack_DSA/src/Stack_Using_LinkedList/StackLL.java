@@ -1,6 +1,6 @@
 package Stack_Using_LinkedList;
 
-public class StackLL {
+public class StackLL<T> {
 
     private Node head;
 
@@ -9,10 +9,10 @@ public class StackLL {
     }
 
     private class Node {
-        int data;
+        T data;
         Node next;
 
-        public Node(int data) {
+        public Node(T data) {
             this.data = data;
             this.next = null;
         }
@@ -22,7 +22,7 @@ public class StackLL {
         return head == null;
     }
 
-    public boolean push(int data) {
+    public boolean push(T data) {
         Node node = new Node(data);
 
         if (isEmpty()) {
@@ -35,9 +35,35 @@ public class StackLL {
         return true;
     }
 
-//    public int pop() {
-//
-//    }
+    public T pop() {
+
+        if (isEmpty()) {
+            return null;
+        }
+
+        T value = head.data;
+
+        head = head.next;
+        return value;
+    }
+
+    public T peek() {
+        if (isEmpty()) {
+            return null;
+        }
+
+        return head.data;
+    }
+
+
+    public void display() {
+        Node temp = head;
+        while (temp != null) {
+            System.out.print(temp.data + " ");
+            temp = temp.next;
+        }
+        System.out.println();
+    }
 
 
 }
