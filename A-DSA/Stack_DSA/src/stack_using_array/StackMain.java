@@ -5,6 +5,7 @@ public class StackMain {
 
         Stack<Integer> stack = new Stack<>(10);
 
+
         stack.push(10);
         stack.push(12);
         stack.push(14);

@@ -19,6 +19,8 @@ public class Stack<T> {
         return top == (size - 1);
     }
 
+
+
     public boolean push(T data) {
         if (isFull()) {
             return false;
@@ -27,6 +29,8 @@ public class Stack<T> {
         arr[++top] = data;
         return true;
     }
+
+
 
     public T pop() {
         if (isEmpty()) {
