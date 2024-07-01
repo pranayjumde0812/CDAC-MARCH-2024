@@ -1,0 +1,16 @@
+Steps for building ECommerce Solution.
+1.Create Blank solution
+2.Add new project class library for Catalog
+3.Add new project class library for OrderProcessing
+4.Add Product class in Catalog project.
+5.Add Order Class in OrderProcessing project.
+6.Add data members to Product class.
+7.Add data members to Order Class.
+8.Add new Project  console application Store to ECommerce Solution.
+9.Add references of both  classlibraries to StoreApp project.
+10.Import both namespaces to Store app.
+11.Create objects of PRoduct and Order Class in STore App.
+12.Add constructors, properties and ToString method for each class.
+13.Debug application using debugger.
+14.Explore complete execution of Solution
+

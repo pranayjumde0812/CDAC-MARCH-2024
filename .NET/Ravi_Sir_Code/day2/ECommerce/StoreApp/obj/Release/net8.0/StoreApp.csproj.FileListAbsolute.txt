@@ -1,0 +1,14 @@
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\day2\ECommerce\StoreApp\bin\Release\net8.0\StoreApp.exe
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\day2\ECommerce\StoreApp\bin\Release\net8.0\StoreApp.deps.json
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\day2\ECommerce\StoreApp\bin\Release\net8.0\StoreApp.runtimeconfig.json
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\day2\ECommerce\StoreApp\bin\Release\net8.0\StoreApp.dll
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\day2\ECommerce\StoreApp\bin\Release\net8.0\StoreApp.pdb
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\day2\ECommerce\StoreApp\obj\Release\net8.0\StoreApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\day2\ECommerce\StoreApp\obj\Release\net8.0\StoreApp.AssemblyInfoInputs.cache
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\day2\ECommerce\StoreApp\obj\Release\net8.0\StoreApp.AssemblyInfo.cs
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\day2\ECommerce\StoreApp\obj\Release\net8.0\StoreApp.csproj.CoreCompileInputs.cache
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\day2\ECommerce\StoreApp\obj\Release\net8.0\StoreApp.dll
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\day2\ECommerce\StoreApp\obj\Release\net8.0\refint\StoreApp.dll
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\day2\ECommerce\StoreApp\obj\Release\net8.0\StoreApp.pdb
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\day2\ECommerce\StoreApp\obj\Release\net8.0\StoreApp.genruntimeconfig.cache
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\day2\ECommerce\StoreApp\obj\Release\net8.0\ref\StoreApp.dll

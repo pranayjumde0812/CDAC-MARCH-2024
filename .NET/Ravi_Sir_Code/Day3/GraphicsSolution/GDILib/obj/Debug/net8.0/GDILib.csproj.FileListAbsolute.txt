@@ -1,0 +1,11 @@
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day3\GraphicsSolution\GDILib\bin\Debug\net8.0\GDILib.deps.json
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day3\GraphicsSolution\GDILib\bin\Debug\net8.0\GDILib.dll
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day3\GraphicsSolution\GDILib\bin\Debug\net8.0\GDILib.pdb
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day3\GraphicsSolution\GDILib\obj\Debug\net8.0\GDILib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day3\GraphicsSolution\GDILib\obj\Debug\net8.0\GDILib.AssemblyInfoInputs.cache
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day3\GraphicsSolution\GDILib\obj\Debug\net8.0\GDILib.AssemblyInfo.cs
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day3\GraphicsSolution\GDILib\obj\Debug\net8.0\GDILib.csproj.CoreCompileInputs.cache
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day3\GraphicsSolution\GDILib\obj\Debug\net8.0\GDILib.dll
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day3\GraphicsSolution\GDILib\obj\Debug\net8.0\refint\GDILib.dll
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day3\GraphicsSolution\GDILib\obj\Debug\net8.0\GDILib.pdb
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day3\GraphicsSolution\GDILib\obj\Debug\net8.0\ref\GDILib.dll

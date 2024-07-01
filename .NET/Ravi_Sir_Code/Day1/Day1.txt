@@ -1,0 +1,41 @@
+
+Todays Agenda:
+
+	Why .net
+	What is net
+	Hello world App
+	Basics .net application Execution
+	C# syntax
+	Building Applications using .net
+
+	What is .net ?
+	It is a runtime  		( Node js, 	java Runtime, Go runtime, .net runtime)
+		execution Engine:	 (v8 js engine, JVM,          Go engine,  CLR)
+		inbuilt libraries:	 (node_modules,  jar package,		  assemblies)			tools			  npm,		 maven			  nuget 
+					  nodmon	 compiler		  C#   compiler
+							 debugger		  debugger
+							 profiler		  profiler
+	assemblies:
+			dll, exe files
+
+	Visual Studio 2022:(IDE)
+				1. Create solution ( Logical Container)
+				2. Create and add mulitiple Projects to Solution
+				3.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

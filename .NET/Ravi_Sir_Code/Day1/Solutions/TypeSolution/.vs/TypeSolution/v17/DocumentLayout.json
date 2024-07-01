@@ -1,0 +1,194 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\CDAC\\Notes\\.NET\\Day1\\Solutions\\TypeSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{03538D29-6981-4A1D-9ABA-A446993082A2}|TypeApp\\TypeApp.csproj|e:\\cdac\\notes\\.net\\day1\\solutions\\typesolution\\typeapp\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03538D29-6981-4A1D-9ABA-A446993082A2}|TypeApp\\TypeApp.csproj|solutionrelative:typeapp\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03538D29-6981-4A1D-9ABA-A446993082A2}|TypeApp\\TypeApp.csproj|e:\\cdac\\notes\\.net\\day1\\solutions\\typesolution\\typeapp\\mathengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03538D29-6981-4A1D-9ABA-A446993082A2}|TypeApp\\TypeApp.csproj|solutionrelative:typeapp\\mathengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03538D29-6981-4A1D-9ABA-A446993082A2}|TypeApp\\TypeApp.csproj|e:\\cdac\\notes\\.net\\day1\\solutions\\typesolution\\typeapp\\line.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03538D29-6981-4A1D-9ABA-A446993082A2}|TypeApp\\TypeApp.csproj|solutionrelative:typeapp\\line.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03538D29-6981-4A1D-9ABA-A446993082A2}|TypeApp\\TypeApp.csproj|e:\\cdac\\notes\\.net\\day1\\solutions\\typesolution\\typeapp\\iprintable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03538D29-6981-4A1D-9ABA-A446993082A2}|TypeApp\\TypeApp.csproj|solutionrelative:typeapp\\iprintable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03538D29-6981-4A1D-9ABA-A446993082A2}|TypeApp\\TypeApp.csproj|e:\\cdac\\notes\\.net\\day1\\solutions\\typesolution\\typeapp\\complex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03538D29-6981-4A1D-9ABA-A446993082A2}|TypeApp\\TypeApp.csproj|solutionrelative:typeapp\\complex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03538D29-6981-4A1D-9ABA-A446993082A2}|TypeApp\\TypeApp.csproj|e:\\cdac\\notes\\.net\\day1\\solutions\\typesolution\\typeapp\\account_peronal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03538D29-6981-4A1D-9ABA-A446993082A2}|TypeApp\\TypeApp.csproj|solutionrelative:typeapp\\account_peronal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03538D29-6981-4A1D-9ABA-A446993082A2}|TypeApp\\TypeApp.csproj|e:\\cdac\\notes\\.net\\day1\\solutions\\typesolution\\typeapp\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03538D29-6981-4A1D-9ABA-A446993082A2}|TypeApp\\TypeApp.csproj|solutionrelative:typeapp\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03538D29-6981-4A1D-9ABA-A446993082A2}|TypeApp\\TypeApp.csproj|e:\\cdac\\notes\\.net\\day1\\solutions\\typesolution\\typeapp\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03538D29-6981-4A1D-9ABA-A446993082A2}|TypeApp\\TypeApp.csproj|solutionrelative:typeapp\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03538D29-6981-4A1D-9ABA-A446993082A2}|TypeApp\\TypeApp.csproj|e:\\cdac\\notes\\.net\\day1\\solutions\\typesolution\\typeapp\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03538D29-6981-4A1D-9ABA-A446993082A2}|TypeApp\\TypeApp.csproj|solutionrelative:typeapp\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03538D29-6981-4A1D-9ABA-A446993082A2}|TypeApp\\TypeApp.csproj|e:\\cdac\\notes\\.net\\day1\\solutions\\typesolution\\typeapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03538D29-6981-4A1D-9ABA-A446993082A2}|TypeApp\\TypeApp.csproj|solutionrelative:typeapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MathEngine.cs",
+              "DocumentMoniker": "E:\\CDAC\\Notes\\.NET\\Day1\\Solutions\\TypeSolution\\TypeApp\\MathEngine.cs",
+              "RelativeDocumentMoniker": "TypeApp\\MathEngine.cs",
+              "ToolTip": "E:\\CDAC\\Notes\\.NET\\Day1\\Solutions\\TypeSolution\\TypeApp\\MathEngine.cs",
+              "RelativeToolTip": "TypeApp\\MathEngine.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T07:46:37.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Line.cs",
+              "DocumentMoniker": "E:\\CDAC\\Notes\\.NET\\Day1\\Solutions\\TypeSolution\\TypeApp\\Line.cs",
+              "RelativeDocumentMoniker": "TypeApp\\Line.cs",
+              "ToolTip": "E:\\CDAC\\Notes\\.NET\\Day1\\Solutions\\TypeSolution\\TypeApp\\Line.cs",
+              "RelativeToolTip": "TypeApp\\Line.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T07:46:23.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IPrintable.cs",
+              "DocumentMoniker": "E:\\CDAC\\Notes\\.NET\\Day1\\Solutions\\TypeSolution\\TypeApp\\IPrintable.cs",
+              "RelativeDocumentMoniker": "TypeApp\\IPrintable.cs",
+              "ToolTip": "E:\\CDAC\\Notes\\.NET\\Day1\\Solutions\\TypeSolution\\TypeApp\\IPrintable.cs",
+              "RelativeToolTip": "TypeApp\\IPrintable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T07:37:42.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Account_Peronal.cs",
+              "DocumentMoniker": "E:\\CDAC\\Notes\\.NET\\Day1\\Solutions\\TypeSolution\\TypeApp\\Account_Peronal.cs",
+              "RelativeDocumentMoniker": "TypeApp\\Account_Peronal.cs",
+              "ToolTip": "E:\\CDAC\\Notes\\.NET\\Day1\\Solutions\\TypeSolution\\TypeApp\\Account_Peronal.cs",
+              "RelativeToolTip": "TypeApp\\Account_Peronal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T07:46:04.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Account.cs",
+              "DocumentMoniker": "E:\\CDAC\\Notes\\.NET\\Day1\\Solutions\\TypeSolution\\TypeApp\\Account.cs",
+              "RelativeDocumentMoniker": "TypeApp\\Account.cs",
+              "ToolTip": "E:\\CDAC\\Notes\\.NET\\Day1\\Solutions\\TypeSolution\\TypeApp\\Account.cs",
+              "RelativeToolTip": "TypeApp\\Account.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T07:45:52.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Shape.cs",
+              "DocumentMoniker": "E:\\CDAC\\Notes\\.NET\\Day1\\Solutions\\TypeSolution\\TypeApp\\Shape.cs",
+              "RelativeDocumentMoniker": "TypeApp\\Shape.cs",
+              "ToolTip": "E:\\CDAC\\Notes\\.NET\\Day1\\Solutions\\TypeSolution\\TypeApp\\Shape.cs",
+              "RelativeToolTip": "TypeApp\\Shape.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T07:45:31.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Rectangle.cs",
+              "DocumentMoniker": "E:\\CDAC\\Notes\\.NET\\Day1\\Solutions\\TypeSolution\\TypeApp\\Rectangle.cs",
+              "RelativeDocumentMoniker": "TypeApp\\Rectangle.cs",
+              "ToolTip": "E:\\CDAC\\Notes\\.NET\\Day1\\Solutions\\TypeSolution\\TypeApp\\Rectangle.cs",
+              "RelativeToolTip": "TypeApp\\Rectangle.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T07:39:00.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Point.cs",
+              "DocumentMoniker": "E:\\CDAC\\Notes\\.NET\\Day1\\Solutions\\TypeSolution\\TypeApp\\Point.cs",
+              "RelativeDocumentMoniker": "TypeApp\\Point.cs",
+              "ToolTip": "E:\\CDAC\\Notes\\.NET\\Day1\\Solutions\\TypeSolution\\TypeApp\\Point.cs",
+              "RelativeToolTip": "TypeApp\\Point.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T07:32:54.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Complex.cs",
+              "DocumentMoniker": "E:\\CDAC\\Notes\\.NET\\Day1\\Solutions\\TypeSolution\\TypeApp\\Complex.cs",
+              "RelativeDocumentMoniker": "TypeApp\\Complex.cs",
+              "ToolTip": "E:\\CDAC\\Notes\\.NET\\Day1\\Solutions\\TypeSolution\\TypeApp\\Complex.cs",
+              "RelativeToolTip": "TypeApp\\Complex.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T07:30:27.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\CDAC\\Notes\\.NET\\Day1\\Solutions\\TypeSolution\\TypeApp\\Program.cs",
+              "RelativeDocumentMoniker": "TypeApp\\Program.cs",
+              "ToolTip": "E:\\CDAC\\Notes\\.NET\\Day1\\Solutions\\TypeSolution\\TypeApp\\Program.cs",
+              "RelativeToolTip": "TypeApp\\Program.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAB4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T07:31:28.641Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

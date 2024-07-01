@@ -1,0 +1,14 @@
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day3\GraphicsSolution\LibraryMgmtApp\bin\Debug\net8.0\LibraryMgmtApp.exe
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day3\GraphicsSolution\LibraryMgmtApp\bin\Debug\net8.0\LibraryMgmtApp.deps.json
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day3\GraphicsSolution\LibraryMgmtApp\bin\Debug\net8.0\LibraryMgmtApp.runtimeconfig.json
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day3\GraphicsSolution\LibraryMgmtApp\bin\Debug\net8.0\LibraryMgmtApp.dll
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day3\GraphicsSolution\LibraryMgmtApp\bin\Debug\net8.0\LibraryMgmtApp.pdb
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day3\GraphicsSolution\LibraryMgmtApp\obj\Debug\net8.0\LibraryMgmtApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day3\GraphicsSolution\LibraryMgmtApp\obj\Debug\net8.0\LibraryMgmtApp.AssemblyInfoInputs.cache
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day3\GraphicsSolution\LibraryMgmtApp\obj\Debug\net8.0\LibraryMgmtApp.AssemblyInfo.cs
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day3\GraphicsSolution\LibraryMgmtApp\obj\Debug\net8.0\LibraryMgmtApp.csproj.CoreCompileInputs.cache
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day3\GraphicsSolution\LibraryMgmtApp\obj\Debug\net8.0\LibraryMgmtApp.dll
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day3\GraphicsSolution\LibraryMgmtApp\obj\Debug\net8.0\refint\LibraryMgmtApp.dll
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day3\GraphicsSolution\LibraryMgmtApp\obj\Debug\net8.0\LibraryMgmtApp.pdb
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day3\GraphicsSolution\LibraryMgmtApp\obj\Debug\net8.0\LibraryMgmtApp.genruntimeconfig.cache
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day3\GraphicsSolution\LibraryMgmtApp\obj\Debug\net8.0\ref\LibraryMgmtApp.dll

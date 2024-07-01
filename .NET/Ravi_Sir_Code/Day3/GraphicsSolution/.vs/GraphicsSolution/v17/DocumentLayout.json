@@ -1,0 +1,296 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day3\\GraphicsSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CD9F396F-0AB9-4288-BBC8-4B598A46B5D2}|LibraryMgmtApp\\LibraryMgmtApp.csproj|c:\\users\\tfladmin\\onedrive\\desktop\\iacsd\\day3\\graphicssolution\\librarymgmtapp\\shelf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD9F396F-0AB9-4288-BBC8-4B598A46B5D2}|LibraryMgmtApp\\LibraryMgmtApp.csproj|solutionrelative:librarymgmtapp\\shelf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD9F396F-0AB9-4288-BBC8-4B598A46B5D2}|LibraryMgmtApp\\LibraryMgmtApp.csproj|c:\\users\\tfladmin\\onedrive\\desktop\\iacsd\\day3\\graphicssolution\\librarymgmtapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD9F396F-0AB9-4288-BBC8-4B598A46B5D2}|LibraryMgmtApp\\LibraryMgmtApp.csproj|solutionrelative:librarymgmtapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{673BDADD-6BC3-440F-B57F-9CBAD2E04D31}|CSharpKeyWordsApp\\CSharpKeyWordsApp.csproj|c:\\users\\tfladmin\\onedrive\\desktop\\iacsd\\day3\\graphicssolution\\csharpkeywordsapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{673BDADD-6BC3-440F-B57F-9CBAD2E04D31}|CSharpKeyWordsApp\\CSharpKeyWordsApp.csproj|solutionrelative:csharpkeywordsapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FD0DB3B-1994-4617-B47B-AB7BAB344D6C}|GDILib\\GDILib.csproj|c:\\users\\tfladmin\\onedrive\\desktop\\iacsd\\day3\\graphicssolution\\gdilib\\gdilib.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8FD0DB3B-1994-4617-B47B-AB7BAB344D6C}|GDILib\\GDILib.csproj|solutionrelative:gdilib\\gdilib.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{673BDADD-6BC3-440F-B57F-9CBAD2E04D31}|CSharpKeyWordsApp\\CSharpKeyWordsApp.csproj|c:\\users\\tfladmin\\onedrive\\desktop\\iacsd\\day3\\graphicssolution\\csharpkeywordsapp\\customerhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{673BDADD-6BC3-440F-B57F-9CBAD2E04D31}|CSharpKeyWordsApp\\CSharpKeyWordsApp.csproj|solutionrelative:csharpkeywordsapp\\customerhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{673BDADD-6BC3-440F-B57F-9CBAD2E04D31}|CSharpKeyWordsApp\\CSharpKeyWordsApp.csproj|c:\\users\\tfladmin\\onedrive\\desktop\\iacsd\\day3\\graphicssolution\\csharpkeywordsapp\\customercontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{673BDADD-6BC3-440F-B57F-9CBAD2E04D31}|CSharpKeyWordsApp\\CSharpKeyWordsApp.csproj|solutionrelative:csharpkeywordsapp\\customercontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{673BDADD-6BC3-440F-B57F-9CBAD2E04D31}|CSharpKeyWordsApp\\CSharpKeyWordsApp.csproj|c:\\users\\tfladmin\\onedrive\\desktop\\iacsd\\day3\\graphicssolution\\csharpkeywordsapp\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{673BDADD-6BC3-440F-B57F-9CBAD2E04D31}|CSharpKeyWordsApp\\CSharpKeyWordsApp.csproj|solutionrelative:csharpkeywordsapp\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{673BDADD-6BC3-440F-B57F-9CBAD2E04D31}|CSharpKeyWordsApp\\CSharpKeyWordsApp.csproj|c:\\users\\tfladmin\\onedrive\\desktop\\iacsd\\day3\\graphicssolution\\csharpkeywordsapp\\csharpkeywordsapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{673BDADD-6BC3-440F-B57F-9CBAD2E04D31}|CSharpKeyWordsApp\\CSharpKeyWordsApp.csproj|solutionrelative:csharpkeywordsapp\\csharpkeywordsapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{673BDADD-6BC3-440F-B57F-9CBAD2E04D31}|CSharpKeyWordsApp\\CSharpKeyWordsApp.csproj|c:\\users\\tfladmin\\onedrive\\desktop\\iacsd\\day3\\graphicssolution\\csharpkeywordsapp\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{673BDADD-6BC3-440F-B57F-9CBAD2E04D31}|CSharpKeyWordsApp\\CSharpKeyWordsApp.csproj|solutionrelative:csharpkeywordsapp\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F9FC595-1425-4688-8E72-0541378B941F}|PaintConsole\\PaintConsole.csproj|c:\\users\\tfladmin\\onedrive\\desktop\\iacsd\\day3\\graphicssolution\\paintconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F9FC595-1425-4688-8E72-0541378B941F}|PaintConsole\\PaintConsole.csproj|solutionrelative:paintconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FD0DB3B-1994-4617-B47B-AB7BAB344D6C}|GDILib\\GDILib.csproj|c:\\users\\tfladmin\\onedrive\\desktop\\iacsd\\day3\\graphicssolution\\gdilib\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FD0DB3B-1994-4617-B47B-AB7BAB344D6C}|GDILib\\GDILib.csproj|solutionrelative:gdilib\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FD0DB3B-1994-4617-B47B-AB7BAB344D6C}|GDILib\\GDILib.csproj|c:\\users\\tfladmin\\onedrive\\desktop\\iacsd\\day3\\graphicssolution\\gdilib\\line.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FD0DB3B-1994-4617-B47B-AB7BAB344D6C}|GDILib\\GDILib.csproj|solutionrelative:gdilib\\line.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FD0DB3B-1994-4617-B47B-AB7BAB344D6C}|GDILib\\GDILib.csproj|c:\\users\\tfladmin\\onedrive\\desktop\\iacsd\\day3\\graphicssolution\\gdilib\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FD0DB3B-1994-4617-B47B-AB7BAB344D6C}|GDILib\\GDILib.csproj|solutionrelative:gdilib\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FD0DB3B-1994-4617-B47B-AB7BAB344D6C}|GDILib\\GDILib.csproj|c:\\users\\tfladmin\\onedrive\\desktop\\iacsd\\day3\\graphicssolution\\gdilib\\istorable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FD0DB3B-1994-4617-B47B-AB7BAB344D6C}|GDILib\\GDILib.csproj|solutionrelative:gdilib\\istorable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FD0DB3B-1994-4617-B47B-AB7BAB344D6C}|GDILib\\GDILib.csproj|c:\\users\\tfladmin\\onedrive\\desktop\\iacsd\\day3\\graphicssolution\\gdilib\\iprintable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FD0DB3B-1994-4617-B47B-AB7BAB344D6C}|GDILib\\GDILib.csproj|solutionrelative:gdilib\\iprintable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FD0DB3B-1994-4617-B47B-AB7BAB344D6C}|GDILib\\GDILib.csproj|c:\\users\\tfladmin\\onedrive\\desktop\\iacsd\\day3\\graphicssolution\\gdilib\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FD0DB3B-1994-4617-B47B-AB7BAB344D6C}|GDILib\\GDILib.csproj|solutionrelative:gdilib\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day3\\GraphicsSolution\\LibraryMgmtApp\\Program.cs",
+              "RelativeDocumentMoniker": "LibraryMgmtApp\\Program.cs",
+              "ToolTip": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day3\\GraphicsSolution\\LibraryMgmtApp\\Program.cs",
+              "RelativeToolTip": "LibraryMgmtApp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T07:16:19.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Shelf.cs",
+              "DocumentMoniker": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day3\\GraphicsSolution\\LibraryMgmtApp\\Shelf.cs",
+              "RelativeDocumentMoniker": "LibraryMgmtApp\\Shelf.cs",
+              "ToolTip": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day3\\GraphicsSolution\\LibraryMgmtApp\\Shelf.cs",
+              "RelativeToolTip": "LibraryMgmtApp\\Shelf.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwBQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T07:17:37.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GDILib",
+              "DocumentMoniker": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day3\\GraphicsSolution\\GDILib\\GDILib.csproj",
+              "RelativeDocumentMoniker": "GDILib\\GDILib.csproj",
+              "ToolTip": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day3\\GraphicsSolution\\GDILib\\GDILib.csproj",
+              "RelativeToolTip": "GDILib\\GDILib.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-28T07:07:49.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomerHistory.cs",
+              "DocumentMoniker": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day3\\GraphicsSolution\\CSharpKeyWordsApp\\CustomerHistory.cs",
+              "RelativeDocumentMoniker": "CSharpKeyWordsApp\\CustomerHistory.cs",
+              "ToolTip": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day3\\GraphicsSolution\\CSharpKeyWordsApp\\CustomerHistory.cs",
+              "RelativeToolTip": "CSharpKeyWordsApp\\CustomerHistory.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T07:03:01.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomerContact.cs",
+              "DocumentMoniker": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day3\\GraphicsSolution\\CSharpKeyWordsApp\\CustomerContact.cs",
+              "RelativeDocumentMoniker": "CSharpKeyWordsApp\\CustomerContact.cs",
+              "ToolTip": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day3\\GraphicsSolution\\CSharpKeyWordsApp\\CustomerContact.cs",
+              "RelativeToolTip": "CSharpKeyWordsApp\\CustomerContact.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T06:59:45.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day3\\GraphicsSolution\\CSharpKeyWordsApp\\Customer.cs",
+              "RelativeDocumentMoniker": "CSharpKeyWordsApp\\Customer.cs",
+              "ToolTip": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day3\\GraphicsSolution\\CSharpKeyWordsApp\\Customer.cs",
+              "RelativeToolTip": "CSharpKeyWordsApp\\Customer.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T06:58:58.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CSharpKeyWordsApp",
+              "DocumentMoniker": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day3\\GraphicsSolution\\CSharpKeyWordsApp\\CSharpKeyWordsApp.csproj",
+              "RelativeDocumentMoniker": "CSharpKeyWordsApp\\CSharpKeyWordsApp.csproj",
+              "ToolTip": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day3\\GraphicsSolution\\CSharpKeyWordsApp\\CSharpKeyWordsApp.csproj",
+              "RelativeToolTip": "CSharpKeyWordsApp\\CSharpKeyWordsApp.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-28T05:47:55.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Helper.cs",
+              "DocumentMoniker": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day3\\GraphicsSolution\\CSharpKeyWordsApp\\Helper.cs",
+              "RelativeDocumentMoniker": "CSharpKeyWordsApp\\Helper.cs",
+              "ToolTip": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day3\\GraphicsSolution\\CSharpKeyWordsApp\\Helper.cs",
+              "RelativeToolTip": "CSharpKeyWordsApp\\Helper.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA1wAgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T05:48:49.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day3\\GraphicsSolution\\CSharpKeyWordsApp\\Program.cs",
+              "RelativeDocumentMoniker": "CSharpKeyWordsApp\\Program.cs",
+              "ToolTip": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day3\\GraphicsSolution\\CSharpKeyWordsApp\\Program.cs",
+              "RelativeToolTip": "CSharpKeyWordsApp\\Program.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAAAFcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T05:46:31.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Circle.cs",
+              "DocumentMoniker": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day3\\GraphicsSolution\\GDILib\\Circle.cs",
+              "RelativeDocumentMoniker": "GDILib\\Circle.cs",
+              "ToolTip": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day3\\GraphicsSolution\\GDILib\\Circle.cs",
+              "RelativeToolTip": "GDILib\\Circle.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T04:33:38.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IStorable.cs",
+              "DocumentMoniker": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day3\\GraphicsSolution\\GDILib\\IStorable.cs",
+              "RelativeDocumentMoniker": "GDILib\\IStorable.cs",
+              "ToolTip": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day3\\GraphicsSolution\\GDILib\\IStorable.cs",
+              "RelativeToolTip": "GDILib\\IStorable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T04:30:47.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IPrintable.cs",
+              "DocumentMoniker": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day3\\GraphicsSolution\\GDILib\\IPrintable.cs",
+              "RelativeDocumentMoniker": "GDILib\\IPrintable.cs",
+              "ToolTip": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day3\\GraphicsSolution\\GDILib\\IPrintable.cs",
+              "RelativeToolTip": "GDILib\\IPrintable.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T04:19:09.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Point.cs",
+              "DocumentMoniker": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day3\\GraphicsSolution\\GDILib\\Point.cs",
+              "RelativeDocumentMoniker": "GDILib\\Point.cs",
+              "ToolTip": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day3\\GraphicsSolution\\GDILib\\Point.cs",
+              "RelativeToolTip": "GDILib\\Point.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T03:57:46.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day3\\GraphicsSolution\\PaintConsole\\Program.cs",
+              "RelativeDocumentMoniker": "PaintConsole\\Program.cs",
+              "ToolTip": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day3\\GraphicsSolution\\PaintConsole\\Program.cs",
+              "RelativeToolTip": "PaintConsole\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T03:06:16.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Line.cs",
+              "DocumentMoniker": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day3\\GraphicsSolution\\GDILib\\Line.cs",
+              "RelativeDocumentMoniker": "GDILib\\Line.cs",
+              "ToolTip": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day3\\GraphicsSolution\\GDILib\\Line.cs",
+              "RelativeToolTip": "GDILib\\Line.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T02:57:56.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Shape.cs",
+              "DocumentMoniker": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day3\\GraphicsSolution\\GDILib\\Shape.cs",
+              "RelativeDocumentMoniker": "GDILib\\Shape.cs",
+              "ToolTip": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day3\\GraphicsSolution\\GDILib\\Shape.cs",
+              "RelativeToolTip": "GDILib\\Shape.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T02:53:11.247Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

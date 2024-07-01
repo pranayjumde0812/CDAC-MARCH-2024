@@ -1,0 +1,14 @@
+D:\Ravi\TypeSolution\TestHello\TestHello\bin\Debug\net8.0\TestHello.exe
+D:\Ravi\TypeSolution\TestHello\TestHello\bin\Debug\net8.0\TestHello.deps.json
+D:\Ravi\TypeSolution\TestHello\TestHello\bin\Debug\net8.0\TestHello.runtimeconfig.json
+D:\Ravi\TypeSolution\TestHello\TestHello\bin\Debug\net8.0\TestHello.dll
+D:\Ravi\TypeSolution\TestHello\TestHello\bin\Debug\net8.0\TestHello.pdb
+D:\Ravi\TypeSolution\TestHello\TestHello\obj\Debug\net8.0\TestHello.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ravi\TypeSolution\TestHello\TestHello\obj\Debug\net8.0\TestHello.AssemblyInfoInputs.cache
+D:\Ravi\TypeSolution\TestHello\TestHello\obj\Debug\net8.0\TestHello.AssemblyInfo.cs
+D:\Ravi\TypeSolution\TestHello\TestHello\obj\Debug\net8.0\TestHello.csproj.CoreCompileInputs.cache
+D:\Ravi\TypeSolution\TestHello\TestHello\obj\Debug\net8.0\TestHello.dll
+D:\Ravi\TypeSolution\TestHello\TestHello\obj\Debug\net8.0\refint\TestHello.dll
+D:\Ravi\TypeSolution\TestHello\TestHello\obj\Debug\net8.0\TestHello.pdb
+D:\Ravi\TypeSolution\TestHello\TestHello\obj\Debug\net8.0\TestHello.genruntimeconfig.cache
+D:\Ravi\TypeSolution\TestHello\TestHello\obj\Debug\net8.0\ref\TestHello.dll

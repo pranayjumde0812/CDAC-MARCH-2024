@@ -1,0 +1,11 @@
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\day2\ECommerce\Catalog\bin\Release\net8.0\Catalog.deps.json
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\day2\ECommerce\Catalog\bin\Release\net8.0\Catalog.dll
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\day2\ECommerce\Catalog\bin\Release\net8.0\Catalog.pdb
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\day2\ECommerce\Catalog\obj\Release\net8.0\Catalog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\day2\ECommerce\Catalog\obj\Release\net8.0\Catalog.AssemblyInfoInputs.cache
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\day2\ECommerce\Catalog\obj\Release\net8.0\Catalog.AssemblyInfo.cs
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\day2\ECommerce\Catalog\obj\Release\net8.0\Catalog.csproj.CoreCompileInputs.cache
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\day2\ECommerce\Catalog\obj\Release\net8.0\Catalog.dll
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\day2\ECommerce\Catalog\obj\Release\net8.0\refint\Catalog.dll
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\day2\ECommerce\Catalog\obj\Release\net8.0\Catalog.pdb
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\day2\ECommerce\Catalog\obj\Release\net8.0\ref\Catalog.dll
