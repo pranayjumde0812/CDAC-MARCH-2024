@@ -50,7 +50,8 @@ namespace EStoreWebApp.Controllers
             user.ContactNumber = contactNumber;
             user.Email = email;
             _userService.Insert(user);
-            return View();
+            //return View();
+            return RedirectToAction("Index", "Home");
         }
 
 
