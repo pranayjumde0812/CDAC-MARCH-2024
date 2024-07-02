@@ -1,0 +1,16 @@
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day4\DotnetSolution\PaintBrush\bin\Debug\net8.0-windows\PaintBrush.exe
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day4\DotnetSolution\PaintBrush\bin\Debug\net8.0-windows\PaintBrush.deps.json
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day4\DotnetSolution\PaintBrush\bin\Debug\net8.0-windows\PaintBrush.runtimeconfig.json
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day4\DotnetSolution\PaintBrush\bin\Debug\net8.0-windows\PaintBrush.dll
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day4\DotnetSolution\PaintBrush\bin\Debug\net8.0-windows\PaintBrush.pdb
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day4\DotnetSolution\PaintBrush\obj\Debug\net8.0-windows\PaintBrush.Form1.resources
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day4\DotnetSolution\PaintBrush\obj\Debug\net8.0-windows\PaintBrush.csproj.GenerateResource.cache
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day4\DotnetSolution\PaintBrush\obj\Debug\net8.0-windows\PaintBrush.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day4\DotnetSolution\PaintBrush\obj\Debug\net8.0-windows\PaintBrush.AssemblyInfoInputs.cache
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day4\DotnetSolution\PaintBrush\obj\Debug\net8.0-windows\PaintBrush.AssemblyInfo.cs
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day4\DotnetSolution\PaintBrush\obj\Debug\net8.0-windows\PaintBrush.csproj.CoreCompileInputs.cache
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day4\DotnetSolution\PaintBrush\obj\Debug\net8.0-windows\PaintBrush.dll
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day4\DotnetSolution\PaintBrush\obj\Debug\net8.0-windows\refint\PaintBrush.dll
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day4\DotnetSolution\PaintBrush\obj\Debug\net8.0-windows\PaintBrush.pdb
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day4\DotnetSolution\PaintBrush\obj\Debug\net8.0-windows\PaintBrush.genruntimeconfig.cache
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day4\DotnetSolution\PaintBrush\obj\Debug\net8.0-windows\ref\PaintBrush.dll

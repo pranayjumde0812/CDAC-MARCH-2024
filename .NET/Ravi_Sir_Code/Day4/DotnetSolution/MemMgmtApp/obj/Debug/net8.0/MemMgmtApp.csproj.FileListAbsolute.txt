@@ -1,0 +1,14 @@
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day4\DotnetSolution\MemMgmtApp\obj\Debug\net8.0\MemMgmtApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day4\DotnetSolution\MemMgmtApp\obj\Debug\net8.0\MemMgmtApp.AssemblyInfoInputs.cache
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day4\DotnetSolution\MemMgmtApp\obj\Debug\net8.0\MemMgmtApp.AssemblyInfo.cs
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day4\DotnetSolution\MemMgmtApp\obj\Debug\net8.0\MemMgmtApp.csproj.CoreCompileInputs.cache
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day4\DotnetSolution\MemMgmtApp\bin\Debug\net8.0\MemMgmtApp.exe
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day4\DotnetSolution\MemMgmtApp\bin\Debug\net8.0\MemMgmtApp.deps.json
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day4\DotnetSolution\MemMgmtApp\bin\Debug\net8.0\MemMgmtApp.runtimeconfig.json
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day4\DotnetSolution\MemMgmtApp\bin\Debug\net8.0\MemMgmtApp.dll
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day4\DotnetSolution\MemMgmtApp\bin\Debug\net8.0\MemMgmtApp.pdb
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day4\DotnetSolution\MemMgmtApp\obj\Debug\net8.0\MemMgmtApp.dll
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day4\DotnetSolution\MemMgmtApp\obj\Debug\net8.0\refint\MemMgmtApp.dll
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day4\DotnetSolution\MemMgmtApp\obj\Debug\net8.0\MemMgmtApp.pdb
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day4\DotnetSolution\MemMgmtApp\obj\Debug\net8.0\MemMgmtApp.genruntimeconfig.cache
+C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day4\DotnetSolution\MemMgmtApp\obj\Debug\net8.0\ref\MemMgmtApp.dll

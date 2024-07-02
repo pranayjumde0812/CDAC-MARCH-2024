@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day5\\ECommerce\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC8FB2A-EC74-4D8B-8EDE-CD6FE1F332BA}|EStoreWebApp\\EStoreWebApp.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\ravi_sir_code\\day5\\ecommerce\\estorewebapp\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC8FB2A-EC74-4D8B-8EDE-CD6FE1F332BA}|EStoreWebApp\\EStoreWebApp.csproj|solutionrelative:estorewebapp\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day5\\ECommerce\\EStoreWebApp\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "EStoreWebApp\\Services\\UserService.cs",
+              "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day5\\ECommerce\\EStoreWebApp\\Services\\UserService.cs",
+              "RelativeToolTip": "EStoreWebApp\\Services\\UserService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA5wBEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T11:44:55.533Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

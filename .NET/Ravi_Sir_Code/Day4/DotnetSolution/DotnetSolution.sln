@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemMgmtApp", "MemMgmtApp\MemMgmtApp.csproj", "{D97A1B25-1E41-400F-87D3-E9955D38AE24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingApp", "BankingApp\BankingApp.csproj", "{48F15F5E-FE49-43CA-A86F-100B555D7577}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintBrush", "PaintBrush\PaintBrush.csproj", "{F2972CBE-FB74-4EB2-B694-2486C7F52836}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFApp", "WPFApp\WPFApp.csproj", "{B1F1839B-1DCE-4A2B-B8CD-CC8B5B5E47BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShoppingWeb", "OnlineShoppingWeb\OnlineShoppingWeb.csproj", "{46E6B213-5E77-4CF3-B94C-07B32DAB3C0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazonOnline", "AmazonOnline\AmazonOnline.csproj", "{866E8A46-0ECC-4F2E-810D-C163B5DE107C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D97A1B25-1E41-400F-87D3-E9955D38AE24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D97A1B25-1E41-400F-87D3-E9955D38AE24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D97A1B25-1E41-400F-87D3-E9955D38AE24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D97A1B25-1E41-400F-87D3-E9955D38AE24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48F15F5E-FE49-43CA-A86F-100B555D7577}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48F15F5E-FE49-43CA-A86F-100B555D7577}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48F15F5E-FE49-43CA-A86F-100B555D7577}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48F15F5E-FE49-43CA-A86F-100B555D7577}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2972CBE-FB74-4EB2-B694-2486C7F52836}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2972CBE-FB74-4EB2-B694-2486C7F52836}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2972CBE-FB74-4EB2-B694-2486C7F52836}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2972CBE-FB74-4EB2-B694-2486C7F52836}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1F1839B-1DCE-4A2B-B8CD-CC8B5B5E47BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1F1839B-1DCE-4A2B-B8CD-CC8B5B5E47BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1F1839B-1DCE-4A2B-B8CD-CC8B5B5E47BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1F1839B-1DCE-4A2B-B8CD-CC8B5B5E47BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46E6B213-5E77-4CF3-B94C-07B32DAB3C0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46E6B213-5E77-4CF3-B94C-07B32DAB3C0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46E6B213-5E77-4CF3-B94C-07B32DAB3C0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46E6B213-5E77-4CF3-B94C-07B32DAB3C0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{866E8A46-0ECC-4F2E-810D-C163B5DE107C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{866E8A46-0ECC-4F2E-810D-C163B5DE107C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{866E8A46-0ECC-4F2E-810D-C163B5DE107C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{866E8A46-0ECC-4F2E-810D-C163B5DE107C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C598230-64AA-496A-8E71-401287285598}
+	EndGlobalSection
+EndGlobal

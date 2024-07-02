@@ -1,0 +1,147 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day4\\DotnetSolution\\BankingApp\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Day4\\DotnetSolution\\BankingApp\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day3\\GraphicsSolution\\CSharpKeyWordsApp\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Day3\\GraphicsSolution\\CSharpKeyWordsApp\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day3\\GraphicsSolution\\CSharpKeyWordsApp\\Customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Day3\\GraphicsSolution\\CSharpKeyWordsApp\\Customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day4\\DotnetSolution\\BankingApp\\EventHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Day4\\DotnetSolution\\BankingApp\\EventHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day3\\GraphicsSolution\\CSharpKeyWordsApp\\Helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Day3\\GraphicsSolution\\CSharpKeyWordsApp\\Helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day3\\GraphicsSolution\\CSharpKeyWordsApp\\CustomerHistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Day3\\GraphicsSolution\\CSharpKeyWordsApp\\CustomerHistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day3\\GraphicsSolution\\CSharpKeyWordsApp\\CustomerContact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Day3\\GraphicsSolution\\CSharpKeyWordsApp\\CustomerContact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EventHandler.cs",
+              "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day4\\DotnetSolution\\BankingApp\\EventHandler.cs",
+              "RelativeDocumentMoniker": "Day4\\DotnetSolution\\BankingApp\\EventHandler.cs",
+              "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day4\\DotnetSolution\\BankingApp\\EventHandler.cs",
+              "RelativeToolTip": "Day4\\DotnetSolution\\BankingApp\\EventHandler.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAMwCgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T10:12:00.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day4\\DotnetSolution\\BankingApp\\Program.cs",
+              "RelativeDocumentMoniker": "Day4\\DotnetSolution\\BankingApp\\Program.cs",
+              "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day4\\DotnetSolution\\BankingApp\\Program.cs",
+              "RelativeToolTip": "Day4\\DotnetSolution\\BankingApp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T10:11:58.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Helper.cs",
+              "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day3\\GraphicsSolution\\CSharpKeyWordsApp\\Helper.cs",
+              "RelativeDocumentMoniker": "Day3\\GraphicsSolution\\CSharpKeyWordsApp\\Helper.cs",
+              "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day3\\GraphicsSolution\\CSharpKeyWordsApp\\Helper.cs",
+              "RelativeToolTip": "Day3\\GraphicsSolution\\CSharpKeyWordsApp\\Helper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T09:46:57.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomerHistory.cs",
+              "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day3\\GraphicsSolution\\CSharpKeyWordsApp\\CustomerHistory.cs",
+              "RelativeDocumentMoniker": "Day3\\GraphicsSolution\\CSharpKeyWordsApp\\CustomerHistory.cs",
+              "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day3\\GraphicsSolution\\CSharpKeyWordsApp\\CustomerHistory.cs",
+              "RelativeToolTip": "Day3\\GraphicsSolution\\CSharpKeyWordsApp\\CustomerHistory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T09:46:56.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomerContact.cs",
+              "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day3\\GraphicsSolution\\CSharpKeyWordsApp\\CustomerContact.cs",
+              "RelativeDocumentMoniker": "Day3\\GraphicsSolution\\CSharpKeyWordsApp\\CustomerContact.cs",
+              "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day3\\GraphicsSolution\\CSharpKeyWordsApp\\CustomerContact.cs",
+              "RelativeToolTip": "Day3\\GraphicsSolution\\CSharpKeyWordsApp\\CustomerContact.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T09:46:55.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day3\\GraphicsSolution\\CSharpKeyWordsApp\\Customer.cs",
+              "RelativeDocumentMoniker": "Day3\\GraphicsSolution\\CSharpKeyWordsApp\\Customer.cs",
+              "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day3\\GraphicsSolution\\CSharpKeyWordsApp\\Customer.cs",
+              "RelativeToolTip": "Day3\\GraphicsSolution\\CSharpKeyWordsApp\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T09:46:53.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day3\\GraphicsSolution\\CSharpKeyWordsApp\\Program.cs",
+              "RelativeDocumentMoniker": "Day3\\GraphicsSolution\\CSharpKeyWordsApp\\Program.cs",
+              "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day3\\GraphicsSolution\\CSharpKeyWordsApp\\Program.cs",
+              "RelativeToolTip": "Day3\\GraphicsSolution\\CSharpKeyWordsApp\\Program.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T09:46:23.45Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

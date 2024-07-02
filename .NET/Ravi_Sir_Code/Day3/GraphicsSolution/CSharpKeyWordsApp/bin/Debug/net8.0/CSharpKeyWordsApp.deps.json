@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CSharpKeyWordsApp/1.0.0": {
+        "dependencies": {
+          "GDILib": "1.0.0"
+        },
+        "runtime": {
+          "CSharpKeyWordsApp.dll": {}
+        }
+      },
+      "GDILib/1.0.0": {
+        "runtime": {
+          "GDILib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CSharpKeyWordsApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GDILib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

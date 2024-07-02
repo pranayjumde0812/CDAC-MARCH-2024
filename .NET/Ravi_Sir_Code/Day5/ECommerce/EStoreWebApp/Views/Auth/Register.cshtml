@@ -1,0 +1,63 @@
+﻿<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .register-box {
+        width: 300px;
+        margin: auto;
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    }
+
+        .register-box h2 {
+            margin-bottom: 20px;
+        }
+
+        .register-box input[type="text"],
+        .register-box input[type="password"],
+        .register-box input[type="email"] {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .register-box input[type="submit"] {
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+            .register-box input[type="submit"]:hover {
+                background-color: #45a049;
+            }
+</style>
+
+
+ <div class="register-box">
+        <h2>Register</h2>
+        <form action="/auth/register" method="post">
+            <input type="text" name="firstname" placeholder="firstname" required>
+            <br>
+            <input type="text" name="lastname" placeholder="lastname" required>
+            <br>
+            <input type="text" name="contactnumber" placeholder="contactnumber" required/>
+            <br>
+            <input type="email" name="email" placeholder="Email" required>
+            <br>
+            <input type="submit" value="Register">
+        </form>
+    </div>

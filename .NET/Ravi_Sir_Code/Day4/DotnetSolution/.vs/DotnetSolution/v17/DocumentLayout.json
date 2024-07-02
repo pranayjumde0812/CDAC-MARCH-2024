@@ -1,0 +1,192 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day4\\DotnetSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{46E6B213-5E77-4CF3-B94C-07B32DAB3C0C}|OnlineShoppingWeb\\OnlineShoppingWeb.csproj|c:\\users\\tfladmin\\onedrive\\desktop\\iacsd\\day4\\dotnetsolution\\onlineshoppingweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E6B213-5E77-4CF3-B94C-07B32DAB3C0C}|OnlineShoppingWeb\\OnlineShoppingWeb.csproj|solutionrelative:onlineshoppingweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E6B213-5E77-4CF3-B94C-07B32DAB3C0C}|OnlineShoppingWeb\\OnlineShoppingWeb.csproj|c:\\users\\tfladmin\\onedrive\\desktop\\iacsd\\day4\\dotnetsolution\\onlineshoppingweb\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E6B213-5E77-4CF3-B94C-07B32DAB3C0C}|OnlineShoppingWeb\\OnlineShoppingWeb.csproj|solutionrelative:onlineshoppingweb\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E6B213-5E77-4CF3-B94C-07B32DAB3C0C}|OnlineShoppingWeb\\OnlineShoppingWeb.csproj|c:\\users\\tfladmin\\onedrive\\desktop\\iacsd\\day4\\dotnetsolution\\onlineshoppingweb\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E6B213-5E77-4CF3-B94C-07B32DAB3C0C}|OnlineShoppingWeb\\OnlineShoppingWeb.csproj|solutionrelative:onlineshoppingweb\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F1839B-1DCE-4A2B-B8CD-CC8B5B5E47BB}|WPFApp\\WPFApp.csproj|c:\\users\\tfladmin\\onedrive\\desktop\\iacsd\\day4\\dotnetsolution\\wpfapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B1F1839B-1DCE-4A2B-B8CD-CC8B5B5E47BB}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F1839B-1DCE-4A2B-B8CD-CC8B5B5E47BB}|WPFApp\\WPFApp.csproj|c:\\users\\tfladmin\\onedrive\\desktop\\iacsd\\day4\\dotnetsolution\\wpfapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1F1839B-1DCE-4A2B-B8CD-CC8B5B5E47BB}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2972CBE-FB74-4EB2-B694-2486C7F52836}|PaintBrush\\PaintBrush.csproj|c:\\users\\tfladmin\\onedrive\\desktop\\iacsd\\day4\\dotnetsolution\\paintbrush\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2972CBE-FB74-4EB2-B694-2486C7F52836}|PaintBrush\\PaintBrush.csproj|solutionrelative:paintbrush\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2972CBE-FB74-4EB2-B694-2486C7F52836}|PaintBrush\\PaintBrush.csproj|c:\\users\\tfladmin\\onedrive\\desktop\\iacsd\\day4\\dotnetsolution\\paintbrush\\form1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{F2972CBE-FB74-4EB2-B694-2486C7F52836}|PaintBrush\\PaintBrush.csproj|solutionrelative:paintbrush\\form1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2972CBE-FB74-4EB2-B694-2486C7F52836}|PaintBrush\\PaintBrush.csproj|c:\\users\\tfladmin\\onedrive\\desktop\\iacsd\\day4\\dotnetsolution\\paintbrush\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2972CBE-FB74-4EB2-B694-2486C7F52836}|PaintBrush\\PaintBrush.csproj|solutionrelative:paintbrush\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2972CBE-FB74-4EB2-B694-2486C7F52836}|PaintBrush\\PaintBrush.csproj|c:\\users\\tfladmin\\onedrive\\desktop\\iacsd\\day4\\dotnetsolution\\paintbrush\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2972CBE-FB74-4EB2-B694-2486C7F52836}|PaintBrush\\PaintBrush.csproj|solutionrelative:paintbrush\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F15F5E-FE49-43CA-A86F-100B555D7577}|BankingApp\\BankingApp.csproj|c:\\users\\tfladmin\\onedrive\\desktop\\iacsd\\day4\\dotnetsolution\\bankingapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F15F5E-FE49-43CA-A86F-100B555D7577}|BankingApp\\BankingApp.csproj|solutionrelative:bankingapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day4\\DotnetSolution\\OnlineShoppingWeb\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "OnlineShoppingWeb\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day4\\DotnetSolution\\OnlineShoppingWeb\\ProductRepository.cs",
+              "RelativeToolTip": "OnlineShoppingWeb\\ProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T07:27:20.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day4\\DotnetSolution\\OnlineShoppingWeb\\Product.cs",
+              "RelativeDocumentMoniker": "OnlineShoppingWeb\\Product.cs",
+              "ToolTip": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day4\\DotnetSolution\\OnlineShoppingWeb\\Product.cs",
+              "RelativeToolTip": "OnlineShoppingWeb\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T07:22:18.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day4\\DotnetSolution\\OnlineShoppingWeb\\Program.cs",
+              "RelativeDocumentMoniker": "OnlineShoppingWeb\\Program.cs",
+              "ToolTip": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day4\\DotnetSolution\\OnlineShoppingWeb\\Program.cs",
+              "RelativeToolTip": "OnlineShoppingWeb\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T07:13:01.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day4\\DotnetSolution\\WPFApp\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WPFApp\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day4\\DotnetSolution\\WPFApp\\MainWindow.xaml",
+              "RelativeToolTip": "WPFApp\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-01T07:00:25.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day4\\DotnetSolution\\WPFApp\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WPFApp\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day4\\DotnetSolution\\WPFApp\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WPFApp\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T07:00:25.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.resx",
+              "DocumentMoniker": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day4\\DotnetSolution\\PaintBrush\\Form1.resx",
+              "RelativeDocumentMoniker": "PaintBrush\\Form1.resx",
+              "ToolTip": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day4\\DotnetSolution\\PaintBrush\\Form1.resx",
+              "RelativeToolTip": "PaintBrush\\Form1.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-07-01T06:46:34.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day4\\DotnetSolution\\PaintBrush\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "PaintBrush\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day4\\DotnetSolution\\PaintBrush\\Form1.Designer.cs",
+              "RelativeToolTip": "PaintBrush\\Form1.Designer.cs",
+              "ViewState": "AQIAADMBAAAAAAAAAAAgwC0BAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T06:45:28.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day4\\DotnetSolution\\PaintBrush\\Form1.cs",
+              "RelativeDocumentMoniker": "PaintBrush\\Form1.cs",
+              "ToolTip": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day4\\DotnetSolution\\PaintBrush\\Form1.cs",
+              "RelativeToolTip": "PaintBrush\\Form1.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAhwBYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T06:44:49.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day4\\DotnetSolution\\PaintBrush\\Program.cs",
+              "RelativeDocumentMoniker": "PaintBrush\\Program.cs",
+              "ToolTip": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day4\\DotnetSolution\\PaintBrush\\Program.cs",
+              "RelativeToolTip": "PaintBrush\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T06:38:19.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day4\\DotnetSolution\\BankingApp\\Program.cs",
+              "RelativeDocumentMoniker": "BankingApp\\Program.cs",
+              "ToolTip": "C:\\Users\\tfladmin\\OneDrive\\Desktop\\IACSD\\Day4\\DotnetSolution\\BankingApp\\Program.cs",
+              "RelativeToolTip": "BankingApp\\Program.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T04:37:03.123Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

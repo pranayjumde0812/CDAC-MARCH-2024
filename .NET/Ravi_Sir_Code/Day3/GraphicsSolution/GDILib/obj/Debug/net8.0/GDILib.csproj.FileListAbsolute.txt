@@ -9,3 +9,15 @@ C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day3\GraphicsSolution\GDILib\obj\Debug\
 C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day3\GraphicsSolution\GDILib\obj\Debug\net8.0\refint\GDILib.dll
 C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day3\GraphicsSolution\GDILib\obj\Debug\net8.0\GDILib.pdb
 C:\Users\tfladmin\OneDrive\Desktop\IACSD\Day3\GraphicsSolution\GDILib\obj\Debug\net8.0\ref\GDILib.dll
+E:\CDAC\CDAC-Work-Repo\CDAC-MARCH-2024\.NET\Ravi_Sir_Code\Day3\GraphicsSolution\GDILib\bin\Debug\net8.0\GDILib.deps.json
+E:\CDAC\CDAC-Work-Repo\CDAC-MARCH-2024\.NET\Ravi_Sir_Code\Day3\GraphicsSolution\GDILib\bin\Debug\net8.0\GDILib.dll
+E:\CDAC\CDAC-Work-Repo\CDAC-MARCH-2024\.NET\Ravi_Sir_Code\Day3\GraphicsSolution\GDILib\bin\Debug\net8.0\GDILib.pdb
+E:\CDAC\CDAC-Work-Repo\CDAC-MARCH-2024\.NET\Ravi_Sir_Code\Day3\GraphicsSolution\GDILib\obj\Debug\net8.0\GDILib.GeneratedMSBuildEditorConfig.editorconfig
+E:\CDAC\CDAC-Work-Repo\CDAC-MARCH-2024\.NET\Ravi_Sir_Code\Day3\GraphicsSolution\GDILib\obj\Debug\net8.0\GDILib.AssemblyInfoInputs.cache
+E:\CDAC\CDAC-Work-Repo\CDAC-MARCH-2024\.NET\Ravi_Sir_Code\Day3\GraphicsSolution\GDILib\obj\Debug\net8.0\GDILib.AssemblyInfo.cs
+E:\CDAC\CDAC-Work-Repo\CDAC-MARCH-2024\.NET\Ravi_Sir_Code\Day3\GraphicsSolution\GDILib\obj\Debug\net8.0\GDILib.csproj.CoreCompileInputs.cache
+E:\CDAC\CDAC-Work-Repo\CDAC-MARCH-2024\.NET\Ravi_Sir_Code\Day3\GraphicsSolution\GDILib\obj\Debug\net8.0\GDILib.sourcelink.json
+E:\CDAC\CDAC-Work-Repo\CDAC-MARCH-2024\.NET\Ravi_Sir_Code\Day3\GraphicsSolution\GDILib\obj\Debug\net8.0\GDILib.dll
+E:\CDAC\CDAC-Work-Repo\CDAC-MARCH-2024\.NET\Ravi_Sir_Code\Day3\GraphicsSolution\GDILib\obj\Debug\net8.0\refint\GDILib.dll
+E:\CDAC\CDAC-Work-Repo\CDAC-MARCH-2024\.NET\Ravi_Sir_Code\Day3\GraphicsSolution\GDILib\obj\Debug\net8.0\GDILib.pdb
+E:\CDAC\CDAC-Work-Repo\CDAC-MARCH-2024\.NET\Ravi_Sir_Code\Day3\GraphicsSolution\GDILib\obj\Debug\net8.0\ref\GDILib.dll

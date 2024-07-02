@@ -74,7 +74,7 @@ Line line23=queue.Dequeue();
 
 Dictionary<string, Line> map = new Dictionary<string, Line>();
 map.Add("vertical", l1);
-map.Add("vertical", l3);
+//map.Add("vertical", l3);
 map.Add("diagonal", l2);
 
 Line diagonalLine = map["diagonal"];
@@ -85,3 +85,4 @@ customer.Name = "Raj Malhotra";
 customer.Email = "raj.malhotra@gmail.com";
 customer.ContactNumber = "9881735801";
 customer.Location = "123.34. 34.56";
+Console.ReadLine();
