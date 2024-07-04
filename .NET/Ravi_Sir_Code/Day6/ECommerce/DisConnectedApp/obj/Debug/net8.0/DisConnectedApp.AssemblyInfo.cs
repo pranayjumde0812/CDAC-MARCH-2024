@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DisConnectedApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8246b634902e06d873acc25cc7f4a23d145b2345")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+03c7add91b000b4b66f7ffc2bb1bded2f6ece057")]
 [assembly: System.Reflection.AssemblyProductAttribute("DisConnectedApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DisConnectedApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

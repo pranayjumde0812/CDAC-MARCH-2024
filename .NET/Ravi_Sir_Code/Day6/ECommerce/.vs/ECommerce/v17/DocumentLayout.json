@@ -3,6 +3,90 @@
   "WorkspaceRootPath": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EFC8FB2A-EC74-4D8B-8EDE-CD6FE1F332BA}|EStoreWebApp\\EStoreWebApp.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\ravi_sir_code\\day6\\ecommerce\\estorewebapp\\views\\products\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC8FB2A-EC74-4D8B-8EDE-CD6FE1F332BA}|EStoreWebApp\\EStoreWebApp.csproj|solutionrelative:estorewebapp\\views\\products\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC8FB2A-EC74-4D8B-8EDE-CD6FE1F332BA}|EStoreWebApp\\EStoreWebApp.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\ravi_sir_code\\day6\\ecommerce\\estorewebapp\\views\\products\\insert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC8FB2A-EC74-4D8B-8EDE-CD6FE1F332BA}|EStoreWebApp\\EStoreWebApp.csproj|solutionrelative:estorewebapp\\views\\products\\insert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC8FB2A-EC74-4D8B-8EDE-CD6FE1F332BA}|EStoreWebApp\\EStoreWebApp.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\ravi_sir_code\\day6\\ecommerce\\estorewebapp\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC8FB2A-EC74-4D8B-8EDE-CD6FE1F332BA}|EStoreWebApp\\EStoreWebApp.csproj|solutionrelative:estorewebapp\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC8FB2A-EC74-4D8B-8EDE-CD6FE1F332BA}|EStoreWebApp\\EStoreWebApp.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\ravi_sir_code\\day6\\ecommerce\\estorewebapp\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC8FB2A-EC74-4D8B-8EDE-CD6FE1F332BA}|EStoreWebApp\\EStoreWebApp.csproj|solutionrelative:estorewebapp\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC8FB2A-EC74-4D8B-8EDE-CD6FE1F332BA}|EStoreWebApp\\EStoreWebApp.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\ravi_sir_code\\day6\\ecommerce\\estorewebapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC8FB2A-EC74-4D8B-8EDE-CD6FE1F332BA}|EStoreWebApp\\EStoreWebApp.csproj|solutionrelative:estorewebapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC8FB2A-EC74-4D8B-8EDE-CD6FE1F332BA}|EStoreWebApp\\EStoreWebApp.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\ravi_sir_code\\day6\\ecommerce\\estorewebapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC8FB2A-EC74-4D8B-8EDE-CD6FE1F332BA}|EStoreWebApp\\EStoreWebApp.csproj|solutionrelative:estorewebapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC8FB2A-EC74-4D8B-8EDE-CD6FE1F332BA}|EStoreWebApp\\EStoreWebApp.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\ravi_sir_code\\day6\\ecommerce\\estorewebapp\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC8FB2A-EC74-4D8B-8EDE-CD6FE1F332BA}|EStoreWebApp\\EStoreWebApp.csproj|solutionrelative:estorewebapp\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC8FB2A-EC74-4D8B-8EDE-CD6FE1F332BA}|EStoreWebApp\\EStoreWebApp.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\ravi_sir_code\\day6\\ecommerce\\estorewebapp\\views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC8FB2A-EC74-4D8B-8EDE-CD6FE1F332BA}|EStoreWebApp\\EStoreWebApp.csproj|solutionrelative:estorewebapp\\views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC8FB2A-EC74-4D8B-8EDE-CD6FE1F332BA}|EStoreWebApp\\EStoreWebApp.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\ravi_sir_code\\day6\\ecommerce\\estorewebapp\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC8FB2A-EC74-4D8B-8EDE-CD6FE1F332BA}|EStoreWebApp\\EStoreWebApp.csproj|solutionrelative:estorewebapp\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC8FB2A-EC74-4D8B-8EDE-CD6FE1F332BA}|EStoreWebApp\\EStoreWebApp.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\ravi_sir_code\\day6\\ecommerce\\estorewebapp\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC8FB2A-EC74-4D8B-8EDE-CD6FE1F332BA}|EStoreWebApp\\EStoreWebApp.csproj|solutionrelative:estorewebapp\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC8FB2A-EC74-4D8B-8EDE-CD6FE1F332BA}|EStoreWebApp\\EStoreWebApp.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\ravi_sir_code\\day6\\ecommerce\\estorewebapp\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC8FB2A-EC74-4D8B-8EDE-CD6FE1F332BA}|EStoreWebApp\\EStoreWebApp.csproj|solutionrelative:estorewebapp\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC8FB2A-EC74-4D8B-8EDE-CD6FE1F332BA}|EStoreWebApp\\EStoreWebApp.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\ravi_sir_code\\day6\\ecommerce\\estorewebapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC8FB2A-EC74-4D8B-8EDE-CD6FE1F332BA}|EStoreWebApp\\EStoreWebApp.csproj|solutionrelative:estorewebapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC8FB2A-EC74-4D8B-8EDE-CD6FE1F332BA}|EStoreWebApp\\EStoreWebApp.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\ravi_sir_code\\day6\\ecommerce\\estorewebapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC8FB2A-EC74-4D8B-8EDE-CD6FE1F332BA}|EStoreWebApp\\EStoreWebApp.csproj|solutionrelative:estorewebapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC8FB2A-EC74-4D8B-8EDE-CD6FE1F332BA}|EStoreWebApp\\EStoreWebApp.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\ravi_sir_code\\day6\\ecommerce\\estorewebapp\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC8FB2A-EC74-4D8B-8EDE-CD6FE1F332BA}|EStoreWebApp\\EStoreWebApp.csproj|solutionrelative:estorewebapp\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC8FB2A-EC74-4D8B-8EDE-CD6FE1F332BA}|EStoreWebApp\\EStoreWebApp.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\ravi_sir_code\\day6\\ecommerce\\estorewebapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC8FB2A-EC74-4D8B-8EDE-CD6FE1F332BA}|EStoreWebApp\\EStoreWebApp.csproj|solutionrelative:estorewebapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC8FB2A-EC74-4D8B-8EDE-CD6FE1F332BA}|EStoreWebApp\\EStoreWebApp.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\ravi_sir_code\\day6\\ecommerce\\estorewebapp\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC8FB2A-EC74-4D8B-8EDE-CD6FE1F332BA}|EStoreWebApp\\EStoreWebApp.csproj|solutionrelative:estorewebapp\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC8FB2A-EC74-4D8B-8EDE-CD6FE1F332BA}|EStoreWebApp\\EStoreWebApp.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\ravi_sir_code\\day6\\ecommerce\\estorewebapp\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC8FB2A-EC74-4D8B-8EDE-CD6FE1F332BA}|EStoreWebApp\\EStoreWebApp.csproj|solutionrelative:estorewebapp\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC8FB2A-EC74-4D8B-8EDE-CD6FE1F332BA}|EStoreWebApp\\EStoreWebApp.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\ravi_sir_code\\day6\\ecommerce\\estorewebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC8FB2A-EC74-4D8B-8EDE-CD6FE1F332BA}|EStoreWebApp\\EStoreWebApp.csproj|solutionrelative:estorewebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC8FB2A-EC74-4D8B-8EDE-CD6FE1F332BA}|EStoreWebApp\\EStoreWebApp.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\ravi_sir_code\\day6\\ecommerce\\estorewebapp\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC8FB2A-EC74-4D8B-8EDE-CD6FE1F332BA}|EStoreWebApp\\EStoreWebApp.csproj|solutionrelative:estorewebapp\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC8FB2A-EC74-4D8B-8EDE-CD6FE1F332BA}|EStoreWebApp\\EStoreWebApp.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\ravi_sir_code\\day6\\ecommerce\\estorewebapp\\repositories\\usersrepomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC8FB2A-EC74-4D8B-8EDE-CD6FE1F332BA}|EStoreWebApp\\EStoreWebApp.csproj|solutionrelative:estorewebapp\\repositories\\usersrepomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC8FB2A-EC74-4D8B-8EDE-CD6FE1F332BA}|EStoreWebApp\\EStoreWebApp.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\ravi_sir_code\\day6\\ecommerce\\estorewebapp\\repositories\\hrmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC8FB2A-EC74-4D8B-8EDE-CD6FE1F332BA}|EStoreWebApp\\EStoreWebApp.csproj|solutionrelative:estorewebapp\\repositories\\hrmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2B7860FA-7967-41F6-8454-A692C2A11D57}|TestDBApp\\TestDBApp.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\ravi_sir_code\\day6\\ecommerce\\testdbapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B7860FA-7967-41F6-8454-A692C2A11D57}|TestDBApp\\TestDBApp.csproj|solutionrelative:testdbapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,19 +111,292 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\EStoreWebApp\\Views\\Products\\Update.cshtml",
+              "RelativeDocumentMoniker": "EStoreWebApp\\Views\\Products\\Update.cshtml",
+              "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\EStoreWebApp\\Views\\Products\\Update.cshtml",
+              "RelativeToolTip": "EStoreWebApp\\Views\\Products\\Update.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T14:53:24.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Insert.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\EStoreWebApp\\Views\\Products\\Insert.cshtml",
+              "RelativeDocumentMoniker": "EStoreWebApp\\Views\\Products\\Insert.cshtml",
+              "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\EStoreWebApp\\Views\\Products\\Insert.cshtml",
+              "RelativeToolTip": "EStoreWebApp\\Views\\Products\\Insert.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T14:53:22.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\EStoreWebApp\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "EStoreWebApp\\Views\\Products\\Index.cshtml",
+              "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\EStoreWebApp\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "EStoreWebApp\\Views\\Products\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T14:53:20.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\EStoreWebApp\\Views\\Products\\Details.cshtml",
+              "RelativeDocumentMoniker": "EStoreWebApp\\Views\\Products\\Details.cshtml",
+              "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\EStoreWebApp\\Views\\Products\\Details.cshtml",
+              "RelativeToolTip": "EStoreWebApp\\Views\\Products\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T14:53:18.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\EStoreWebApp\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "EStoreWebApp\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\EStoreWebApp\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "EStoreWebApp\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T14:53:13.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\EStoreWebApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "EStoreWebApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\EStoreWebApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "EStoreWebApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T14:53:11.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\EStoreWebApp\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "EStoreWebApp\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\EStoreWebApp\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "EStoreWebApp\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T14:53:09.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Aboutus.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\EStoreWebApp\\Views\\Home\\Aboutus.cshtml",
+              "RelativeDocumentMoniker": "EStoreWebApp\\Views\\Home\\Aboutus.cshtml",
+              "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\EStoreWebApp\\Views\\Home\\Aboutus.cshtml",
+              "RelativeToolTip": "EStoreWebApp\\Views\\Home\\Aboutus.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T14:53:08.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\EStoreWebApp\\Views\\Auth\\Register.cshtml",
+              "RelativeDocumentMoniker": "EStoreWebApp\\Views\\Auth\\Register.cshtml",
+              "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\EStoreWebApp\\Views\\Auth\\Register.cshtml",
+              "RelativeToolTip": "EStoreWebApp\\Views\\Auth\\Register.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T14:53:00.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\EStoreWebApp\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "EStoreWebApp\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\EStoreWebApp\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "EStoreWebApp\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T14:52:57.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\EStoreWebApp\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "EStoreWebApp\\Controllers\\ProductsController.cs",
+              "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\EStoreWebApp\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "EStoreWebApp\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T14:34:04.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Role.cs",
+              "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\EStoreWebApp\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "EStoreWebApp\\Models\\Role.cs",
+              "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\EStoreWebApp\\Models\\Role.cs",
+              "RelativeToolTip": "EStoreWebApp\\Models\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T14:22:49.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Product.cs",
+              "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\EStoreWebApp\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "EStoreWebApp\\Models\\Product.cs",
+              "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\EStoreWebApp\\Models\\Product.cs",
+              "RelativeToolTip": "EStoreWebApp\\Models\\Product.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAcwAQAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T14:22:13.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\EStoreWebApp\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "EStoreWebApp\\Models\\ErrorViewModel.cs",
+              "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\EStoreWebApp\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "EStoreWebApp\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T14:22:08.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\EStoreWebApp\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "EStoreWebApp\\Models\\Employee.cs",
+              "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\EStoreWebApp\\Models\\Employee.cs",
+              "RelativeToolTip": "EStoreWebApp\\Models\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T14:21:55.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Department.cs",
+              "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\EStoreWebApp\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "EStoreWebApp\\Models\\Department.cs",
+              "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\EStoreWebApp\\Models\\Department.cs",
+              "RelativeToolTip": "EStoreWebApp\\Models\\Department.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T14:21:10.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\EStoreWebApp\\Program.cs",
+              "RelativeDocumentMoniker": "EStoreWebApp\\Program.cs",
+              "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\EStoreWebApp\\Program.cs",
+              "RelativeToolTip": "EStoreWebApp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T14:05:41.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\EStoreWebApp\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "EStoreWebApp\\Controllers\\AuthController.cs",
+              "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\EStoreWebApp\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "EStoreWebApp\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T14:05:05.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UsersRepoManager.cs",
+              "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\EStoreWebApp\\Repositories\\UsersRepoManager.cs",
+              "RelativeDocumentMoniker": "EStoreWebApp\\Repositories\\UsersRepoManager.cs",
+              "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\EStoreWebApp\\Repositories\\UsersRepoManager.cs",
+              "RelativeToolTip": "EStoreWebApp\\Repositories\\UsersRepoManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T13:32:58.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\EStoreWebApp\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "EStoreWebApp\\Services\\UserService.cs",
+              "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\EStoreWebApp\\Services\\UserService.cs",
+              "RelativeToolTip": "EStoreWebApp\\Services\\UserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T13:14:07.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HRManager.cs",
+              "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\EStoreWebApp\\Repositories\\HRManager.cs",
+              "RelativeDocumentMoniker": "EStoreWebApp\\Repositories\\HRManager.cs",
+              "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\EStoreWebApp\\Repositories\\HRManager.cs",
+              "RelativeToolTip": "EStoreWebApp\\Repositories\\HRManager.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T13:13:55.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\TestDBApp\\Program.cs",
               "RelativeDocumentMoniker": "TestDBApp\\Program.cs",
               "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\TestDBApp\\Program.cs",
               "RelativeToolTip": "TestDBApp\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-03T10:00:31.917Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 22,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\Ravi_Sir_Code\\Day6\\ECommerce\\DisconnectedUpdateApp\\Program.cs",
               "RelativeDocumentMoniker": "DisconnectedUpdateApp\\Program.cs",
@@ -47,8 +404,7 @@
               "RelativeToolTip": "DisconnectedUpdateApp\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T09:57:35.54Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T09:57:35.54Z"
             }
           ]
         }
