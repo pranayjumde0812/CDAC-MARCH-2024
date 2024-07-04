@@ -34,24 +34,24 @@ public class BlogPostServiceImpl implements BlogPostService {
 	@Override
 	public ApiResponse createNewBlog(BlogPostDTO dto) {
 		// 1. get category from category id
-		Category category = categoryRepository
-				.findById(dto.getCategoryId())
+		Category category = categoryRepository.findById(dto.getCategoryId())
 				.orElseThrow(() -> new ResourceNotFoundException("Invalid category id !!!!"));
-		User blogger=userRepository.findById(dto.getBloggerId())
+		User blogger = userRepository.findById(dto.getBloggerId())
 				.orElseThrow(() -> new ResourceNotFoundException("Invalid blogger id !!!!"));
-		//category, blogger : persistent
-		//map blog post dto --> entity
+		// category, blogger : persistent
+		// map blog post dto --> entity
 		BlogPost blogPost = mapper.map(dto, BlogPost.class);
-		//establish E-R
-		//post  *<--->1 catgeory
+		// establish E-R
+		// post *<--->1 catgeory
 		category.addBlogPost(blogPost);
 		// blog post *---->1 user
 		blogPost.setAuthor(blogger);
-		//=> success
+		// => success
 		return new ApiResponse("new blog post added ");
 	}
 	/*
-	 * In case of success --hibernate , as a def. implementor will commit tx n then closes the session)
+	 * In case of success --hibernate , as a def. implementor will commit tx n then
+	 * closes the session)
 	 */
 
 }
