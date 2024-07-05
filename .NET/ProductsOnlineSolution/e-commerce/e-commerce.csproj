@@ -11,4 +11,8 @@
     <PackageReference Include="MySql.EntityFrameworkCore" Version="8.0.5" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="SQL_SCRIPTS\" />
+  </ItemGroup>
+
 </Project>

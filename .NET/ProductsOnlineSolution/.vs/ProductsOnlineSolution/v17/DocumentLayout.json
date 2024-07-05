@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\ProductsOnlineSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{78EE31EA-AC88-4EE7-999B-02DA59DBB3D6}|e-commerce\\e-commerce.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\productsonlinesolution\\e-commerce\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{78EE31EA-AC88-4EE7-999B-02DA59DBB3D6}|e-commerce\\e-commerce.csproj|solutionrelative:e-commerce\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{78EE31EA-AC88-4EE7-999B-02DA59DBB3D6}|e-commerce\\e-commerce.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\productsonlinesolution\\e-commerce\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78EE31EA-AC88-4EE7-999B-02DA59DBB3D6}|e-commerce\\e-commerce.csproj|solutionrelative:e-commerce\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78EE31EA-AC88-4EE7-999B-02DA59DBB3D6}|e-commerce\\e-commerce.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\productsonlinesolution\\e-commerce\\views\\products\\updateproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{78EE31EA-AC88-4EE7-999B-02DA59DBB3D6}|e-commerce\\e-commerce.csproj|solutionrelative:e-commerce\\views\\products\\updateproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{78EE31EA-AC88-4EE7-999B-02DA59DBB3D6}|e-commerce\\e-commerce.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\productsonlinesolution\\e-commerce\\sql_scripts\\products.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{78EE31EA-AC88-4EE7-999B-02DA59DBB3D6}|e-commerce\\e-commerce.csproj|solutionrelative:e-commerce\\sql_scripts\\products.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78EE31EA-AC88-4EE7-999B-02DA59DBB3D6}|e-commerce\\e-commerce.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\productsonlinesolution\\e-commerce\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78EE31EA-AC88-4EE7-999B-02DA59DBB3D6}|e-commerce\\e-commerce.csproj|solutionrelative:e-commerce\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78EE31EA-AC88-4EE7-999B-02DA59DBB3D6}|e-commerce\\e-commerce.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\productsonlinesolution\\e-commerce\\e-commerce.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{78EE31EA-AC88-4EE7-999B-02DA59DBB3D6}|e-commerce\\e-commerce.csproj|solutionrelative:e-commerce\\e-commerce.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78EE31EA-AC88-4EE7-999B-02DA59DBB3D6}|e-commerce\\e-commerce.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\productsonlinesolution\\e-commerce\\views\\products\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{78EE31EA-AC88-4EE7-999B-02DA59DBB3D6}|e-commerce\\e-commerce.csproj|solutionrelative:e-commerce\\views\\products\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{78EE31EA-AC88-4EE7-999B-02DA59DBB3D6}|e-commerce\\e-commerce.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\productsonlinesolution\\e-commerce\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78EE31EA-AC88-4EE7-999B-02DA59DBB3D6}|e-commerce\\e-commerce.csproj|solutionrelative:e-commerce\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78EE31EA-AC88-4EE7-999B-02DA59DBB3D6}|e-commerce\\e-commerce.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\productsonlinesolution\\e-commerce\\sql_scripts\\products.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{78EE31EA-AC88-4EE7-999B-02DA59DBB3D6}|e-commerce\\e-commerce.csproj|solutionrelative:e-commerce\\sql_scripts\\products.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,67 +38,53 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Product.cs",
-              "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\ProductsOnlineSolution\\e-commerce\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "e-commerce\\Models\\Product.cs",
-              "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\ProductsOnlineSolution\\e-commerce\\Models\\Product.cs",
-              "RelativeToolTip": "e-commerce\\Models\\Product.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAA8wBMAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T19:30:49.404Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AddProduct.cshtml",
-              "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\ProductsOnlineSolution\\e-commerce\\Views\\Products\\AddProduct.cshtml",
-              "RelativeDocumentMoniker": "e-commerce\\Views\\Products\\AddProduct.cshtml",
-              "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\ProductsOnlineSolution\\e-commerce\\Views\\Products\\AddProduct.cshtml",
-              "RelativeToolTip": "e-commerce\\Views\\Products\\AddProduct.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-04T19:27:10.865Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UpdateProduct.cshtml",
-              "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\ProductsOnlineSolution\\e-commerce\\Views\\Products\\UpdateProduct.cshtml",
-              "RelativeDocumentMoniker": "e-commerce\\Views\\Products\\UpdateProduct.cshtml",
-              "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\ProductsOnlineSolution\\e-commerce\\Views\\Products\\UpdateProduct.cshtml",
-              "RelativeToolTip": "e-commerce\\Views\\Products\\UpdateProduct.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-04T19:27:06.397Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\ProductsOnlineSolution\\e-commerce\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "e-commerce\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\ProductsOnlineSolution\\e-commerce\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "e-commerce\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-04T19:25:10.652Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\ProductsOnlineSolution\\e-commerce\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "e-commerce\\Controllers\\ProductsController.cs",
               "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\ProductsOnlineSolution\\e-commerce\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "e-commerce\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAswBMAAAAtAAAA",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAYwFoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T19:23:50.222Z",
+              "WhenOpened": "2024-07-05T16:01:58.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\ProductsOnlineSolution\\e-commerce\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "e-commerce\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\ProductsOnlineSolution\\e-commerce\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "e-commerce\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T16:01:57.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Products.sql ",
+              "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\ProductsOnlineSolution\\e-commerce\\SQL_SCRIPTS\\Products.sql",
+              "RelativeDocumentMoniker": "e-commerce\\SQL_SCRIPTS\\Products.sql",
+              "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\ProductsOnlineSolution\\e-commerce\\SQL_SCRIPTS\\Products.sql",
+              "RelativeToolTip": "e-commerce\\SQL_SCRIPTS\\Products.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-07-04T20:50:17.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "e-commerce.csproj",
+              "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\ProductsOnlineSolution\\e-commerce\\e-commerce.csproj",
+              "RelativeDocumentMoniker": "e-commerce\\e-commerce.csproj",
+              "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\ProductsOnlineSolution\\e-commerce\\e-commerce.csproj",
+              "RelativeToolTip": "e-commerce\\e-commerce.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-04T20:49:22.857Z",
               "EditorCaption": ""
             }
           ]
