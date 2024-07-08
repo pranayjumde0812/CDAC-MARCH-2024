@@ -6,10 +6,10 @@ namespace e_commerce.Controllers
 {
     public class ProductsController : Controller
     {
-        private IProductService productService;
+        private IProductService _productService;
         public ProductsController(IProductService productService)
         {
-            this.productService = productService;
+            this._productService = productService;
         }
 
         public IActionResult Index()
@@ -19,7 +19,7 @@ namespace e_commerce.Controllers
 
         public IActionResult GetAllProducts()
         {
-            List<Product> products = productService.GetAll();
+            List<Product> products = _productService.GetAll();
 
             return Json(products);
 
@@ -28,7 +28,7 @@ namespace e_commerce.Controllers
 
         public IActionResult GetProductById(int id)
         {
-            Product product = productService.GetById(id);
+            Product product = _productService.GetById(id);
 
 
             if (product == null)
@@ -57,13 +57,13 @@ namespace e_commerce.Controllers
 
             Product product = new Product(title, description, price, imageUrl, quantity1);
 
-            productService.Insert(product);
+            _productService.Insert(product);
             return RedirectToAction("AddProduct");
         }
 
         public IActionResult DeleteById(int id)
         {
-            productService.Delete(id);
+            _productService.Delete(id);
 
             return RedirectToAction("Index");
         }
@@ -83,7 +83,7 @@ namespace e_commerce.Controllers
 
             Product product = new Product(pid, title, description, price, imageUrl, quantity1);
 
-            productService.Update(product);
+            _productService.Update(product);
 
             return View();
         }
