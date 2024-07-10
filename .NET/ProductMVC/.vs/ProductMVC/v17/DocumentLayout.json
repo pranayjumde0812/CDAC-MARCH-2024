@@ -3,20 +3,40 @@
   "WorkspaceRootPath": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\ProductMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3B59DBE2-2C60-457D-9275-684BADB07D20}|ProductCrudMvc\\ProductCrudMvc.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\productmvc\\productcrudmvc\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B59DBE2-2C60-457D-9275-684BADB07D20}|ProductCrudMvc\\ProductCrudMvc.csproj|solutionrelative:productcrudmvc\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B59DBE2-2C60-457D-9275-684BADB07D20}|ProductCrudMvc\\ProductCrudMvc.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\productmvc\\productcrudmvc\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B59DBE2-2C60-457D-9275-684BADB07D20}|ProductCrudMvc\\ProductCrudMvc.csproj|solutionrelative:productcrudmvc\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B59DBE2-2C60-457D-9275-684BADB07D20}|ProductCrudMvc\\ProductCrudMvc.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\productmvc\\productcrudmvc\\views\\products\\findbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B59DBE2-2C60-457D-9275-684BADB07D20}|ProductCrudMvc\\ProductCrudMvc.csproj|solutionrelative:productcrudmvc\\views\\products\\findbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B59DBE2-2C60-457D-9275-684BADB07D20}|ProductCrudMvc\\ProductCrudMvc.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\productmvc\\productcrudmvc\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B59DBE2-2C60-457D-9275-684BADB07D20}|ProductCrudMvc\\ProductCrudMvc.csproj|solutionrelative:productcrudmvc\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B59DBE2-2C60-457D-9275-684BADB07D20}|ProductCrudMvc\\ProductCrudMvc.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\productmvc\\productcrudmvc\\views\\products\\updateproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3B59DBE2-2C60-457D-9275-684BADB07D20}|ProductCrudMvc\\ProductCrudMvc.csproj|solutionrelative:productcrudmvc\\views\\products\\updateproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B59DBE2-2C60-457D-9275-684BADB07D20}|ProductCrudMvc\\ProductCrudMvc.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\productmvc\\productcrudmvc\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B59DBE2-2C60-457D-9275-684BADB07D20}|ProductCrudMvc\\ProductCrudMvc.csproj|solutionrelative:productcrudmvc\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B59DBE2-2C60-457D-9275-684BADB07D20}|ProductCrudMvc\\ProductCrudMvc.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\productmvc\\productcrudmvc\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B59DBE2-2C60-457D-9275-684BADB07D20}|ProductCrudMvc\\ProductCrudMvc.csproj|solutionrelative:productcrudmvc\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B59DBE2-2C60-457D-9275-684BADB07D20}|ProductCrudMvc\\ProductCrudMvc.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\productmvc\\productcrudmvc\\views\\products\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3B59DBE2-2C60-457D-9275-684BADB07D20}|ProductCrudMvc\\ProductCrudMvc.csproj|solutionrelative:productcrudmvc\\views\\products\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B59DBE2-2C60-457D-9275-684BADB07D20}|ProductCrudMvc\\ProductCrudMvc.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\productmvc\\productcrudmvc\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B59DBE2-2C60-457D-9275-684BADB07D20}|ProductCrudMvc\\ProductCrudMvc.csproj|solutionrelative:productcrudmvc\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B59DBE2-2C60-457D-9275-684BADB07D20}|ProductCrudMvc\\ProductCrudMvc.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\productmvc\\productcrudmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B59DBE2-2C60-457D-9275-684BADB07D20}|ProductCrudMvc\\ProductCrudMvc.csproj|solutionrelative:productcrudmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B59DBE2-2C60-457D-9275-684BADB07D20}|ProductCrudMvc\\ProductCrudMvc.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\productmvc\\productcrudmvc\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B59DBE2-2C60-457D-9275-684BADB07D20}|ProductCrudMvc\\ProductCrudMvc.csproj|solutionrelative:productcrudmvc\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B59DBE2-2C60-457D-9275-684BADB07D20}|ProductCrudMvc\\ProductCrudMvc.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\productmvc\\productcrudmvc\\repositories\\productrepomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -51,6 +71,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "FindById.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\ProductMVC\\ProductCrudMvc\\Views\\Products\\FindById.cshtml",
+              "RelativeDocumentMoniker": "ProductCrudMvc\\Views\\Products\\FindById.cshtml",
+              "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\ProductMVC\\ProductCrudMvc\\Views\\Products\\FindById.cshtml",
+              "RelativeToolTip": "ProductCrudMvc\\Views\\Products\\FindById.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-10T09:22:21.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\ProductMVC\\ProductCrudMvc\\Views\\Products\\Details.cshtml",
+              "RelativeDocumentMoniker": "ProductCrudMvc\\Views\\Products\\Details.cshtml",
+              "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\ProductMVC\\ProductCrudMvc\\Views\\Products\\Details.cshtml",
+              "RelativeToolTip": "ProductCrudMvc\\Views\\Products\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-10T09:20:15.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\ProductMVC\\ProductCrudMvc\\Views\\Products\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ProductCrudMvc\\Views\\Products\\Delete.cshtml",
+              "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\ProductMVC\\ProductCrudMvc\\Views\\Products\\Delete.cshtml",
+              "RelativeToolTip": "ProductCrudMvc\\Views\\Products\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-10T09:20:07.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\ProductMVC\\ProductCrudMvc\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProductCrudMvc\\Views\\Products\\Index.cshtml",
+              "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\ProductMVC\\ProductCrudMvc\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "ProductCrudMvc\\Views\\Products\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-10T09:18:51.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "UpdateProduct.cshtml",
               "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\ProductMVC\\ProductCrudMvc\\Views\\Products\\UpdateProduct.cshtml",
               "RelativeDocumentMoniker": "ProductCrudMvc\\Views\\Products\\UpdateProduct.cshtml",
@@ -63,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "AddProduct.cshtml",
               "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\ProductMVC\\ProductCrudMvc\\Views\\Products\\AddProduct.cshtml",
               "RelativeDocumentMoniker": "ProductCrudMvc\\Views\\Products\\AddProduct.cshtml",
@@ -76,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "ProductRepoManager.cs",
               "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\ProductMVC\\ProductCrudMvc\\Repositories\\ProductRepoManager.cs",
               "RelativeDocumentMoniker": "ProductCrudMvc\\Repositories\\ProductRepoManager.cs",
@@ -84,12 +156,11 @@
               "RelativeToolTip": "ProductCrudMvc\\Repositories\\ProductRepoManager.cs",
               "ViewState": "AQIAACkAAAAAAAAAAAAIwCAAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T16:43:16.992Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-08T16:43:16.992Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Product.cs",
               "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\ProductMVC\\ProductCrudMvc\\Models\\Product.cs",
               "RelativeDocumentMoniker": "ProductCrudMvc\\Models\\Product.cs",
@@ -97,25 +168,37 @@
               "RelativeToolTip": "ProductCrudMvc\\Models\\Product.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAA1wAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T16:42:05.942Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-08T16:42:05.942Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\ProductMVC\\ProductCrudMvc\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "ProductCrudMvc\\Controllers\\ProductsController.cs",
               "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\ProductMVC\\ProductCrudMvc\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "ProductCrudMvc\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAE8AAAAAAAAAAAAzwGMAAAAAAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAgwBEAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-08T16:41:04.083Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\ProductMVC\\ProductCrudMvc\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ProductCrudMvc\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\ProductMVC\\ProductCrudMvc\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ProductCrudMvc\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA1wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T09:12:40.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "EStoreCollectionContext.cs",
               "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\ProductMVC\\ProductCrudMvc\\Repositories\\EStoreCollectionContext.cs",
               "RelativeDocumentMoniker": "ProductCrudMvc\\Repositories\\EStoreCollectionContext.cs",
@@ -123,12 +206,11 @@
               "RelativeToolTip": "ProductCrudMvc\\Repositories\\EStoreCollectionContext.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAgwBkAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T16:43:28.975Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-08T16:43:28.975Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "ProductService.cs",
               "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\ProductMVC\\ProductCrudMvc\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "ProductCrudMvc\\Services\\ProductService.cs",
@@ -136,12 +218,11 @@
               "RelativeToolTip": "ProductCrudMvc\\Services\\ProductService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T16:43:00.43Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-08T16:43:00.43Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "IProductService.cs",
               "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\ProductMVC\\ProductCrudMvc\\Services\\IProductService.cs",
               "RelativeDocumentMoniker": "ProductCrudMvc\\Services\\IProductService.cs",
