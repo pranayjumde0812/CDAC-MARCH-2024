@@ -1,11 +1,14 @@
 package com.app.service.impl;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
+import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import com.app.dto.PayloadDTO;
 import com.app.model.Category;
 import com.app.model.Railway;
 import com.app.repository.RailwayRepository;
@@ -17,6 +20,9 @@ public class RailwayServiceImpl implements RailwayService {
 
 	@Autowired
 	private RailwayRepository railwayRepository;
+
+	@Autowired
+	private ModelMapper modelMapper;
 
 	@Override
 	public boolean addRailway(Railway railway) {
@@ -55,11 +61,32 @@ public class RailwayServiceImpl implements RailwayService {
 	@Override
 	public boolean updateRailway(Railway railway) {
 		Railway railway1 = railwayRepository.findById(railway.getId()).get();
-		if(railway1 != null) {
+		if (railway1 != null) {
 			railwayRepository.save(railway);
 			return true;
 		}
 		return false;
+	}
+
+	@Override
+	public int deleteRailwayByName(String name) {
+
+		return railwayRepository.deleteAllByName(name);
+	}
+
+	@Override
+	public List<PayloadDTO> getDetails() {
+
+		List<PayloadDTO> list = railwayRepository.findAll().stream()
+				.map(railway -> modelMapper.map(railway, PayloadDTO.class)).collect(Collectors.toList());
+
+		return list;
+	}
+
+	@Override
+	public List<Railway> displayAll() {
+		// TODO Auto-generated method stub
+		return railwayRepository.findAll();
 	}
 
 }

@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.app.dto.PayloadDTO;
 import com.app.model.Category;
 import com.app.model.Railway;
 import com.app.service.RailwayService;
@@ -51,14 +52,14 @@ public class RailwayController {
 		List<Railway> railways = railwayService.findByCategory(category);
 		return new ResponseEntity<>(railways, HttpStatus.OK);
 	}
-	
+
 	@GetMapping("/sortByName")
 	public ResponseEntity<?> sortByName() {
 
 		List<Railway> railways = railwayService.sortByName();
 		return new ResponseEntity<>(railways, HttpStatus.OK);
 	}
-	
+
 	@PutMapping("/update")
 	public ResponseEntity<?> updateRailway(@Valid @RequestBody Railway railway) {
 
@@ -68,5 +69,25 @@ public class RailwayController {
 			}
 		}
 		return new ResponseEntity<>("Not Inserted", HttpStatus.BAD_REQUEST);
+	}
+
+	@DeleteMapping("/{name}")
+	public ResponseEntity<?> deleteRailwayByName(@PathVariable String name) {
+
+		int deleteRailwayByName = railwayService.deleteRailwayByName(name);
+		return new ResponseEntity<>(deleteRailwayByName, HttpStatus.OK);
+	}
+
+	// Payload handler
+	@GetMapping("/payload")
+	public ResponseEntity<?> payloadDetails() {
+		List<PayloadDTO> list = railwayService.getDetails();
+		return new ResponseEntity<>(list, HttpStatus.OK);
+	}
+
+	@GetMapping("/getAll")
+	public ResponseEntity<?> getAllRailway() {
+		List<Railway> railways = railwayService.displayAll();
+		return new ResponseEntity<>(railways, HttpStatus.OK);
 	}
 }
