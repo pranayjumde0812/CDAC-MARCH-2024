@@ -61,6 +61,8 @@ public class RailwayServiceImpl implements RailwayService {
 	@Override
 	public boolean updateRailway(Railway railway) {
 		Railway railway1 = railwayRepository.findById(railway.getId()).get();
+		
+		
 		if (railway1 != null) {
 			railwayRepository.save(railway);
 			return true;
