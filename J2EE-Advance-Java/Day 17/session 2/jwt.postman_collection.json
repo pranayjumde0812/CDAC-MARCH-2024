@@ -1,0 +1,338 @@
+{
+	"info": {
+		"_postman_id": "797624ea-1c60-4520-8675-de09b641ec52",
+		"name": "jwt",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2422707"
+	},
+	"item": [
+		{
+			"name": "View Products permit all(public)",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/products/view",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"products",
+						"view"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Browse Categories (any authenticated user)",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhMkBnbWFpbC5jb20iLCJpYXQiOjE3MjIzNzU3NzQsImV4cCI6MTcyMjQ2MjE3NCwiYXV0aG9yaXRpZXMiOiJST0xFX0NVU1RPTUVSIiwidXNlcl9pZCI6Mn0.vRZV8Fmn7e8i9jLHzWyOj7MLeoGM7MXHWS_8fcI73pEWpUJW35ijYDyyohe1hL7u2xKi-KeMOQrYtx7_Im1M4g",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/products/browse_categories",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"products",
+						"browse_categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Product under admin role",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhMUBnbWFpbC5jb20iLCJpYXQiOjE3MjIzNzQ5NjMsImV4cCI6MTcyMjQ2MTM2MywiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIiwidXNlcl9pZCI6MX0.EX4jKB9xiwMEfCaZ-H99ELF-t1uOtVEMupxvnITee6YLiH2DR79Xmw78JCiMQD02l4w24xYEZaoRs_4-efE59Q",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Bread\",\r\n  \"category\": \"FOOD\",\r\n  \"price\": 50,\r\n  \"quantity\": 20\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/products/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"products",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Customer login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"a2@gmail.com\",\r\n    \"password\": \"2345\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/users/signin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"users",
+						"signin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Product under admin role",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhMUBnbWFpbC5jb20iLCJpYXQiOjE3MjIzNzQ5NjMsImV4cCI6MTcyMjQ2MTM2MywiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIiwidXNlcl9pZCI6MX0.EX4jKB9xiwMEfCaZ-H99ELF-t1uOtVEMupxvnITee6YLiH2DR79Xmw78JCiMQD02l4w24xYEZaoRs_4-efE59Q",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Bread\",\r\n  \"category\": \"FOOD\",\r\n  \"price\": 50,\r\n  \"quantity\": 20\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/products/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"products",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Product under admin role",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhMUBnbWFpbC5jb20iLCJpYXQiOjE3MjIzNzQ5NjMsImV4cCI6MTcyMjQ2MTM2MywiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIiwidXNlcl9pZCI6MX0.EX4jKB9xiwMEfCaZ-H99ELF-t1uOtVEMupxvnITee6YLiH2DR79Xmw78JCiMQD02l4w24xYEZaoRs_4-efE59Q",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Bread\",\r\n  \"category\": \"FOOD\",\r\n  \"price\": 50,\r\n  \"quantity\": 20\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/products/delete/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"products",
+						"delete",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Purchase Product By Customer",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhMUBnbWFpbC5jb20iLCJpYXQiOjE3MjIzNzQ5NjMsImV4cCI6MTcyMjQ2MTM2MywiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIiwidXNlcl9pZCI6MX0.EX4jKB9xiwMEfCaZ-H99ELF-t1uOtVEMupxvnITee6YLiH2DR79Xmw78JCiMQD02l4w24xYEZaoRs_4-efE59Q",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/products/purchase/1/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"products",
+						"purchase",
+						"1",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Admin Registration",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"firstName\": \"a1\",\r\n  \"lastName\": \"b1\",\r\n  \"email\": \"a1@gmail.com\",\r\n  \"password\": \"12345\",\r\n  \"role\": \"ROLE_ADMIN\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/users/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"users",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Customer Registration",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"firstName\": \"a2\",\r\n  \"lastName\": \"b2\",\r\n  \"email\": \"a2@gmail.com\",\r\n  \"password\": \"2345\",\r\n  \"role\": \"ROLE_CUSTOMER\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/users/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"users",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User Registration",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"firstName\": \"a3\",\r\n  \"lastName\": \"b3\",\r\n  \"email\": \"a3@gmail.com\",\r\n  \"password\": \"2345\",\r\n  \"role\": \"ROLE_USER\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/users/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"users",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

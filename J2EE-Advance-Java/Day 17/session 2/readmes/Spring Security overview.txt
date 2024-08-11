@@ -1,0 +1,276 @@
+Spring Security overview
+
+1 Understanding Spring Security architecture
+Refer : 
+".online_session\Spring Security\regarding spring security.txt"
+"Security flow summary.txt"
+Diagrams : 
+".online_session\Spring Security\diagrams\servletfilter-1.png"
+"servletfilter-2.png"
+"spring security architecture.jpeg"
+".online_session\spring security\diagrams\spring security flow.webp"
+"The Final Authentication flow-4.webp"
+OR
+"Ultimate Details of Spring Security Architecture.png"
+
+Steps
+1. Create spring boot application , w/o adding spring security dependencies
+Try to access some end points (eg : view products , add / delete products ..)
+Observation : all end points were un protected !
+Refer - products_api
+
+2. Add spring security starter dependency in pom.xml , update maven project
+<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+</dependency>
+<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-test</artifactId>
+			<scope>test</scope>
+</dependency>
+
+3. What are defaults offered by Spring security out of box ?
+3.1  : All end points are automatically PROTECTED (SECURED)
+i.e entire web app is under a lock (authentication lock).
+Un authenticated user CAN NOT access any of the APIs.
+3.2 It supplies default user name : user
+3.3 Generates 128 bit randomly generated password on server console , which changes upon server restarts.
+
+3.4 Supplies ready made login n logout options
+(form based authentication)
+
+3.5 For RESTful web services , spring security offers HTTP Basic Authentication scheme.
+
+4. For the details of - Basic Authentication mechanism
+refer - "online_session\spring security\Regarding Basic Authentication.txt"
+
+
+
+5.  Replace randomly generated 128 bit password n username - user by , custom details , by adding it in the application.properties file
+spring.security.user.name=
+spring.security.user.password=
+BUT is this really  practical ?
+
+6.  Replace it by in memory user details manager.
+Refer - ".online_session\spring security\in-memory\SecurityConfig.java"
+6.1 Use this SecurityConfig class
+6.2 Configure PasswordEncoder bean in Application class
+
+This approach is good for understanding spring security flow , this is also not very practical , since we want to keep user credentials(encrypted) in DB.
+
+
+7. Replace in memory user details service -  by DB based authentication (DB based  User Details , accessed using JPA)
+
+7.1 DaoAuthenticationProvider is an AuthenticationProvider implementation class  that uses a UserDetailsService and PasswordEncoder to authenticate a username and password.
+Dependencies - UserDetailsService and PasswordEncoder
+
+7.2 UserDetailsService is used by DaoAuthenticationProvider for retrieving a username|email and  a password.
+
+7.3 Spring Security provides readymade implementations of UserDetailsService 
+using in-memory, JDBC and caching
+BUT for JPA based UserDetailsService - a programmer has to provide the custom implementation.
+
+Steps
+
+7.1 Remove InMemoryUserDetailsManager bean from spring config file.
+7.2 Add UserEntity n UserRole - under <entities> package.
+7.3 Add  UserEntityRepository
+7.4 Run UserEntityRepositoryTest to add some users , along with encrypted password in DB
+7.5 Create custom implementation class of o.s.s.c.userdetails.UserDetailsService
+Implement the method
+public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException
+
+7.6 Create Custom implementation class of UserDetails n supply
+user details - username(email) , password , granted authorities ....
+
+7.7 Add DTOs for user sign up , user service n it's implemetation class.
+
+7.8 Write Integration Test case for service-dao-db integration
+
+7.9 Add UserController n test sign up. 
+
+7.10 Test other end points. 
+
+
+8. Continue to JWT based authentication
+(Replace Basic Authentication scheme by JWT based authentication)
+
+What is it n why ?
+
+JSON Web Tokens (JWT) have become a popular method (Industry standard) for securing modern web applications, especially  RESTful web services.
+
+ JWTs allow you to transmit information securely between parties as a compact, self-contained, and digitally signed JSON object.
+
+Refer - JWT Details.txt
+Why ?
+1. The REST API consumer can be a front end web app or native app (mobile client)
+In case of native apps , they don't support cookies
+
+2. One of the most important constraints of REST is stateless behavior.
+You can't think of maintaining a HTTP Session in the back end n remember client details.
+
+3. If you disable session tracking on the server side , you can't expect your front end app , to send you the credentials (username / password) along with every request , using mild encoding technique viz - Base64 encoding
+
+
+
+For the understanding of JWT 
+Refer - jwt.io
+Refer : ".online_session\spring security\JWT\JWT Details.txt"
+Steps : 
+Refer : ".online_session\spring security\JWT\JWT Steps Upgraded.txt"
+
+Ref eclipse project : product_api4
+
+Steps overview
+1. Copy from the earlier project
+
+1.1 User sign up end point
+
+1.2 Write Integration Test case for service-dao-db integration
+
+2. Add new end point in UserController , for signin
+URL - http://host:port/users/signin
+Method - POST
+request payload : 	Auth req DTO : email n password
+resp payload : In case of success : Auth Resp DTO : mesg + JWT token + SC 200
+In case of failure : SC 401
+
+2.1 Store user credentials (email n password) in UserNamePasswordAuthentication token
+(This class implements Authentication i/f)
+2.2 Invoke authenticate method of AuthenticationManager(i/f implemented by ProviderManager class)
+Internal working - 
+1. Method of AuthenticationManager -
+Authentication authenticate(Authentication authentication) throws AuthenticationException
+2. AuthenticationManager (as in earlier project) internally invokes further , authenticate method of  DaoAuthenticationProvider.
+(after resolving the correct auth provider via supports() method)
+3. Method of DaoAuthenticationProvider (same api as earlier)
+Authentication authenticate(Authentication authentication) throws AuthenticationException
+4. In this method , DaoAuthenticationProvider calls loadUserByUserName method of the UserDetailsService (i/f implemented by CustomUserDetailsService class)
+In case of failure , it throws the UserNameNotFoundException.
+In case of Success it returns UserDetails object(i/f implemented by CustomUserDetails class) to DaoAuthenticationProvider
+Here now DaoAuthenticationProvider , first checks(using UserDetails) ,  if account is not expired, enabled etc. 
+In case of success , it encodes incoming password (using injected PasswordEncoder bean) n matches it with the stored password(from UserDetails)
+In case of success it will return the Authentication object , containing verified credentials.
+Principal - CustomUserDetails , credentials - null , list of granted authorities
+In case of failure - throws AuthenticationException
+
+2.3 In case of success , REST server has to send back JWT in the response.
+Now comes the important step of JWT creation
+(Pause here....)
+
+3. For JWT creation 
+3.1 Add these dependencies , for JSON web token generation in pom.xml
+	<!-- https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt-api -->
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt-api</artifactId>
+			<version>0.11.5</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt-impl -->
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt-impl</artifactId>
+			<version>0.11.5</version>
+			<scope>runtime</scope>
+		</dependency>
+
+
+		<!-- https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt-jackson -->
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt-jackson</artifactId>
+			<version>0.11.5</version>
+			<scope>runtime</scope>
+		</dependency>
+
+3.2 Copy these JWT properties (secret key n expiration time in msec) in application.properties file
+Generate secret key : https://generate-random.org/encryption-key-generator
+#JWT Secret key for signing n Verification 
+SECRET_KEY=..............
+#JWT expiration timeout in msec for a day : 24*3600*1000
+EXP_TIMEOUT=86400000
+
+3.3 Copy JWT Utils class
+Contains Methods for : 
+Token generation
+Validation
+Extracting the claims : email (username : subject) n authorities
+You can add one more custom claim , for storing user id (if needed in your project)
+
+4. Test User sign in endpoint (on swagger /postman) to confirm token generation
+
+5. Any time client tries to access , any secured end point : 
+REST client needs to add a Bearer Token in request Header : Authorization
+(Confirm with Postman : choose Auth : Bearer Token)
+
+5.1 To intercept any request , to check for the token :
+Add custom filter : JWT custom filter  (extending from OncePerRequestFilter)
+
+5.2 Mark it @Component - so that it can be injected later in Security Config class
+
+5.3 Check for "Authorizationtion" header  (request.getHeader)
+If it's not null n starting with Bearer : extract token
+
+5.4 Validate the token n upon success , extract the claims from the JWT's payload , n populate Authentication object(i/f implemented by UserNamePasswordAuthenticationTokne class)
+
+Use - JwtUtils 's - populateAuthenticationTokenFromJWT methd
+ 
+5.5 Wrap user details (username|email , user id +granted authorities ) in the :  UsernamePasswordAuthenticationToken (imple of Authentication)
+API -
+o.s.s.c..authentication.UsernamePasswordAuthenticationToken
+(Object principal, Object credentials, Collection<? extends GrantedAuthority> authorities)
+principal - email 
+credentials (pwd ) - user id
+granted authorities.
+
+5.6 Save above Authentication object in the spring sec ctx holder
+SecurityContextHolder.getContext().setAuthentication(Authentication token);
+
+5.7 Continue with filter chain : doFilter
+
+
+
+6. In Security configuration class - 
+6.1 Configure SecurityFilterChainBean
+To change the session config policy to stateless n add custom filter before - UsernamePasswordAuthenticationFilter 
+
+6.2 Configure Authentication Manager bean.
+(so that it will be available as dependency during user sign in)
+
+
+
+7. Test accessing protected n public end points , from postman.
+
+Use postman collection - jwt
+
+
+8. To enable HTTPS support
+Create a digital key store :
+On cmd tool -  
+keytool -genkey -keyalg RSA -alias jwtdemo -keystore jwtdemo.p12 -storepass test#1234 -validity 365 -keysize 4096 -storetype pkcs12
+
+OR (still better)
+
+To work with HTTPS client , instead use
+keytool -genkey -keyalg RSA -alias jwtdemo2 -keystore jwtdemo2.p12 -storepass test#1234 -ext "SAN:c=DNS:localhost,IP:127.0.0.1" -validity 365 -keysize 4096 -storetype pkcs12
+
+
+Add these properties in application.properties file
+
+# SSL props
+server.ssl.key-store=classpath:jwtdemo2.p12
+server.ssl.key-store-type=pkcs12
+server.ssl.key-store-password=test#1234
+server.ssl.key-password=test#1234
+server.ssl.key-alias=jwtdemo2
+server.port=8443
+
+Use postman collection - jwt HTTPS
+
+
+
+
+
+Link - https://docs.spring.io/spring-security/reference/servlet/authentication/architecture.html
