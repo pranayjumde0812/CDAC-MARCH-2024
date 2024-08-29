@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using StudentManagement.Models;
 using StudentManagement.Services;
-using Newtonsoft.Json;
+//using Newtonsoft.Json;
 
 namespace StudentManagement.Controllers
 {

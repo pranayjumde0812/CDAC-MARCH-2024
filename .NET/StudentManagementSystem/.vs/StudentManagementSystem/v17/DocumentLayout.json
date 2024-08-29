@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\StudentManagementSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{921E2A6F-8198-4D35-B4D5-6A93AC6FEC1C}|StudentManagement\\StudentManagement.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\studentmanagementsystem\\studentmanagement\\repositories\\studentrepomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{921E2A6F-8198-4D35-B4D5-6A93AC6FEC1C}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\repositories\\studentrepomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{921E2A6F-8198-4D35-B4D5-6A93AC6FEC1C}|StudentManagement\\StudentManagement.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\studentmanagementsystem\\studentmanagement\\views\\student\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{921E2A6F-8198-4D35-B4D5-6A93AC6FEC1C}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\views\\student\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{921E2A6F-8198-4D35-B4D5-6A93AC6FEC1C}|StudentManagement\\StudentManagement.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\studentmanagementsystem\\studentmanagement\\views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{921E2A6F-8198-4D35-B4D5-6A93AC6FEC1C}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{921E2A6F-8198-4D35-B4D5-6A93AC6FEC1C}|StudentManagement\\StudentManagement.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\studentmanagementsystem\\studentmanagement\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{921E2A6F-8198-4D35-B4D5-6A93AC6FEC1C}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,28 +23,16 @@
       "RelativeMoniker": "D:0:0:{921E2A6F-8198-4D35-B4D5-6A93AC6FEC1C}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{921E2A6F-8198-4D35-B4D5-6A93AC6FEC1C}|StudentManagement\\StudentManagement.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\studentmanagementsystem\\studentmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{921E2A6F-8198-4D35-B4D5-6A93AC6FEC1C}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{921E2A6F-8198-4D35-B4D5-6A93AC6FEC1C}|StudentManagement\\StudentManagement.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\studentmanagementsystem\\studentmanagement\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{921E2A6F-8198-4D35-B4D5-6A93AC6FEC1C}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{921E2A6F-8198-4D35-B4D5-6A93AC6FEC1C}|StudentManagement\\StudentManagement.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\studentmanagementsystem\\studentmanagement\\services\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{921E2A6F-8198-4D35-B4D5-6A93AC6FEC1C}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\services\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{921E2A6F-8198-4D35-B4D5-6A93AC6FEC1C}|StudentManagement\\StudentManagement.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\studentmanagementsystem\\studentmanagement\\views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{921E2A6F-8198-4D35-B4D5-6A93AC6FEC1C}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{921E2A6F-8198-4D35-B4D5-6A93AC6FEC1C}|StudentManagement\\StudentManagement.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\studentmanagementsystem\\studentmanagement\\views\\student\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{921E2A6F-8198-4D35-B4D5-6A93AC6FEC1C}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\views\\student\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{921E2A6F-8198-4D35-B4D5-6A93AC6FEC1C}|StudentManagement\\StudentManagement.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\studentmanagementsystem\\studentmanagement\\repositories\\studentrepomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{921E2A6F-8198-4D35-B4D5-6A93AC6FEC1C}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\repositories\\studentrepomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{921E2A6F-8198-4D35-B4D5-6A93AC6FEC1C}|StudentManagement\\StudentManagement.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\studentmanagementsystem\\studentmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{921E2A6F-8198-4D35-B4D5-6A93AC6FEC1C}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{921E2A6F-8198-4D35-B4D5-6A93AC6FEC1C}|StudentManagement\\StudentManagement.csproj|e:\\cdac\\cdac-work-repo\\cdac-march-2024\\.net\\studentmanagementsystem\\studentmanagement\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -102,7 +102,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -110,72 +110,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IStudentService.cs",
-              "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\StudentManagementSystem\\StudentManagement\\Services\\IStudentService.cs",
-              "RelativeDocumentMoniker": "StudentManagement\\Services\\IStudentService.cs",
-              "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\StudentManagementSystem\\StudentManagement\\Services\\IStudentService.cs",
-              "RelativeToolTip": "StudentManagement\\Services\\IStudentService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T21:48:46.337Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StudentService.cs",
-              "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\StudentManagementSystem\\StudentManagement\\Services\\StudentService.cs",
-              "RelativeDocumentMoniker": "StudentManagement\\Services\\StudentService.cs",
-              "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\StudentManagementSystem\\StudentManagement\\Services\\StudentService.cs",
-              "RelativeToolTip": "StudentManagement\\Services\\StudentService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T21:50:13.975Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "AdminController.cs",
               "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\StudentManagementSystem\\StudentManagement\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "StudentManagement\\Controllers\\AdminController.cs",
               "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\StudentManagementSystem\\StudentManagement\\Controllers\\AdminController.cs",
               "RelativeToolTip": "StudentManagement\\Controllers\\AdminController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-09T17:59:04.937Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "StudentController.cs",
               "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\StudentManagementSystem\\StudentManagement\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "StudentManagement\\Controllers\\StudentController.cs",
               "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\StudentManagementSystem\\StudentManagement\\Controllers\\StudentController.cs",
               "RelativeToolTip": "StudentManagement\\Controllers\\StudentController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAjAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-09T19:34:08.476Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Login.cshtml",
               "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\StudentManagementSystem\\StudentManagement\\Views\\Admin\\Login.cshtml",
               "RelativeDocumentMoniker": "StudentManagement\\Views\\Admin\\Login.cshtml",
               "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\StudentManagementSystem\\StudentManagement\\Views\\Admin\\Login.cshtml",
               "RelativeToolTip": "StudentManagement\\Views\\Admin\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-09T17:49:13.028Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Login.cshtml",
               "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\StudentManagementSystem\\StudentManagement\\Views\\Student\\Login.cshtml",
               "RelativeDocumentMoniker": "StudentManagement\\Views\\Student\\Login.cshtml",
@@ -188,28 +162,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "StudentRepoManager.cs",
               "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\StudentManagementSystem\\StudentManagement\\Repositories\\StudentRepoManager.cs",
               "RelativeDocumentMoniker": "StudentManagement\\Repositories\\StudentRepoManager.cs",
               "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\StudentManagementSystem\\StudentManagement\\Repositories\\StudentRepoManager.cs",
               "RelativeToolTip": "StudentManagement\\Repositories\\StudentRepoManager.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAABcAAAARAAAA",
+              "ViewState": "AQIAAAMAAAAAMjMzMzP7vw4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-09T21:08:11.988Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\StudentManagementSystem\\StudentManagement\\Program.cs",
               "RelativeDocumentMoniker": "StudentManagement\\Program.cs",
               "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\StudentManagementSystem\\StudentManagement\\Program.cs",
               "RelativeToolTip": "StudentManagement\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-09T17:40:33.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\StudentManagementSystem\\StudentManagement\\Services\\StudentService.cs",
+              "RelativeDocumentMoniker": "StudentManagement\\Services\\StudentService.cs",
+              "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\StudentManagementSystem\\StudentManagement\\Services\\StudentService.cs",
+              "RelativeToolTip": "StudentManagement\\Services\\StudentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T21:50:13.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IStudentService.cs",
+              "DocumentMoniker": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\StudentManagementSystem\\StudentManagement\\Services\\IStudentService.cs",
+              "RelativeDocumentMoniker": "StudentManagement\\Services\\IStudentService.cs",
+              "ToolTip": "E:\\CDAC\\CDAC-Work-Repo\\CDAC-MARCH-2024\\.NET\\StudentManagementSystem\\StudentManagement\\Services\\IStudentService.cs",
+              "RelativeToolTip": "StudentManagement\\Services\\IStudentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T21:48:46.337Z",
               "EditorCaption": ""
             },
             {
@@ -222,8 +222,7 @@
               "RelativeToolTip": "StudentManagement\\Repositories\\IStudentRepoManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T21:03:12.461Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-09T21:03:12.461Z"
             },
             {
               "$type": "Document",
@@ -235,8 +234,7 @@
               "RelativeToolTip": "StudentManagement\\Repositories\\StudentCollectionContext.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAgwBMAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T20:51:05.402Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-09T20:51:05.402Z"
             },
             {
               "$type": "Document",
@@ -248,8 +246,7 @@
               "RelativeToolTip": "StudentManagement\\StudentManagement.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-09T20:49:56.168Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-09T20:49:56.168Z"
             },
             {
               "$type": "Document",
@@ -261,8 +258,7 @@
               "RelativeToolTip": "StudentManagement\\Models\\Student.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T19:11:40.154Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-09T19:11:40.154Z"
             },
             {
               "$type": "Document",
@@ -274,8 +270,7 @@
               "RelativeToolTip": "StudentManagement\\Controllers\\HomeController.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAQwBoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T19:48:33.001Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-09T19:48:33.001Z"
             },
             {
               "$type": "Document",
@@ -287,8 +282,7 @@
               "RelativeToolTip": "StudentManagement\\Views\\Home\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-09T18:07:40.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-09T18:07:40.856Z"
             },
             {
               "$type": "Document",
@@ -300,8 +294,7 @@
               "RelativeToolTip": "StudentManagement\\Views\\Admin\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-09T17:37:24.532Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-09T17:37:24.532Z"
             },
             {
               "$type": "Document",
@@ -313,8 +306,7 @@
               "RelativeToolTip": "StudentManagement\\Views\\Shared\\_AdminLayout.cshtml",
               "ViewState": "AQIAAA8AAAAAAAAAAIBJwBAAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-09T17:57:42.305Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-09T17:57:42.305Z"
             },
             {
               "$type": "Document",
@@ -326,8 +318,7 @@
               "RelativeToolTip": "StudentManagement\\Views\\Shared\\_StudentLayout.cshtml",
               "ViewState": "AQIAABIAAAAAAAAAAAAmwBsAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-09T18:28:14.652Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-09T18:28:14.652Z"
             },
             {
               "$type": "Document",
@@ -339,8 +330,7 @@
               "RelativeToolTip": "StudentManagement\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAA8AAAAAAAAAAIBJwB4AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-09T17:12:46.5Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-09T17:12:46.5Z"
             },
             {
               "$type": "Document",
@@ -352,8 +342,7 @@
               "RelativeToolTip": "StudentManagement\\Views\\Student\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-09T17:47:04.256Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-09T17:47:04.256Z"
             },
             {
               "$type": "Document",
@@ -365,8 +354,7 @@
               "RelativeToolTip": "StudentManagement\\Views\\_ViewStart.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-09T17:48:37.689Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-09T17:48:37.689Z"
             },
             {
               "$type": "Document",
@@ -378,8 +366,7 @@
               "RelativeToolTip": "StudentManagement\\Views\\_ViewImports.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-09T17:48:45.153Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-09T17:48:45.153Z"
             },
             {
               "$type": "Document",
@@ -391,8 +378,7 @@
               "RelativeToolTip": "StudentManagement\\Views\\Shared\\Error.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-09T17:41:00.879Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-09T17:41:00.879Z"
             },
             {
               "$type": "Document",
@@ -404,8 +390,7 @@
               "RelativeToolTip": "StudentManagement\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-09T17:40:56.309Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-09T17:40:56.309Z"
             }
           ]
         }
